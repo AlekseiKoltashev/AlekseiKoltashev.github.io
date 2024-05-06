@@ -119,7 +119,7 @@ html, body{
 }
 
 .navbar-brand img {
-    width: 130px;
+    width: 115px;
 }
 
 .navbar-toggler:focus {
@@ -181,6 +181,7 @@ html, body{
 
 .wrapper-specialization-info{
     border-radius: 20px;
+    position: relative;
 
 }
 
@@ -190,18 +191,18 @@ html, body{
 
 
 .fs-7-suut{
-    font-size: 0.7rem;
+    font-size: 0.60rem;
 }
 
 .fs-8-suut{
-    font-size: 0.55rem;
+    font-size: 0.50rem;
 }
 
 .label-specialization{
     padding: 0.25rem;
     border-radius: 60px;
     background-color: #CFF4F1;
-    width: 65%;
+    
     text-align: center;
     line-height: 0;
 }
@@ -209,3 +210,57 @@ html, body{
 .line-height-small{
     line-height: 1.2rem;
 }
+
+.text-white{
+    color: #fff;
+}
+
+.btn-primary-suut{
+    color: #fff;
+    background-color: #008690  !important;
+}
+
+.btn-primary-suut:active, .btn-primary-suut:focus{
+    background-color: #008690 !important;
+}
+.specialization-information{
+    z-index: 5;
+}
+.specialization-img-back{
+    min-height: 80%;
+    max-width: 40%;
+    /* background-image: url("../img/welcome_spec-bg_free.png"); */
+  
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.students-img{
+    background-image: url("../img/welcome_spec-bg_free.png");
+    min-width: 100%;
+    min-height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    right: 0;
+}
+
+.figure-img{
+    background-image: url("../img/photo.png");
+    min-width: 100%;
+    max-height: 60%;
+    min-height: 60%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+}
+
