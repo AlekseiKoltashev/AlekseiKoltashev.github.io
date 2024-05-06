@@ -112,6 +112,7 @@ html, body{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
+    min-width: 360px;
 }
 
 .navbar-brand{
@@ -189,8 +190,14 @@ html, body{
     background-color: #f3f3f3;
 }
 
-
+.fs-6-suut{
+    font-size: 1rem;
+}
 .fs-7-suut{
+    font-size: 0.60rem;
+}
+
+.fs-btn-suut{
     font-size: 0.60rem;
 }
 
@@ -199,12 +206,13 @@ html, body{
 }
 
 .label-specialization{
-    padding: 0.25rem;
+    padding: 0.6rem;
     border-radius: 60px;
     background-color: #CFF4F1;
     
     text-align: center;
     line-height: 0;
+    display: inline-block;
 }
 
 .line-height-small{
@@ -253,8 +261,8 @@ html, body{
 .figure-img{
     background-image: url("../img/photo.png");
     min-width: 100%;
-    max-height: 60%;
-    min-height: 60%;
+    max-height: 40%;
+    min-height: 40%;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom center;

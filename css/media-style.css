@@ -1,19 +1,84 @@
 @media (width >=400px) {
     .figure-img{
-        max-height: 80%;
-        min-height: 80%;
+        max-height: 60%;
+        min-height: 60%;
     }
-    .label-specialization{
-        max-width: 80%;
-    }
+   
   }
 
 
 
   @media (width >=540px) {
     .figure-img{
+        max-height: 70%;
+        min-height: 70%;
+    }
+
+    .label-specialization{
+        padding: 0.7rem;
+    }
+   
+  }
+
+
+  @media (width >= 768px){
+    .figure-img{
+        max-height: 80%;
+        min-height: 80%;
+    }
+
+    .students-img{
+        background-position: bottom center;
+    }
+
+    .fs-6-suut{
+        font-size: 2rem;
+    }
+
+    .line-height-small{
+        line-height: 2.5rem;
+    }
+    
+    .fs-btn-suut{
+        font-size: 0.8rem;
+    }
+
+    .fs-7-suut{
+        font-size: 0.9rem;
+    }
+    
+    .fs-8-suut{
+        font-size: 0.70rem;
+    }
+
+    .label-specialization{
+        padding: 0.9rem;
+    }
+  }
+
+  @media (width >= 1200px){
+    .figure-img{
         max-height: 100%;
         min-height: 100%;
     }
-   
+
+    .line-height-small{
+        line-height: 2.5rem;
+    }
+    .fs-6-suut{
+        font-size: 2.3rem;
+    }
+
+    .fs-btn-suut{
+        font-size: 1rem;
+    }
+
+    .fs-7-suut{
+        font-size: 1rem;
+    }
+    
+    .fs-8-suut{
+        font-size: 0.85rem;
+    }
+
   }
