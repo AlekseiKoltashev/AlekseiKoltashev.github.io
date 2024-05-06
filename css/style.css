@@ -7,6 +7,14 @@
 
 @font-face {
     font-family: Roboto;
+    src: url("../fonts/Roboto-Medium.ttf");
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+@font-face {
+    font-family: Roboto;
     src: url("../fonts/Roboto-Bold.ttf");
     font-style: normal;
     font-weight: bold;
@@ -23,7 +31,7 @@
     font-family: Roboto;
     src: url("../fonts/Roboto-MediumItalic.ttf");
     font-style: italic;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 
@@ -110,12 +118,27 @@ html, body{
     animation: animShowFromUpAndLeft 1.2s ease-in-out 0s 1 normal forwards;
 }
 
+.navbar-brand img {
+    width: 130px;
+}
+
+.navbar-toggler:focus {
+    border: none;
+    box-shadow: none;
+}
 .contact-block-wrapper{
     animation: animShowFromUpAndLeft 1.4s ease-in-out 0s 1 normal forwards; 
 }
 
 .text-dark-suut{
     color: #414141;
+}
+
+.text-transform-uppercase{
+    text-transform: uppercase;
+}
+.text-medium-suut{
+    font-weight: 500;
 }
 
 .border-bottom-animation{
@@ -147,6 +170,7 @@ html, body{
 
 .contact-block-item{
     cursor: pointer;
+    font-size: 0.7rem;
     
 }
 
@@ -155,83 +179,33 @@ html, body{
 }
 
 
-.wrapper_specialization{
-    border-radius: 45px;
-    background-color:rgb(240, 255,255); 
-     /* rgb(240, 255,255); */
+.wrapper-specialization-info{
+    border-radius: 20px;
+
 }
 
-.specialization-info{
-    animation: animShowFromRight 1.2s ease-in-out 0s 1 normal forwards;
+.background-color-gray{
+    background-color: #f3f3f3;
 }
 
-.specialization-img{
-    /* position: relative; */
-   display: grid;
-   
-}
-/* .img-person{
-    position: relative;
-    z-index: 22;
-    animation: animShowFromDownAndLeft 1.2s ease-in-out 0s 1 normal forwards;
-    bottom: 0;
+
+.fs-7-suut{
+    font-size: 0.7rem;
 }
 
-.img-figure{
-    animation: animShowFromLeft 1.4s ease-in-out 0s 1 normal forwards; 
-    position: absolute;
-    height: inherit;
-    bottom: 0;
-    right: 6%;
-    z-index: 1;
-    border-radius: 30%;
-   
-} */
-
-.img-person{
-    grid-area: 1 / 1 / 2 / 2;
-    z-index: 2;
-    animation: animShowFromDownAndLeft 1.2s ease-in-out 0s 1 normal forwards;
+.fs-8-suut{
+    font-size: 0.55rem;
 }
 
-.img-figure{
-    grid-area: 1 / 1 / 2 / 2;
-    background-image: url("../img/photo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    z-index: 1;
-    animation: animShowFromLeft 1.4s ease-in-out 0s 1 normal forwards; 
-   margin: 20px;
-   
+.label-specialization{
+    padding: 0.25rem;
+    border-radius: 60px;
+    background-color: #CFF4F1;
+    width: 65%;
+    text-align: center;
+    line-height: 0;
 }
 
-.btn-suut-green{
-    background-color: #377878;
-    color: #fff;
-  
-    box-sizing: border-box;
-    border: 2px solid #377878 ;
-}
-
-.btn-suut-green:hover{
-    color: #fff;
-    border: 2px solid #414141 ;
-    box-sizing: border-box;
-    background-color: #414141;
-}
-
-.btn-suut-white{
-    background-color: rgba(0,0,0,0);
-    color: #414141;
-   
-    box-sizing: border-box;
-    border: 2px solid #414141 ;
-}
-
-.btn-suut-white:hover{
-    background-color: #414141;
-    color: #fff;
-    box-sizing: border-box;
-    border: 2px solid #414141 ;
+.line-height-small{
+    line-height: 1.2rem;
 }
