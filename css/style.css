@@ -261,8 +261,8 @@ html, body{
 .figure-img{
     background-image: url("../img/photo.png");
     min-width: 100%;
-    max-height: 40%;
-    min-height: 40%;
+    max-height: 45%;
+    min-height: 45%;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom center;
