@@ -113,6 +113,7 @@ html, body{
     font-style: normal;
     font-weight: normal;
     min-width: 360px;
+    color: #000;
 }
 
 .navbar-brand{
