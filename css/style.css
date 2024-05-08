@@ -196,10 +196,10 @@ html, body{
 }
 
 .fs-6-suut{
-    font-size: 0.80rem;
+    font-size: 0.85rem;
 }
 .fs-7-suut{
-    font-size: 0.65rem;
+    font-size: 0.70rem;
 }
 
 .fs-btn-suut{
@@ -282,4 +282,10 @@ html, body{
 
 .plus-specialization_block img {
     width: 30px;
+}
+
+.wrapper{
+    border-radius: 20px;
+    position: relative;
+
 }
