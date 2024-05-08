@@ -96,7 +96,7 @@
         font-size: 1.15rem;
     }
     .fs-7-suut{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     
     .fs-8-suut{
@@ -107,4 +107,12 @@
         width: 165px;
     }
 
+  }
+
+
+  @media (width >= 1200px){
+    .fs-7-suut{
+        font-size: 1.2rem;
+    }
+       
   }
