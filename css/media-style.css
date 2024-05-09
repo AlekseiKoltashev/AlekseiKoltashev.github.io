@@ -51,8 +51,12 @@
         font-size: 0.8rem;
     }
 
+    .fs-6-5-suut{
+        font-size:  0.9rem;
+    }
+
     .fs-7-suut{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     
     .fs-8-suut{
@@ -73,6 +77,10 @@
     .figure-img{
         max-height: 85%;
         min-height: 85%;
+    }
+
+    .plus-specialization_block img {
+        width: 45px;
     }
   }
 
@@ -95,8 +103,13 @@
     .fs-6-suut{
         font-size: 1.15rem;
     }
+
+    .fs-6-5-suut{
+        font-size:  1rem;
+    }
+
     .fs-7-suut{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     
     .fs-8-suut{
@@ -112,7 +125,11 @@
 
   @media (width >= 1200px){
     .fs-7-suut{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+    }
+
+    .fs-6-5-suut{
+        font-size:  1.2rem;
     }
        
   }
