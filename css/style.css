@@ -356,3 +356,19 @@ button.btn-primary-suut:hover{
 .border-suut-12{
     border-radius: 12px;
 }
+
+.border-circle{
+    border-radius: 50%;
+}
+
+.background-color-gray-dark{
+    background-color: #D9D9D9;
+}
+
+.background-color-gray-dark-2{
+    background-color: #b0b0b0;
+}
+
+.min-height{
+    height: 40px;
+}
