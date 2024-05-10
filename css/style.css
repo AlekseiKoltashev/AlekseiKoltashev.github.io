@@ -372,3 +372,25 @@ button.btn-primary-suut:hover{
 .min-height{
     height: 40px;
 }
+
+.accordion{
+    --bs-accordion-border-radius: 12px;
+    --bs-accordion-inner-border-radius: 12px;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #fff;
+    color: #000;
+    box-shadow: none;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    border-radius: 50%;
+    background-position: center;
+    padding: 20px;
+    background-color: #f3f3f3;
+}

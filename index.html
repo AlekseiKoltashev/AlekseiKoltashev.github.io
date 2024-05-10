@@ -8,11 +8,29 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media-style.css">
-
+    <script
+        src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        crossorigin="anonymous"></script>
     <title>Абитуриенту ЮУТУ</title>
 </head>
 
 <body>
+    <!-- MODAL FOR VIDEO YOUTUBE -->
+    <div class="modal fade" id="videoModal" tabindex="-1"  data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <div>
+                <iframe width="100%" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
     <header>
         <nav class="navbar  navbar-expand-lg bg-white">
             <div class="container">
@@ -553,6 +571,175 @@
         </div>
 
     </section>
+
+    <!-- ПРОГРАММА ОБУЧЕНИЯ -->
+    <section>
+            <div class="container mt-5">
+                <div class="mx-1 wrapper background-color-gray px-3 px-lg-4 px-xl-5 py-4 py-xl-5">
+                    <div class="row">
+                        <p class="fs-1-suut fw-bold text-transform-uppercase">Программа обучения</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <a class=" m-0 fs-7-suut fw-bold text-decoration-underline text-underline-offset text-transform-uppercase text-dark-suut" href="#">Скачать учебный план</a>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="accordion" id="accordionBlockOP">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button fs-6-5-suut fw-bold text-transform-uppercase  p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneOP" aria-expanded="true" aria-controls="collapseOneOP">
+                                  1-й курс
+                                </button>
+                              </h2>
+                              <div id="collapseOneOP" class="accordion-collapse collapse show" data-bs-parent="#accordionBlockOP">
+                                <div class="accordion-body">
+                                  <div class="row mx-auto px-4">
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <p сlass="fs-6-5-suut">Математика</p>
+                                        <p сlass="fs-6-5-suut">Русский язык</p>
+                                        <p сlass="fs-6-5-suut">Литература</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <p сlass="fs-6-5-suut">Химия</p>
+                                        <p сlass="fs-6-5-suut">Биология</p>
+                                        <p сlass="fs-6-5-suut">История</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <p сlass="fs-6-5-suut">Информатика</p>
+                                        <p сlass="fs-6-5-suut">Физика</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoOP" aria-expanded="false" aria-controls="collapseTwoOP">
+                                  2-й курс
+                                </button>
+                              </h2>
+                              <div id="collapseTwoOP" class="accordion-collapse collapse" data-bs-parent="#accordionBlockOP">
+                                <div class="accordion-body">
+                                    <div class="row mx-auto px-4">
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <p сlass="fs-6-5-suut">Математика</p>
+                                            <p сlass="fs-6-5-suut">Русский язык</p>
+                                            <p сlass="fs-6-5-suut">Литература</p>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <p сlass="fs-6-5-suut">Химия</p>
+                                            <p сlass="fs-6-5-suut">Биология</p>
+                                            <p сlass="fs-6-5-suut">История</p>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <p сlass="fs-6-5-suut">Информатика</p>
+                                            <p сlass="fs-6-5-suut">Физика</p>
+                                        </div>
+                                      </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreeOP" aria-expanded="false" aria-controls="collapseThreeOP">
+                                    3-й курс
+                                  </button>
+                                </h2>
+                                <div id="collapseThreeOP" class="accordion-collapse collapse" data-bs-parent="#accordionBlockOP">
+                                  <div class="accordion-body">
+                                      <div class="row mx-auto px-4">
+                                          <div class="col-12 col-md-6 col-lg-4">
+                                              <p сlass="fs-6-5-suut">Математика</p>
+                                              <p сlass="fs-6-5-suut">Русский язык</p>
+                                              <p сlass="fs-6-5-suut">Литература</p>
+                                          </div>
+                                          <div class="col-12 col-md-6 col-lg-4">
+                                              <p сlass="fs-6-5-suut">Химия</p>
+                                              <p сlass="fs-6-5-suut">Биология</p>
+                                              <p сlass="fs-6-5-suut">История</p>
+                                          </div>
+                                          <div class="col-12 col-md-6 col-lg-4">
+                                              <p сlass="fs-6-5-suut">Информатика</p>
+                                              <p сlass="fs-6-5-suut">Физика</p>
+                                          </div>
+                                        </div>
+                                  </div>
+                                </div>
+                              </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourOP" aria-expanded="false" aria-controls="collapseFourOP">
+                                  4-й курс
+                                </button>
+                              </h2>
+                              <div id="collapseFourOP" class="accordion-collapse collapse" data-bs-parent="#accordionBlockOP">
+                                <div class="accordion-body">
+                                    <div class="row mx-auto px-4">
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <p сlass="fs-6-5-suut">Математика</p>
+                                            <p сlass="fs-6-5-suut">Русский язык</p>
+                                            <p сlass="fs-6-5-suut">Литература</p>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <p сlass="fs-6-5-suut">Химия</p>
+                                            <p сlass="fs-6-5-suut">Биология</p>
+                                            <p сlass="fs-6-5-suut">История</p>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <p сlass="fs-6-5-suut">Информатика</p>
+                                            <p сlass="fs-6-5-suut">Физика</p>
+                                        </div>
+                                      </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- ОТЗЫВЫ СТУДЕНТОВ И ВЫПУСКНИКОВ -->
+    <section>
+            <div class="container mt-5">
+                <div class="mx-1 wrapper background-color-white px-3 px-lg-4 px-xl-5 py-2 py-xl-2">
+                    <div class="row">
+                        <p class="fs-1-suut fw-bold text-transform-uppercase">Отзывы наших студентов и выпускников</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="wrapper background-color-gray mx-1 p-4 h-100 d-flex align-items-center">
+                     <div class="row">
+                        <div class="col-3 p-2 text-center">
+                            <img src="/img/student_recomendations.png" data-bs-toggle="modal" data-target="#videoModal" data-bs-target="#videoModal" data-theVideo="https://www.youtube.com/embed/x2mKGCV4zz0?si=k778DM94Z2Ge18_O" class="" role="button" style="width: 70%" alt="">
+                        </div>
+                        <div class="col-9 my-auto">
+                            <p class="fs-6-5-suut m-0 p-0"><b>John Smith</b> 4 курс</p>
+                            <p class="fs-6-5-suut m-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, blanditiis voluptates doloribus obcaecati nostrum voluptas. Deserunt id quae deleniti.</p>
+                        </div>
+                     </div>
+                </div>
+
+
+                <div class="wrapper background-color-gray mt-3 mx-1 p-4 h-100 d-flex align-items-center">
+                    <div class="row">
+                       <div class="col-3 p-2 text-center">
+                           <img src="/img/student_recomendations.png" data-bs-toggle="modal" data-target="#videoModal" data-bs-target="#videoModal" data-theVideo="https://www.youtube.com/embed/qeBFGyIBKew?si=6dlwIe6bHIOa912S" class="" role="button" style="width: 70%" alt="">
+                       </div>
+                       <div class="col-9 my-auto">
+                           <p class="fs-6-5-suut m-0 p-0"><b>Michael Doe</b> 3 курс</p>
+                           <p class="fs-6-5-suut m-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, blanditiis voluptates doloribus obcaecati nostrum voluptas. Deserunt id quae deleniti.</p>
+                       </div>
+                    </div>
+               </div>
+            </div>
+    </section>
+
+
+    
+    <script src="./js/main.js"></script>
     <script src="./js/bootstrap.bundle.min.js.map"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
