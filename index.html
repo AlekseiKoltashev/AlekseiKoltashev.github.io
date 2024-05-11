@@ -257,14 +257,26 @@
               <div class="row mb-2">
                 <div class="col-6">
                   <p
-                    class="m-0 fs-7-suut fw-bold text-decoration-underline text-underline-offset text-transform-uppercase text-dark-suut"
+                    id="btnBasisEGE"
+                    data-toggle="btnBasis"
+                    data-target="#basisEGE"
+                    data-targetHide="#basisVU"
+                    data-btnHide="#btnBasisVU"
+                    class="m-0 fs-7-suut fw-bold text-decoration-underline text-underline-offset text-transform-uppercase text-dark-suut "
+                    role="button"
                   >
                     После 11 классов
                   </p>
                 </div>
                 <div class="col-6">
                   <p
+                    id="btnBasisVU"
+                    data-toggle="btnBasis"
+                    data-target="#basisVU"
+                    data-targetHide="#basisEGE"
+                    data-btnHide="#btnBasisEGE"
                     class="m-0 fs-7-suut text-decoration-underline text-transform-uppercase text-end text-underline-offset text-dark-suut"
+                    role="button"
                   >
                     После коледжа/вуза
                   </p>
@@ -273,7 +285,8 @@
 
               <div class="row p-1">
                 <div
-                  class="p-3 p-md-4 wrapper-inner background-color-white box-shadow"
+                  id="basisEGE"
+                  class="p-3 p-md-4 wrapper-inner background-color-white box-shadow animation-suut"
                 >
                   <div class="p-2">
                     <div class="row">
@@ -308,6 +321,45 @@
                       </div>
                     </div>
                   </div>
+                </div>
+
+                <div
+                    id="basisVU"
+                    class="p-3 p-md-4 d-none wrapper-inner background-color-white box-shadow animation-suut"
+                >
+                    <div class="p-2">
+                    <div class="row">
+                        <p class="fs-6-5-suut text-transform-uppercase ps-0">
+                        На основании вступительных испытаний
+                        </p>
+                    </div>
+                    <div class="row border-box-buttom-dark-suut mb-3">
+                        <div class="col-8 col-sm-9 ps-0">
+                        <p class="fs-6-5-suut m-0">Русский язык</p>
+                        </div>
+                        <div class="col-4 col-sm-3 pe-0">
+                        <p class="fs-6-5-suut m-0 text-end">40 баллов</p>
+                        </div>
+                    </div>
+
+                    <div class="row border-box-buttom-dark-suut my-3">
+                        <div class="col-8 col-sm-9 ps-0">
+                        <p class="fs-6-5-suut m-0">Математика</p>
+                        </div>
+                        <div class="col-4 col-sm-3 pe-0">
+                        <p class="fs-6-5-suut m-0 text-end">40 баллов</p>
+                        </div>
+                    </div>
+
+                    <div class="row border-box-buttom-dark-suut my-3">
+                        <div class="col-8 col-sm-9 ps-0">
+                        <p class="fs-6-5-suut m-0">Иностранный язык</p>
+                        </div>
+                        <div class="col-4 col-sm-3 pe-0">
+                        <p class="fs-6-5-suut m-0 text-end">40 баллов</p>
+                        </div>
+                    </div>
+                    </div>
                 </div>
               </div>
             </div>
@@ -1327,12 +1379,12 @@
           class="mx-1 wrapper background-color-gray px-3 px-lg-4 px-xl-5 py-4 py-xl-5"
         >
           <div class="row">
-            <div class="col-12 col-md-6 my-auto">
+            <div class="col-12 col-md-4 my-auto">
               <p class="fs-1-suut fw-bold text-transform-uppercase">
                 Наши преподаватели
               </p>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-8">
               <div
                 class="d-flex wrapper-inner background-color-white px-2 px-lg-2 px-xl-3 py-2 py-xl-3 mb-2"
               >
@@ -1394,7 +1446,7 @@
 
     <!-- ЧТО ЕЩЁ ВАЖНО -->
     <section>
-      <div class="container mt-5">
+      <div class="container mt-5 py-5">
         <div
           class="mx-1 wrapper background-color-white px-3 px-lg-4 px-xl-5 py-2 py-xl-2"
         >

@@ -108,6 +108,16 @@
 }
 
 
+@keyframes animFromCenterScale {
+	0% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
 html, body{
     font-family: Roboto;
     font-style: normal;
@@ -130,6 +140,10 @@ html, body{
 }
 .contact-block-wrapper{
     animation: animShowFromUpAndLeft 1.4s ease-in-out 0s 1 normal forwards; 
+}
+
+.animation-suut{
+    animation: animFromCenterScale 1s ease-in-out 0s 1 normal forwards;
 }
 
 .text-dark-suut{

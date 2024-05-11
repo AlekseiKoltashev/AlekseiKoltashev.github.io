@@ -13,8 +13,24 @@ function autoPlayYouTubeModal(){
     });
   }
 
+
+  function toggleBasisEducationButton(){
+    var trigger = $("body").find('[data-toggle="btnBasis"]');
+    trigger.click(function() {
+        var blockTarget =  $(this).attr( "data-target" ),
+            blockTargetHide = $(this).attr( "data-targetHide" ),
+            btnHide = $(this).attr( "data-btnHide" );
+        $(blockTarget).removeClass('d-none');
+        $(blockTarget).show();
+        $(blockTargetHide).hide();
+        $(btnHide).removeClass('fw-bold');
+        $(this).addClass('fw-bold');
+    });
+  }
+
   $(document).ready(function(){
     autoPlayYouTubeModal();
+    toggleBasisEducationButton();
   });
 
 
