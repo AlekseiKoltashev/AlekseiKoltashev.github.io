@@ -412,3 +412,7 @@ button.btn-primary-suut:hover{
 .background-color-green-light{
     background-color: #CFF4F1;
 }
+
+.min-height-170{
+    min-height: 170px;
+}
