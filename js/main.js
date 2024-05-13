@@ -1,4 +1,14 @@
 
+var i = 0;
+
+function coffeShopToRussinLanguage(){
+   $("#notCoffeShop").click(function(){
+    if(i >= 10){ 
+      $("#notCoffeShopText").text("Кафетерий");
+    }
+    i++;
+   });
+}
 
 function autoPlayYouTubeModal(){
     var trigger = $("body").find('[data-bs-toggle="modal"]');
@@ -31,6 +41,7 @@ function autoPlayYouTubeModal(){
   $(document).ready(function(){
     autoPlayYouTubeModal();
     toggleBasisEducationButton();
+    coffeShopToRussinLanguage();
   });
 
 
