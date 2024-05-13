@@ -5,6 +5,7 @@ function coffeShopToRussinLanguage(){
    $("#notCoffeShop").click(function(){
     if(i >= 10){ 
       $("#notCoffeShopText").text("Кафетерий");
+      $("#notComfortableStudentsCaffe").text("Уютная столовая с буфетом");
     }
     i++;
    });
