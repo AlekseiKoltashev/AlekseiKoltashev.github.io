@@ -315,13 +315,14 @@
             </div>
 
             <div class="col-12 col-lg-6">
-              <form action="" class="d-flex row">
-                <input type="text" class="fs-6-5-suut form-control my-2 from-control-input-suut" id="nameControl"
+              <form action="http://127.0.0.1:7000/feedback" method="post" id="topFormFeedback" class="d-flex row">
+                <input type="text" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="username" id="nameControl"
                   placeholder="Имя" />
-                <input type="text" class="fs-6-5-suut form-control my-2 from-control-input-suut" id="phoneControl"
+                <input type="text" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="phone" id="phoneControl"
                   placeholder="Телефон" />
-                <input type="email" class="fs-6-5-suut form-control my-2 from-control-input-suut" id="phoneControl"
+                <input type="email" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="email" id="phoneControl"
                   placeholder="Электронная почта" />
+                <input type="hidden" name="specialization" value="Лингвитика, бакалавриат, международные коммуникации и перевод">
                 <button class="btn btn-primary-suut fs-6-5-suut text-transform-uppercase">
                   Отправить заявку
                 </button>
