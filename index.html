@@ -314,11 +314,16 @@
               </p>
             </div>
 
-            <div class="col-12 col-lg-6">
-              <form action="http://127.0.0.1:7000/feedback" method="post" id="topFormFeedback" class="d-flex row">
+            <div class="col-12 col-lg-6 text-center">
+              <span class="loader d-none my-5" id="loader_feedback_top"></span>
+              <div class="d-none my-5" id="conglaturation_top">
+                <img src="./img/icons8-галочка-480.png" width="48" alt="Форма отправлена">
+                <p class="fs-6-5-suut text-medium-suut">Наши специалисты скоро с вами свяжутся</p>
+              </div>
+              <form action="https://api-abtr.science174.ru/feedback" method="post" id="topFormFeedback" class="d-flex row">
                 <input type="text" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="username" id="nameControl"
                   placeholder="Имя" />
-                <input type="text" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="phone" id="phoneControl"
+                <input type="tel" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="phone" id="phoneControl"
                   placeholder="Телефон" />
                 <input type="email" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="email" id="phoneControl"
                   placeholder="Электронная почта" />
@@ -1198,7 +1203,7 @@
               </h2>
               <div id="collapseFiveFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
                 <div class="accordion-body">
-                  <div class="row mx-auto px-4">Answer</div>
+                  <div class="row mx-auto px-4"><p>С подробными правилами оформления образовательного кредита вы можете ознакомиться по <a href="https://www.inueco.ru/files/abiturientu/kak_oformit_kredit_3_procenta.pdf" target="_blank">ссылке</a></p></div>
                 </div>
               </div>
             </div>
@@ -1208,12 +1213,12 @@
                 <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
                   type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixFAQ" aria-expanded="false"
                   aria-controls="collapseSixFAQ">
-                  Как получить налоговый вычет в 13 %?
+                  Как получить налоговый вычет в 13%?
                 </button>
               </h2>
               <div id="collapseSixFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
                 <div class="accordion-body">
-                  <div class="row mx-auto px-4">Answer</div>
+                  <div class="row mx-auto px-4"><p>С подробными правилами получения налогового вычета вы можете ознакомиться по <a href="https://www.inueco.ru/files/abiturientu/kak_poluchit_nalogoviu_vyichet.pdf" target="_blank">ссылке</a> </p></div>
                 </div>
               </div>
             </div>
@@ -1287,14 +1292,20 @@
             </p>
           </div>
 
-          <div class="col-12 col-lg-6">
-            <form action="" class="d-flex row">
-              <input type="text" class="fs-6-5-suut form-control my-2 from-control-input-suut " id="nameControl"
+          <div class="col-12 col-lg-6 text-center">
+            <span class="loader d-none my-5" id="loader_feedback_bottom"></span>
+            <div class="d-none my-5" id="conglaturation_bottom">
+              <img src="./img/icons8-галочка-480.png" width="48" alt="Форма отправлена">
+              <p class="fs-6-5-suut text-medium-suut">Наши специалисты скоро с вами свяжутся</p>
+            </div>
+            <form action="https://api-abtr.science174.ru/feedback" method="post" class="d-flex row" id="bottomFormFeedBack">
+              <input type="text" class="fs-6-5-suut form-control my-2 from-control-input-suut " name="username" id="nameControl"
                 placeholder="Имя" />
-              <input type="text" class="fs-6-5-suut form-control my-2 from-control-input-suut" id="phoneControl"
+              <input type="tel" class="fs-6-5-suut form-control my-2 from-control-input-suut"  name="phone" id="phoneControl"
                 placeholder="Телефон" />
-              <input type="email" class="fs-6-5-suut form-control my-2 from-control-input-suut" id="phoneControl"
+              <input type="email" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="email" id="phoneControl"
                 placeholder="Электронная почта" />
+              <input type="hidden" name="specialization" value="Лингвитика, бакалавриат, международные коммуникации и перевод">
               <button class="btn btn-primary-suut fs-6-5-suut text-transform-uppercase">
                 Отправить заявку
               </button>

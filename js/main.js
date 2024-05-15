@@ -46,18 +46,55 @@ function autoPlayYouTubeModal(){
   
       var form = $(this);
       var actionUrl = form.attr('action');
-      
+      $(this).addClass('d-none');
+      $("#loader_feedback_top").removeClass('d-none');
       $.ajax({
           type: "POST",
           url: actionUrl,
           data: form.serialize(), // serializes the form's elements.
           success: function(data)
           {
-            alert(data); // show response from the php script.
-          }
+            // $("#loader_feedback").addClass('d-none');
+            // $("#conglaturation_top").removeClass("d-none");
+            console.log(data); 
+          },
+          complete : function(data)
+          {
+            $("#loader_feedback_top").addClass('d-none');
+            $("#conglaturation_top").removeClass("d-none");
+            console.log(data); 
+          },
       });
       
   });
+
+  $("#bottomFormFeedBack").submit(function(e) {
+
+    e.preventDefault(); // avoid to execute the actual submit of the form.
+
+    var form = $(this);
+    var actionUrl = form.attr('action');
+    $(this).addClass('d-none');
+    $("#loader_feedback_bottom").removeClass('d-none');
+    $.ajax({
+        type: "POST",
+        url: actionUrl,
+        data: form.serialize(), // serializes the form's elements.
+        success: function(data)
+        {
+          // $("#loader_feedback").addClass('d-none');
+          // $("#conglaturation_top").removeClass("d-none");
+          console.log(data); 
+        },
+        complete : function(data)
+        {
+          $("#loader_feedback_bottom").addClass('d-none');
+          $("#conglaturation_bottom").removeClass("d-none");
+          console.log(data); 
+        },
+    });
+    
+});
   }
 
   $(document).ready(function(){
