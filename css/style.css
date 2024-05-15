@@ -131,6 +131,55 @@
 	}
 }
 
+
+@keyframes swing-right-fwd {
+    0% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+      -webkit-transform-origin: right;
+              transform-origin: right;
+    }
+    100% {
+      -webkit-transform: rotateY(180deg);
+              transform: rotateY(180deg);
+      -webkit-transform-origin: right;
+              transform-origin: right;
+    }
+  }
+  @keyframes slide-in-blurred-left {
+    0% {
+      -webkit-transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+              transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+      -webkit-transform-origin: 100% 50%;
+              transform-origin: 100% 50%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) scaleY(1) scaleX(1);
+              transform: translateX(0) scaleY(1) scaleX(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes rotate-in-2-bck-cw {
+    0% {
+      -webkit-transform: translateZ(200px) rotate(-45deg);
+              transform: translateZ(200px) rotate(-45deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0) rotate(0);
+              transform: translateZ(0) rotate(0);
+      opacity: 1;
+    }
+  }
+
 html, body{
     font-family: Roboto;
     font-style: normal;
@@ -156,7 +205,10 @@ html, body{
 }
 
 .animation-suut{
-    animation: animFromCenterScale 1s ease-in-out 0s 1 normal forwards;
+    /* animation: rotate-in-2-bck-cw 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; */
+    animation: slide-in-blurred-left 0.4s cubic-bezier(0.445, 0.050, 0.550, 0.950) both;
+    /* animation: swing-right-fwd 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; */
+    /* animation: animFromCenterScale 1s ease-in-out 0s 1 normal forwards; */
 }
 
 .text-dark-suut{
