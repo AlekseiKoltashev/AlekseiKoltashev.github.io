@@ -303,7 +303,7 @@ html, body{
     background-color: #CFF4F1;
     
     text-align: center;
-    line-height: 0;
+    line-height: 1;
     display: inline-block;
 }
 
