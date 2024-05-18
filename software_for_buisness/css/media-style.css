@@ -1,0 +1,135 @@
+@media (width >=400px) {
+    .figure-img{
+        max-height: 60%;
+        min-height: 60%;
+    }
+   
+
+    .navbar-brand img {
+        width: 130px;
+    }
+  }
+
+
+
+  @media (width >=540px) {
+    .figure-img{
+        max-height: 70%;
+        min-height: 70%;
+    }
+
+    .label-specialization{
+        padding: 0.6rem;
+    }
+
+    .navbar-brand img {
+        width: 145px;
+    }
+   
+  }
+
+
+  @media (width >= 768px){
+    .figure-img{
+        max-height: 70%;
+        min-height: 70%;
+    }
+
+    .students-img{
+        background-position: bottom center;
+    }
+
+    .fs-1-suut{
+        font-size: 2rem;
+    }
+
+    .line-height-small{
+        line-height: 2.5rem;
+    }
+    
+    .fs-btn-suut{
+        font-size: 0.8rem;
+    }
+
+    .fs-6-5-suut{
+        font-size:  0.9rem;
+    }
+
+    .fs-7-suut{
+        font-size: 0.8rem;
+    }
+    
+    .fs-8-suut{
+        font-size: 0.70rem;
+    }
+
+    .label-specialization{
+        padding: 0.9rem;
+    }
+
+    .navbar-brand img {
+        width: 155px;
+    }
+   
+  }
+
+  @media (width >= 992px){
+    .figure-img{
+        max-height: 85%;
+        min-height: 85%;
+    }
+
+    .plus-specialization_block img {
+        width: 45px;
+    }
+  }
+
+  @media (width >= 1200px){
+    .figure-img{
+        max-height: 100%;
+        min-height: 100%;
+    }
+
+    .line-height-small{
+        line-height: 2.8rem;
+    }
+    .fs-1-suut{
+        font-size: 2.3rem;
+    }
+
+    .fs-btn-suut{
+        font-size: 1rem;
+    }
+    .fs-6-suut{
+        font-size: 1.15rem;
+    }
+
+    .fs-6-5-suut{
+        font-size:  1rem;
+    }
+
+    .fs-7-suut{
+        font-size: 0.9rem;
+    }
+    
+    .fs-8-suut{
+        font-size: 0.85rem;
+    }
+
+    .navbar-brand img {
+        width: 165px;
+    }
+
+  }
+
+
+  @media (width >= 1200px){
+    .fs-7-suut{
+        font-size: 1.1rem;
+    }
+
+    .fs-6-5-suut{
+        font-size:  1.2rem;
+    }
+       
+  }
