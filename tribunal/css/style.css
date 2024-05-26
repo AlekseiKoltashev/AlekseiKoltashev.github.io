@@ -338,7 +338,7 @@ html, body{
 }
 
 .students-img{
-    background-image: url("../img/welcome_spec-bg_free.png");
+    background-image: url("../img/welcomee_spec_bg-free.webp");
     min-width: 100%;
     min-height: 100%;
     background-size: contain;
@@ -351,7 +351,7 @@ html, body{
 }
 
 .figure-img{
-    background-image: url("../img/photo.png");
+    background-image: url("../img/spec_info_back.webp");
     min-width: 100%;
     max-height: 45%;
     min-height: 45%;

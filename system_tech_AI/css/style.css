@@ -338,9 +338,10 @@ html, body{
 }
 
 .students-img{
-    background-image: url("../img/welcome_spec-bg_free.png");
+    background-image: url("../img/spec_bg_free.webp");
     min-width: 100%;
     min-height: 100%;
+    margin-right: 20px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom right;
