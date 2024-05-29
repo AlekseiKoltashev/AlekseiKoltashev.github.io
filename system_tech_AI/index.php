@@ -2,15 +2,8 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-  <link rel="stylesheet" href="./css/bootstrap.min.css" />
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="stylesheet" href="./css/media-style.css" />
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-  <title>Абитуриенту ЮУТУ</title>
+<?php include_once("../includes/meta.inc.php") ?>
+  <title>Абитуриенту ЮУТУ - Системы и технологии искуственного интелекта</title>
 </head>
 
 <body>
@@ -31,91 +24,39 @@
     </div>
   </div>
 
-  <header>
-    <nav class="navbar navbar-expand-lg bg-white">
-      <div class="container">
-        <a class="navbar-brand" href="https://inueco.ru">
-          <img src="./img/logo.webp" alt="Logo" class="d-inline-block align-text-top" />
-        </a>
-        <div class="d-flex d-lg-none contact-block-wrapper align-items-center">
-          <ul class="list-inline contact-block text-dark-suut">
-            <li class="fs-7-suut list-inline-item contact-block-item"><a class="icon-link align-middle" target="_blank"
-                href="https://vk.com/inuecochel">
-                <img src="./img/vk.png" style="max-height:30px;" alt="">
-              </a></li>
+  <!-- HEADER -->
+  <?php include_once("../includes/header-body.inc.php");?>
 
-            <li class="fs-7-suut list-inline-item contact-block-item text-medium-suut text-transform-uppercase">
-              <a href="tel:+73512144111"
-                class="nav-link fs-7-suut  contact-block-item  text-dark-suut text-medium-suut text-transform-uppercase">+7
-                (351) 214-41-11</a>
-            </li>
-          </ul>
-        </div>
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon border-0"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center me-3" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item border-bottom-animation">
-              <a class="nav-link fs-7-suut text-dark-suut text-medium-suut text-transform-uppercase"
-                href="https://www.inueco.ru/abiturientu/speczialnosti_i_napravleniya_podgotovki/"
-                target="_blank">Абитуриенту</a>
-            </li>
-            <li class="nav-item border-bottom-animation">
-              <a class="nav-link fs-7-suut text-dark-suut text-medium-suut text-transform-uppercase" href="https://www.inueco.ru/abiturientu/speczialnosti_i_napravleniya_podgotovki/"
-                target="">Направления подготовки</a>
-            </li>
-          </ul>
-        </div>
-        <div class="d-none d-lg-flex contact-block-wrapper align-items-center">
-          <ul class="list-inline contact-block text-dark-suut">
-            <li class="fs-7-suut list-inline-item contact-block-item align-middle"><a class="icon-link align-middle"
-                target="_blank" href="https://vk.com/inuecochel">
-                <img src="./img/vk.png" style="max-height:30px;" alt="">
-              </a></li>
-            <!-- <li class="fs-7-suut list-inline-item contact-block-item">TG</li> -->
-            <li class="fs-7-suut list-inline-item contact-block-item text-medium-suut text-transform-uppercase">
-              <a href="tel:+73512144111"
-                class="nav-link fs-7-suut  contact-block-item  text-dark-suut text-medium-suut text-transform-uppercase">+7
-                (351) 214-41-11</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
+  <!-- WELCOME BLOCK -->
   <section>
     <div class="container">
-      <div class="mx-1 wrapper-specialization-info background-color-gray row px-3 pt-3 pb-1">
+      <div class="mx-1 wrapper-specialization-info background-color-gray row px-3 pt-3 pb-1 justify-content-center">
         <div class="col-12 row specialization-information m-lg-3">
-          <div class="col-10">
+          <div class="col-12">
             <p class="fs-8-suut text-medium-suut text-transform-uppercase label-specialization m-0">
-              07.03.01 Архитектура (бакалавриат)
+              09.03.02 Информационные системы и технологии (бакалавриат)
             </p>
           </div>
-          <div class="col-7 mt-2  mt-md-2">
+          <div class="col-12 mt-md-2">
             <p class="fs-1-suut fw-bold text-transform-uppercase line-height-small py-0 m-0">
-              Архитектура зданий <br />
-              и средовых комплексов
+              Системы и технологии <br />
+              искуственного интелекта
             </p>
           </div>
 
-          <div class="col-9 col-md-8 col-lg-6 mt-2 mt-md-4">
+          <div class="col-12 col-sm-8 col-md-7 col-lg-6 mt-md-4">
             <p class="fs-7-suut text-medium-suut m-0">
-              Если хочешь создать вокруг себя эстетически и инженерно продуманную городскую среду, хочешь ощутить себя
-              зодчим современного города, то это направление точно для тебя! В ЮУТУ тебе помогут освоить широкую,
-              монументальную профессиию, которая запечатлеет твое я в истории городов.
+              Развивайте навыки, которые определят будущее: изучайте алгоритмы машинного обучения, глубокое обучение, обработку естественного языка и многое другое. Под руководством опытных экспертов вы погрузитесь в глубины искусственного интеллекта и подготовитесь к лидерству в цифровой эпохе. Не упустите шанс стать частью революции искусственного интеллекта
             </p>
           </div>
-          <div class="col-9 mb-2 mt-md-4">
-            <a class="btn btn-primary-suut text-medium-suut text-transform-uppercase text-white mt-1 p-md-2 fs-btn-suut col-10 col-md-4 col-lg-3"
+          <div class="col-12 col-sm-9 mb-2 mt-md-4">
+            <a class="btn btn-primary-suut text-medium-suut text-transform-uppercase text-white mt-1 p-md-2 fs-btn-suut col-12 col-sm-10 col-md-4 col-lg-3"
               href="#howDo" role="button">Как поступить</a>
-            <a class="btn btn-primary-suut text-medium-suut text-transform-uppercase text-white mt-1 p-md-2 fs-btn-suut col-10 col-md-5 col-lg-4"
+            <a class="btn btn-primary-suut text-medium-suut text-transform-uppercase text-white mt-1 p-md-2 fs-btn-suut col-12 col-sm-10 col-md-5 col-lg-4"
               href="#programmEducation" role="button">Программа обучения</a>
           </div>
         </div>
-        <div class="specialization-img-back">
+        <div class="d-none d-sm-block specialization-img-back">
           <div class="students-img"></div>
           <div class="figure-img"></div>
         </div>
@@ -130,50 +71,33 @@
         <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
           <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
           <p class="m-0 ms-2 align-self-center fs-6-5-suut">
-            <span class="fw-bold">Быстрый профессиональный рост</span>
+            <span class="fw-bold">Два диплома за четыре года</span>
             <br />
-            Благодаря многочисленным заданиям и домашней работе, некоторые находят фриланс-проекты уже во время учебы
+            Программист + специалист в области английского языка
           </p>
         </div>
         <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
           <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
           <p class="m-0 ms-2 align-self-center fs-6-5-suut">
-            <span class="fw-bold">Метод погружения в творческую среду</span>
+            <span class="fw-bold">Преподаватели – практики,</span>
             <br />
-            Преподаватели часто предлагают студентам выбрать конкурсы или выставки для участия вместо выполнения
-            стандартного задания
+             действующие сотрудники ИТ компаний
           </p>
         </div>
         <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
           <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
           <p class="m-0 ms-2 align-self-center fs-6-5-suut">
-            <span class="fw-bold">Преподаватели – практикующие специалисты</span>
+            <span class="fw-bold">Наличие лабораторий для практической подготовки: </span>
+            <br>
+            лаборатория «Автоматизация технологических процессов», лаборатория БПЛА, лаборатория аддитивных технологий «Моделирование с применением 3D-принтеров»
           </p>
         </div>
         <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
           <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
           <p class="m-0 ms-2 align-self-center fs-6-5-suut">
-            <span class="fw-bold">Сотрудничество с передовыми вузами страны </span>
+            <span class="fw-bold">Профессионально оснащенные аудитории</span>
             <br />
-            при прохождении профессиональной переподготовки или курсов повышения квалификации
-          </p>
-        </div>
-        <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
-          <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
-          <p class="m-0 ms-2 align-self-center fs-6-5-suut">
-            <span class="fw-bold">Художественные мастерские прямо в ВУЗе</span>
-            <br />
-            мастерская живописи, мастерская рисунка, мастерская графики, мастерская 3d моделирования, мастерская VR
-            технологий
-          </p>
-        </div>
-        <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
-          <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
-          <p class="m-0 ms-2 align-self-center fs-6-5-suut">
-            <span class="fw-bold">Трендовые материалы для дизайнера</span>
-            <br />
-            черепа анатомические; муляжи фруктов-овощей, цветов; драпировки; керамика (горшки, вазы); макетные доски и
-            другое
+             со специализированным программным обеспечением (Visual Studio, Android Studio, Photoshop, Arduino IDE) и мощным железом
           </p>
         </div>
       </div>
@@ -231,19 +155,19 @@
 
                   <div class="row border-box-buttom-dark-suut my-3">
                     <div class="col-8 col-sm-9 ps-0">
-                      <p class="fs-6-5-suut m-0">Творческое задание (рисунок)</p>
+                      <p class="fs-6-5-suut m-0">Математика</p>
                     </div>
                     <div class="col-4 col-sm-3 pe-0">
-                      <p class="fs-6-5-suut m-0 text-end">50 баллов</p>
+                      <p class="fs-6-5-suut m-0 text-end">27 баллов</p>
                     </div>
                   </div>
 
                   <div class="row border-box-buttom-dark-suut my-3">
                     <div class="col-8 col-sm-9 ps-0">
-                      <p class="fs-6-5-suut m-0">Математика*</p>
+                      <p class="fs-6-5-suut m-0">Информатика и ИКТ*</p>
                     </div>
                     <div class="col-4 col-sm-3 pe-0">
-                      <p class="fs-6-5-suut m-0 text-end">27 баллов</p>
+                      <p class="fs-6-5-suut m-0 text-end">40 баллов</p>
                     </div>
                   </div>
                   <div class="row border-box-buttom-dark-suut my-3">
@@ -279,7 +203,7 @@
 
                   <div class="row border-box-buttom-dark-suut my-3">
                     <div class="col-8 col-sm-9 ps-0">
-                      <p class="fs-6-5-suut m-0">Творческое задание (рисунок)</p>
+                      <p class="fs-6-5-suut m-0">Информационные технологии</p>
                     </div>
                     <div class="col-4 col-sm-3 pe-0">
                       <p class="fs-6-5-suut m-0 text-end">50 баллов</p>
@@ -288,7 +212,7 @@
 
                   <div class="row border-box-buttom-dark-suut my-3">
                     <div class="col-8 col-sm-9 ps-0">
-                      <p class="fs-6-5-suut m-0">Информационные технологии</p>
+                      <p class="fs-6-5-suut m-0">Основы программирования</p>
                     </div>
                     <div class="col-4 col-sm-3 pe-0">
                       <p class="fs-6-5-suut m-0 text-end">50 баллов</p>
@@ -339,16 +263,14 @@
                 <img src="./img/icons8-галочка-480.png" width="48" alt="Форма отправлена">
                 <p class="fs-6-5-suut text-medium-suut">Наши специалисты скоро с вами свяжутся</p>
               </div>
-              <form action="https://api-abtr.science174.ru/feedback" method="post" id="topFormFeedback"
-                class="d-flex row">
-                <input type="text" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="username"
-                  id="nameControl" placeholder="Имя" />
-                <input type="tel" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="phone"
-                  id="phoneControl" placeholder="Телефон" />
-                <input type="email" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="email"
-                  id="emailControl" placeholder="Электронная почта" />
-                <input type="hidden" name="specialization"
-                  value="07.03.01 Архитектура (бакалавриат), Архитектура зданий и средовых комплексов">
+              <form action="https://api-abtr.science174.ru/feedback" method="post" id="topFormFeedback" class="d-flex row">
+                <input type="text" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="username" id="nameControl"
+                  placeholder="Имя" />
+                <input type="tel" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="phone" id="phoneControl"
+                  placeholder="Телефон" />
+                <input type="email" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="email" id="emailControl"
+                  placeholder="Электронная почта" />
+                <input type="hidden" name="specialization" value="ИТ, бакалавриат, Системы и технологии искуственного интелекта">
                 <button class="btn btn-primary-suut fs-6-5-suut text-transform-uppercase">
                   Отправить заявку
                 </button>
@@ -379,9 +301,8 @@
                 <img src="./img/il-web2.webp" class="img-block-programm-for-you" alt="" />
               </div>
               <div class="col-9">
-                <p class="fs-6-5-suut text-medium-suut m-0">
-                  <b>Хотите научиться работать с крупными архитектурными объектами,</b>
-                  готовы тщательно и усердно разрабатывать конструкции и внешний облик зданий и сооружений
+                <p class="fs-7-suut text-medium-suut m-0">
+                  <b>Интересуется компьютерными системами и технологиями</b>
                 </p>
               </div>
             </div>
@@ -390,8 +311,8 @@
           <div class="col-12 col-lg-6 py-3 p-2 px-lg-5">
             <div class="wrapper-inner background-color-gray row p-2 p-lg-4 align-items-center h-100 min-height-170">
               <div class="col-9">
-                <p class="fs-6-5-suut text-medium-suut m-0">
-                  <b>Стремитесь разобраться в вопросе градостроительства и городской архитектурной среды</b>
+                <p class="fs-7-suut text-medium-suut m-0">
+                  <b>Хотите понять, какие возможности предоставляет искусственный интеллект</b> для оптимизации бизнес-процессов, создания инноваций и улучшения конкурентоспособности компаний
                 </p>
               </div>
               <div class="col-3">
@@ -406,16 +327,25 @@
                 <img src="./img/il-web1.webp" class="img-block-programm-for-you" alt="" />
               </div>
               <div class="col-9">
-                <p class="fs-6-5-suut text-medium-suut m-0">
-                  <b>Желаете овладеть программами для проектирования и визуализации зданий такими как 3ds Max, NanoCAD и
-                    Revi </b>
-
+                <p class="fs-7-suut text-medium-suut m-0">
+                  <b>Интересуетесь технологическими трендами и хотите понять, как работает искусственный интеллект,</b> и какие вызовы и возможности он представляет для общества в целом
                 </p>
               </div>
             </div>
           </div>
-
-
+          <div class="col-12 col-lg-6 py-3 p-2 px-lg-5">
+            <div class="wrapper-inner background-color-gray row p-2 p-lg-4 align-items-center h-100 min-height-170">
+              
+              <div class="col-9">
+                <p class="fs-7-suut text-medium-suut m-0">
+                  <b>Хотите стать лидером в IT</b>
+                </p>
+              </div>
+              <div class="col-3">
+                <img src="./img/il-web4.webp" class="img-block-programm-for-you" alt="" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -480,8 +410,7 @@
               <img src="./img/lingphone.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Индивидуальное рабочее место</h5>
-                <p class="card-text text-dark-suut">Для каждого студента. <br> С мощным железом и профессиональным ПО
-                </p>
+                <p class="card-text text-dark-suut">С мощным железом и специализированным ПО</p>
               </div>
             </div>
           </div>
@@ -514,23 +443,27 @@
     </div>
     <div class="container">
       <div class="wrapper background-color-white py-2 py-xl-2">
-        <div class="row  justify-content-center">
+        <div class="row">
           <div class="col-6 col-md-3 mb-4">
             <div class="wrapper-inner background-color-gray p-4 h-100 d-flex align-items-center">
-              <img src="./img/axio.png" style="width: 100%" alt="Аксио" />
+              <img src="./img/transneft.svg" style="width: 100%" alt="Транснефть урал" />
             </div>
           </div>
           <div class="col-6 col-md-3 mb-4">
             <div class="wrapper-inner background-color-gray p-4 h-100 d-flex d-flex align-items-center">
-              <img src="./img/rck.png" style="width: 100%" alt="РЦК" />
+              <img src="./img/polet.png" style="width: 100%" alt="«Челябинский радиозавод «Полет»" />
             </div>
           </div>
           <div class="col-6 col-md-3 mb-4">
             <div class="wrapper-inner background-color-gray p-4 h-100 d-flex d-flex align-items-center">
-              <img src="./img/spec_complect.svg" style="width: 100%" alt="Спецкомлект" />
+              <img src="./img/3vivilogo.svg" style="width: 100%" alt="ТРИДИВИ" />
             </div>
           </div>
-
+          <div class="col-6 col-md-3 mb-4">
+            <div class="wrapper-inner background-color-gray p-4 h-100 d-flex d-flex align-items-center">
+              <img src="img/logo-ariant.svg" style="width: 100%" alt="Ариант" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -554,7 +487,7 @@
           <div class="mx-1 wrapper background-color-gray px-3 px-lg-4 px-xl-5 py-2 py-xl-4 h-100">
             <div class="row">
               <div class="col-12 text-center">
-                <img src="./img/resume.webp" class="border-circle" height="200px" alt="Фото в резюме" />
+                <img src="./img/resume.jpg" class="border-circle" height="200px" alt="Фото в резюме" />
               </div>
             </div>
             <div class="row mb-2">
@@ -562,136 +495,162 @@
                 <h5 class="text-dark-suut">Зарплата</h5>
                 <div class="wrapper-inner mb-1">
                   <p class="fs-7-suut m-0 p-2 d-inline-block background-color-gray-dark border-suut-12">
-                    Архитектор без опыта от 50 тысяч рублей
+                    Исследователь данных (Data Scientist) от 70 тысяч рублей
                   </p>
                 </div>
                 <div class="wrapper-inner mb-1">
-                  <p class="fs-7-suut m-0 p-2 pe-3 d-inline-block background-color-gray-dark border-suut-12">
-                    Архитектор с опытом от 80 тысяч рублей
+                  <p class="fs-7-suut m-0 p-2 d-inline-block background-color-gray-dark border-suut-12">
+                    Специалист по машинному обучению (Machine Learning Engineer) от 80 тысяч рублей
                   </p>
                 </div>
               </div>
             </div>
-            <div class="row mb-2">
+            <div class="row mb-2 mt-4">
               <div class="col-12">
                 <h5 class="text-dark-suut">Навыки</h5>
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Знание нормативной документации
+                    Владение языками программирования (Python, Java, и другие)
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Проектирование зданий различного назначения
+                    Работа с Visual Studio, Android Studio, Photoshop, Arduino IDE
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Понимание как работать с компонентами и дизайн-системами
+                    Разработка и обучение моделей машинного обучения
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Понимание пространственной организации, форм, текстур и других элементов дизайна
+                    Использование фреймворков TensorFlow и PyTorch
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Разработка проектов интерьера квартир и офисов
+                    Анализ и обработка текстовой информации
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Создание объемно-планировочного решения
+                    Использование инструментов и технологий Big Data
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Разработка концепции и выполнение эскизных проектов комплексов общественных зданий
+                    Понимание юридических аспектов защиты интеллектуальной собственности
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    3D моделирование
+                    Владение профессиональной терминологией на английском языке
                   </p>
                 </div>
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Эскизное проектирование
+                    Умение вести профессиональную коммуникацию на английском языке
                   </p>
                 </div>
               </div>
             </div>
-            <div class="row mb-2">
+            <div class="row mb-2 mt-4">
               <div class="col-12">
-                <h5 class="text-dark-suut">Владение технологиями</h5>
+                <h5 class="text-dark-suut">Владение языками программирования и фреймоврками</h5>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/figma.png" class="align-middle" width="25px" alt="" />
-                  <p class="d-inline my-0 fs-7-suut align-middle">Figma</p>
+                  <img src="./img/dot_yp.png" class="align-middle" width="25px" alt="" />
+                  <p class="d-inline my-0 fs-7-suut align-middle">Python</p>
                 </div>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/myquiz.svg" class="align-middle" width="80px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
+                  <img src="./img/dot_yp.png" class="align-middle" width="25px" alt="" />
+                  <p class="d-inline my-0 fs-7-suut align-middle">Java</p>
                 </div>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/gigacha.png" class="align-middle" width="20px" alt="" />
-                  <p class="d-inline my-0 fs-7-suut align-middle">GigaChat</p>
+                  <img src="./img/dot_yp.png" class="align-middle" width="25px" alt="" />
+                  <p class="d-inline my-0 fs-7-suut align-middle">JavaScript</p>
                 </div>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/getlocus.svg" class="align-middle" width="90px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
+                  <img src="./img/dot_yp.png" class="align-middle" width="25px" alt="" />
+                  <p class="d-inline my-0 fs-7-suut align-middle">PyTorch</p>
                 </div>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/cupcut.png" class="align-middle" width="90px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
+                  <img src="./img/dot_yp.png" class="align-middle" width="25px" alt="" />
+                  <p class="d-inline my-0 fs-7-suut align-middle">Pandas</p>
                 </div>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/Jalinga_logo_color.png" class="align-middle" width="90px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
+                  <img src="./img/dot_yp.png" class="align-middle" width="25px" alt="" />
+                  <p class="d-inline my-0 fs-7-suut align-middle">Tensorflow</p>
                 </div>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/moodle_logo_TM.svg" class="align-middle" width="90px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
+                  <img src="./img/dot_yp.png" class="align-middle" width="25px" alt="" />
+                  <p class="d-inline my-0 fs-7-suut align-middle">NumPy</p>
                 </div>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/Adobe_Illustrator.png" class="align-middle" width="20px" alt="" />
-                  <p class="d-inline  my-0   fs-7-suut align-middle">Adobe Illustrator</p>
+                  <img src="./img/dot_yp.png" class="align-middle" width="25px" alt="" />
+                  <p class="d-inline my-0 fs-7-suut align-middle">Spring</p> 
+                </div>
+              </div>
+            </div>
+            <div class="row mb-2 mt-4">
+              <div class="col-12">
+                <h5 class="text-dark-suut">Владение базами данных</h5>
+                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
+                  <img src="./img/dot_yp.png" class="align-middle" width="25px" alt="" />
+                  <p class="d-inline my-0 fs-7-suut align-middle">MySQL</p>
                 </div>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/Adobe_Photoshop.png" class="align-middle" width="20px" alt="" />
-                  <p class="d-inline  my-0   fs-7-suut align-middle">Adobe Photoshop</p>
+                  <img src="./img/dot_yp.png" class="align-middle" width="25px" alt="" />
+                  <p class="d-inline my-0 fs-7-suut align-middle">PostgreSQL</p>
                 </div>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/CorelDraw.png" class="align-middle" width="90px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Adobe Photoshop</p> -->
+                  <img src="./img/dot_yp.png" class="align-middle" width="25px" alt="" />
+                  <p class="d-inline my-0 fs-7-suut align-middle">NoSQL</p>
                 </div>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/3dsmax.webp" class="align-middle" width="90px" style="max-height: 100%;" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Adobe Photoshop</p> -->
+                  <img src="./img/dot_yp.png" class="align-middle" width="25px" alt="" />
+                  <p class="d-inline my-0 fs-7-suut align-middle">MongoDB</p>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-2 mt-4">
+              <div class="col-12">
+                <h5 class="text-dark-suut">Владение технологиями командной работы</h5>
+                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
+                  <img src="./img/dot_yp.png" class="align-middle" width="25px" alt="" />
+                  <p class="d-inline my-0 fs-7-suut align-middle">Git</p>
                 </div>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/nanocad.webp" class="align-middle" width="90px" style="max-height: 100%;" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Adobe Photoshop</p> -->
+                  <img src="./img/dot_yp.png" class="align-middle" width="25px" alt="" />
+                  <p class="d-inline my-0 fs-7-suut align-middle">GitHub</p>
                 </div>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/archicad.svg" class="align-middle" width="90px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Adobe Photoshop</p> -->
+                  <img src="./img/dot_yp.png" class="align-middle" width="25px" alt="" />
+                  <p class="d-inline my-0 fs-7-suut align-middle">Jira</p>
+                </div>
+                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
+                  <img src="./img/dot_yp.png" class="align-middle" width="25px" alt="" />
+                  <p class="d-inline my-0 fs-7-suut align-middle">YouGile</p>
+                </div>
+                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
+                  <img src="./img/dot_yp.png" class="align-middle" width="25px" alt="" />
+                  <p class="d-inline my-0 fs-7-suut align-middle">Trello</p>
                 </div>
               </div>
             </div>
@@ -699,110 +658,84 @@
         </div>
 
         <div class="col-12 col-lg-6 mt-2 mt-lg-0 d-flex flex-column">
-          <div class="col-12">
+          <div class="col-12 col-lg-12">
             <div class="mx-1 wrapper background-color-gray px-3 px-lg-4 px-xl-5 py-3 py-xl-4 h-100">
               <h5 class="text-dark-suut">Места работы</h5>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Архитектурные фирмы и компании
+                  Крупные технологические компании, такие как Google, Microsoft, Amazon часто ищут специалистов по искусственному интеллекту для разработки новых продуктов и технологий
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Строительные компании
+                  Лаборатории и исследовательские центры, а также лаборатории крупных технологических компаний, занимающиеся фундаментальными и прикладными исследованиями в области искусственного интеллекта
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Государственные и муниципальные органы
+                  Банки, инвестиционные фонды и страховые компании используют искусственный интеллект для анализа данных, прогнозирования рынков и управления рисками
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Сфера образования и исследований
+                  Медицинские учреждения и фармацевтические компании используют искусственный интеллект для анализа медицинских данных, диагностики болезней и разработки новых методов лечения
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Частная практика
+                  Консалтинговые компании предоставляют услуги по консультированию компаний по вопросам внедрения и использования технологий искусственного интеллекта
                 </p>
               </div>
-
-
+              <div class="mx-1 mt-2 d-flex align-items-center">
+                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
+                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
+                  Фриланс-биржа
+                </p>
+              </div>
+               
             </div>
           </div>
-          <div class="col-12 mt-2 flex-fill">
+
+          <div class="col-12 col-lg-12 mt-2 flex-fill">
             <div class="mx-1 wrapper background-color-gray px-3 px-lg-4 px-xl-5 py-3 py-xl-4 h-100">
               <h5 class="text-dark-suut">Должности</h5>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Архитектор-проектировщик
+                  Специалист по машинному обучению (Machine Learning Engineer)
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Главный архитектор
+                  Исследователь данных (Data Scientist)
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Архитектор-конструктор
+                  Инженер по глубокому обучению (Deep Learning Engineer)
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Архитектор интерьеров
+                  Специалист по обработке естественного языка (Natural Language Processing Specialist)
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Ландшафтный архитектор
+                  Консультант по искусственному интеллекту (AI Consultant)
                 </p>
               </div>
-              <div class="mx-1 mt-2 d-flex align-items-center">
-                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Архитектор по реставрации
-                </p>
-              </div>
-              <div class="mx-1 mt-2 d-flex align-items-center">
-                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Преподаватель архитектурных дисциплин в ВУЗах и колледжах
-                </p>
-              </div>
-              <div class="mx-1 mt-2 d-flex align-items-center">
-                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Научный сотрудник в проектных и исследовательских институтах
-                </p>
-              </div>
-              <div class="mx-1 mt-2 d-flex align-items-center">
-                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">Веб-дизайнер</p>
-              </div>
-              <div class="mx-1 mt-2 d-flex align-items-center">
-                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Главный архитектор города или района
-                </p>
-              </div>
-              <div class="mx-1 mt-2 d-flex align-items-center">
-                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Консалтинг по архитектуре
-                </p>
-              </div>
+            
+              
             </div>
           </div>
         </div>
@@ -822,7 +755,7 @@
         <div class="row">
           <div class="col-12">
             <a class="m-0 fs-7-suut fw-bold text-decoration-underline text-underline-offset text-transform-uppercase text-dark-suut"
-              href="https://www.inueco.ru/sveden/files/001891.pdf" target="_blank">Скачать учебный план</a>
+              href="https://www.inueco.ru/sveden/files/001984.pdf" target="_blank">Скачать учебный план</a>
           </div>
         </div>
         <div class="row mt-3">
@@ -838,21 +771,17 @@
               <div id="collapseOneOP" class="accordion-collapse collapse show" data-bs-parent="#accordionBlockOP">
                 <div class="accordion-body">
                   <div class="row mx-auto px-4">
-                    <div class="col-12 col-md-6 col-lg-4">
-                      <p сlass="fs-6-5-suut">Основы профессии </p>
-                      <p сlass="fs-6-5-suut">Архитектурное проектирование (базовое)</p>
-
-
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                      <p сlass="fs-6-5-suut">История искусств и архитектуры </p>
-                      <p сlass="fs-6-5-suut">Начертательная геометрия для архитектора</p>
+                    <div class="col-12 col-md-6 col-lg-6">
+                      <p сlass="fs-6-5-suut">Мультимедиа технологии и компьютерная графика</p>
+                      <p сlass="fs-6-5-suut">Иностранный язык</p>
 
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                      <p сlass="fs-6-5-suut">Композиционное моделирование</p>
+                    <div class="col-12 col-md-6 col-lg-6">
+                      <p сlass="fs-6-5-suut">Архитектура информационных систем</p>
+                      <p сlass="fs-6-5-suut">Информационные технологии в профессиональной деятельности</p>
 
                     </div>
+                    
                   </div>
                 </div>
               </div>
@@ -869,20 +798,20 @@
                 <div class="accordion-body">
                   <div class="row mx-auto px-4">
                     <div class="col-12 col-md-6 col-lg-4">
-                      <p сlass="fs-6-5-suut">Архитектурное проектирование (базовое)</p>
-                      <p сlass="fs-6-5-suut">Композиционное моделирование</p>
+                      <p сlass="fs-6-5-suut">Алгоритмизация и технологии программирования</p>
+                      <p сlass="fs-6-5-suut">Прикладное программирование</p>
 
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                      <p сlass="fs-6-5-suut">История искусств и архитектуры </p>
-                      <p сlass="fs-6-5-suut">Теория архитектуры </p>
+                      <p сlass="fs-6-5-suut">Обработка естественного языка (NLP)</p>
+                      <p сlass="fs-6-5-suut">Основы информационной безопасности</p>
 
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                      <p сlass="fs-6-5-suut">Компьютерная графика в проектировании </p>
-                      <p сlass="fs-6-5-suut">Архитектурные конструкции </p>
-
+                      <p сlass="fs-6-5-suut">Методы и средства проектирования информационных систем и технологий</p>
+                      <p сlass="fs-6-5-suut">Машинное обучение</p>  
                     </div>
+                    
                   </div>
                 </div>
               </div>
@@ -898,42 +827,21 @@
               <div id="collapseThreeOP" class="accordion-collapse collapse" data-bs-parent="#accordionBlockOP">
                 <div class="accordion-body">
                   <div class="row mx-auto px-4">
-                    <div class="col-12 col-md-6 col-lg-6">
-                      <p сlass="fs-6-5-suut">Комплексное формирование архитектурных объектов</p>
-                      <p сlass="fs-6-5-suut">Планировка, благоустройство, ландшафт территорий</p>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">Администрирование в информационных системах</p>
+                      <p сlass="fs-6-5-suut">Big Data</p>
+                      
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">Проектирование и разработка баз данных</p>
+                      <p сlass="fs-6-5-suut">Основы инженерии программных систем</p>
 
                     </div>
-                    <div class="col-12 col-md-6 col-lg-6">
-                      <p сlass="fs-6-5-suut">Инженерное оборудование зданий </p>
-                      <p сlass="fs-6-5-suut">Компьютерная графика в архитектуре и дизайне</p>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
-                  type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreePlusOP" aria-expanded="false"
-                  aria-controls="collapseThreePlusOP">
-                  4-й курс
-                </button>
-              </h2>
-              <div id="collapseThreePlusOP" class="accordion-collapse collapse" data-bs-parent="#accordionBlockOP">
-                <div class="accordion-body">
-                  <div class="row mx-auto px-4">
-                    <div class="col-12 col-md-6 col-lg-6">
-                      <p сlass="fs-6-5-suut">Инновации в архитектуре</p>
-                      <p сlass="fs-6-5-suut">Дизайн архитектурной среды </p>
-
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-6">
-                      <p сlass="fs-6-5-suut">Планировка, благоустройство, ландшафт территорий </p>
-                      <p сlass="fs-6-5-suut">Инженерное оборудование зданий</p>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">Защита информации и управление доступом к данным</p>
+                      <p сlass="fs-6-5-suut">Компьютерное зрение</p>
                     </div>
                   </div>
-
                 </div>
               </div>
             </div>
@@ -942,23 +850,26 @@
                 <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
                   type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourOP" aria-expanded="false"
                   aria-controls="collapseFourOP">
-                  5-й курс
+                  4-й курс
                 </button>
               </h2>
               <div id="collapseFourOP" class="accordion-collapse collapse" data-bs-parent="#accordionBlockOP">
                 <div class="accordion-body">
                   <div class="row mx-auto px-4">
-                    <div class="col-12 col-md-6 col-lg-6">
-                      <p сlass="fs-6-5-suut">Предпроектный анализ</p>
-                      <p сlass="fs-6-5-suut">Архитектурное проектирование (основное)</p>
-                      <p сlass="fs-6-5-suut">Реновация зданий и территорий</p>
+                   
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">Робототехника и автономные системы</p>
+                      <p сlass="fs-6-5-suut">Правовая защита интеллектуальной собственности	</p>
+                      
                     </div>
-                    <div class="col-12 col-md-6 col-lg-6">
-                      <p сlass="fs-6-5-suut">Организация профессиональной деятельности</p>
-                      <p сlass="fs-6-5-suut">Комплексное системное проектирование</p>
-
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">Информационная безопасность в ИТ проектах</p>
+                      <p сlass="fs-6-5-suut">Системы искусственного интеллекта</p>
                     </div>
-
+                    <div class="col-12 col-md-6 col-lg-4">
+                      
+                      <p сlass="fs-6-5-suut">Преддипломная практика и подготовка к диплому</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -984,15 +895,16 @@
       <div class="wrapper background-color-gray mx-1 p-2 p-md-4 h-100 d-flex align-items-center">
         <div class="row">
           <div class="col-3 p-0 p-md-2 text-center my-auto">
-            <img src="./img/СиневаPlay.JPG" data-bs-toggle="modal" data-target="#videoModal"
-              data-bs-target="#videoModal" data-theVideo="https://www.youtube.com/embed/hDItRMraexw?si=L4a4pbo3jY-wceQJ"
-              class="" role="button" style="border-radius: 50%; width: 70%" alt="" />
+            <img src="./img/rezepin.jpg" data-bs-toggle="modal" data-target="#videoModal" data-bs-target="#videoModal"
+              data-theVideo="https://www.youtube.com/embed/QD1jQPIPCkQ?si=hGYnrSJVW-5PX9dN" class="" role="button"
+              style="border-radius: 50%; width: 70%" alt="" />
           </div>
           <div class="col-9 my-auto p-0 p-md-2">
-            <p class="fs-6-5-suut m-0 p-0"><b>Синева Полина</b>, студентка 3 курса</p>
+            <p class="fs-6-5-suut m-0 p-0"><b>Резепен Вадим</b>, студент 4 курса</p>
             <p class="fs-6-5-suut m-0">
-              <q class="fst-italic ">Южно-уральский технологический университет, это место где я нахожу вдохновление и
-                возможность развиваться, как профессионал и конечно же, как личность</q>
+              <q class="fst-italic ">Пройдя 4 курса обучения понимаю, что не ошибся с выбором ВУЗа. В Южно-Уральском технологическом университете 
+                отличная технологическая база, позволяющая реализовать себя, как it специалиста.
+              </q>
             </p>
           </div>
         </div>
@@ -1001,15 +913,16 @@
       <div class="wrapper background-color-gray mt-3 mx-1 p-2 p-md-4 h-100 d-flex align-items-center">
         <div class="row">
           <div class="col-3 text-center my-auto p-0 p-md-2">
-            <img src="./img/сердитыхPlay.JPG" data-bs-toggle="modal" data-target="#videoModal"
-              data-bs-target="#videoModal" data-theVideo="https://www.youtube.com/embed/REJhfi_InsQ?si=4WQqTwWPytEZ80pS"
+            <img src="./img/beller.jpg" data-bs-toggle="modal" data-target="#videoModal"
+              data-bs-target="#videoModal" data-theVideo="https://www.youtube.com/embed/FHVwU-1x3vo?si=Qy8Hikx-cJWyR4jQ"
               class="" role="button" style="border-radius: 50%; width: 70%" alt="" />
           </div>
           <div class="col-9 my-auto p-0 p-md-2">
-            <p class="fs-6-5-suut m-0 p-0"><b>Сердитых Данил</b>, студент 3 курса</p>
+            <p class="fs-6-5-suut m-0 p-0"><b>Беллер Александр</b>, студент 4 курса</p>
             <p class="fs-6-5-suut m-0">
-              <q class="fst-italic">Обучаясь на кафедре лингвистики я обрел множество связей, друзей, знакомых и любимых
-                преподавателей. Это дверь в успешное будущее, в котором будут ждать сотни возможностей.</q>
+              <q class="fst-italic">Южно-Уральский технологический университет, предлагает студентам широкий выбор специальностей инженерных и it направлений. 
+                Здесь уделяют особое внимание практической подготовке, что делает выпускников конкурентноспособными на рынке труда.
+              </q>
             </p>
           </div>
         </div>
@@ -1030,42 +943,63 @@
           <div class="col-12 col-md-7 col-lg-8">
             <div class="d-flex wrapper-inner background-color-white px-2 px-lg-2 px-xl-3 py-2 py-xl-3 mb-2">
               <div class="col-4 my-auto">
-                <img src="./img/eag.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
+                <img src="./img/bav.webp" class="p-2" style="border-radius: 50%" width="80%" alt="" />
               </div>
               <div class="col-8 my-auto p-2">
-                <h5>Епифанова Анастасия Геннадьевна</h5>
+                <h5>Блинов Андрей Вячеславович</h5>
                 <p class="fs-8-suut">
-                  Заведующий кафедрой строительства, архитектуры и дизайна, кандидат культурологии, доцент, Член
-                  Межрегиональной общественной организации «Координационный Совет работодателей по подготовке молодых
-                  специалистов для работы в строительной отрасли».
-                  Эксперт всероссийского чемпионатного движенияпо профессиональному мастерству.
-                  Прошла международное повышение квалификации в «The School of journalism in Prague» по курсу
-                  «Journalism and Public Relations»
-
+                  заместитель заведующего кафедрой «Техника и технологии»
+                  Дисциплины: прикладное программирование, проектирование и разработка баз данных
                 </p>
               </div>
             </div>
 
             <div class="d-flex wrapper-inner background-color-white px-2 px-lg-2 px-xl-3 py-2 py-xl-3 mb-2">
               <div class="col-4 my-auto">
-                <img src="./img/haldina.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
+                <img src="./img/zog.webp" class="p-2" style="border-radius: 50%" width="80%" alt="" />
               </div>
               <div class="col-8 my-auto p-2">
-                <h5>Халдина Елена Федоровна</h5>
+                <h5>Завьялов Олег Геннадьевич</h5>
                 <p class="fs-8-suut">
-                  Член Союза Архитекторов РФ
+                  кандидат физико-математических наук; почетный доктор Международной экономики, доцент кафедры "Техника и технологии"
+                  Дисциплины: дискретная математика и математическая логика, высшая математи
                 </p>
               </div>
             </div>
 
             <div class="d-flex wrapper-inner background-color-white px-2 px-lg-2 px-xl-3 py-2 py-xl-3 mb-2">
               <div class="col-4 my-auto">
-                <img src="./img/burov.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
+                <img src="./img/mukhina.webp" class="p-2" style="border-radius: 50%" width="80%" alt="" />
               </div>
               <div class="col-8 my-auto p-2">
-                <h5>Буров Алексей Геннадьевич</h5>
+                <h5>Мухина Юлия Рамильевна</h5>
                 <p class="fs-8-suut">
-                  Директор – главный архитектор проектов ООО «РУСТПРО», Член Союза Архитекторов РФ
+                  кандидат педагогических наук, доцент кафедры "Техника и технологии"
+                  Дисциплины: мультимедиа технологии и компьютерная графика,основы web-технологий
+                </p>
+              </div>
+            </div>
+            <div class="d-flex wrapper-inner background-color-white px-2 px-lg-2 px-xl-3 py-2 py-xl-3 mb-2">
+              <div class="col-4 my-auto">
+                <img src="./img/sia.webp" class="p-2" style="border-radius: 50%" width="80%" alt="" />
+              </div>
+              <div class="col-8 my-auto p-2">
+                <h5>Соловьев Илья Александрович</h5>
+                <p class="fs-8-suut">
+                  технический директор ООО «Институт образовательных технологий» ( IT-компания)
+                  Дисциплины: инфокомунникационные системы и сети, администрирование в информационных системах
+                </p>
+              </div>
+            </div>
+            <div class="d-flex wrapper-inner background-color-white px-2 px-lg-2 px-xl-3 py-2 py-xl-3 mb-2">
+              <div class="col-4 my-auto">
+                <img src="./img/ssn.jpg" class="p-2" style="border-radius: 50%" width="80%" alt="" />
+              </div>
+              <div class="col-8 my-auto p-2">
+                <h5>Сурков Сергей Николаевич</h5>
+                <p class="fs-8-suut">
+                  руководитель направления разработки програмного обеспечения ООО «Институт образовательных технологий» ( IT-компания)
+                  Организация практики студентов
                 </p>
               </div>
             </div>
@@ -1145,24 +1079,29 @@
                 <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
                   type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneFAQ" aria-expanded="false"
                   aria-controls="collapseOneFAQ">
-                  Есть ли перспективы развития архитектурыв России?
+                  Сколько языков программирования я буду знать?
                 </button>
               </h2>
               <div id="collapseOneFAQ" class="accordion-collapse collapse " data-bs-parent="#accordionBlockFAQ">
                 <div class="accordion-body">
-                  <div class="row mx-auto px-4">Развитие архитектуры в России может стать неотъемлемой частью стратегии
-                    по развитию более устойчивых, эффективных и экологичных городов. С большими городами, такими как
-                    Москва, Санкт-Петербург, Челябинск, Россия имеет потенциал привлечь выдающихся архитекторов и
-                    дизайнеров для создания инновационных и уникальных зданий. Ожидается, что развитие архитектуры в
-                    России будет не только фундаментальным, но и востребованным в ближайшие годы. Благодаря активной
-                    поддержке государства и росту интереса общества к архитектуре, можно
-
-                    ожидать появления новых уникальных зданий, городских ансамблей и архитектурных комплексов, способных
-                    конкурировать с лучшими мировыми образцами.</div>
+                  <div class="row mx-auto px-4">Ваш арсенал включит языки, такие как Python, который широко используется в анализе данных и машинном обучении, а также Java, используемый для прикладной разработки. Помимо этого, вы также познакомитесь с языками для обработки естественного языка (Natural Language Processing - NLP), что может включать Python и другие специализированные инструменты.</div>
                 </div>
               </div>
             </div>
-           
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
+                  type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoFAQ" aria-expanded="false"
+                  aria-controls="collapseTwoFAQ">
+                  Какие фреймворки я изучу?
+                </button>
+              </h2>
+              <div id="collapseTwoFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
+                <div class="accordion-body">
+                  <div class="row mx-auto px-4">В рамках программы вы изучите не только языки программирования, но и различные фреймворки, необходимые для работы с данными и создания приложений. Некоторые из фреймворков, которые могут быть включены в ваш курс, включают TensorFlow и PyTorch для глубокого обучения и машинного обучения, а также различные библиотеки Python для анализа данных, такие как Pandas и NumPy. Кроме того, вы можете изучить фреймворки для веб-разработки, такие как Django или Flask на языке Python, или Spring для Java.</div>
+                </div>
+              </div>
+            </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
@@ -1174,20 +1113,25 @@
               <div id="collapseThreeFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
                 <div class="accordion-body">
                   <div class="row mx-auto px-4">
-                    Образовательный процесс в университете ориентирован на современную архитектурную практику и
-                    требования рынка труда. Руководство университета уделяет большое внимание развитию практических
-                    навыков студентов, а также их позиционированию в профессиональном сообществе. Учебный план
-                    университета включает длительные производственные практики, во время которых обучающиеся проектируют
-                    реальные объекты или участвуют в международных архитектурных конкурсах. Все практические занятия
-                    проходят под руководством опытных архитекторов в рамках сотрудничества с архитектурными бюро
-                    Челябинска. Главная ценность практики состоит в том, что во время реального проектирования студенты
-                    проявляют инициативу, раскрывают свой творческий потенциал и несут ответственность за свои решения.
-                    Эти навыки станут основой успешной архитектурной деятельности наших выпускников.ы
+                    Практика включает в себя широкий спектр деятельности, начиная от разработки приложений и алгоритмов машинного обучения до работы с базами данных и защиты информации. Вы также будете участвовать в проектах, связанных с искусственным интеллектом, робототехникой и автономными системами. Практические занятия будут проводиться в специализированных лабораториях, где вы сможете применить полученные знания на практике с использованием современного оборудования и программного обеспечения.
                   </div>
                 </div>
               </div>
             </div>
-            
+            <!-- <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
+                  type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourFAQ" aria-expanded="false"
+                  aria-controls="collapseFourFAQ">
+                  Как я смогу получить два диплома за 4 года?
+                </button>
+              </h2>
+              <div id="collapseFourFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
+                <div class="accordion-body">
+                  <div class="row mx-auto px-4">??????</div>
+                </div>
+              </div>
+            </div> -->
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
@@ -1198,11 +1142,7 @@
               </h2>
               <div id="collapseFiveFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
                 <div class="accordion-body">
-                  <div class="row mx-auto px-4">
-                    <p>С подробными правилами оформления образовательного кредита вы можете ознакомиться по <a
-                        href="https://www.inueco.ru/files/abiturientu/kak_oformit_kredit_3_procenta.pdf"
-                        target="_blank">ссылке</a></p>
-                  </div>
+                  <div class="row mx-auto px-4"><p>С подробными правилами оформления образовательного кредита вы можете ознакомиться по <a href="https://www.inueco.ru/files/abiturientu/kak_oformit_kredit_3_procenta.pdf" target="_blank">ссылке</a></p></div>
                 </div>
               </div>
             </div>
@@ -1217,11 +1157,7 @@
               </h2>
               <div id="collapseSixFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
                 <div class="accordion-body">
-                  <div class="row mx-auto px-4">
-                    <p>С подробными правилами получения налогового вычета вы можете ознакомиться по <a
-                        href="https://www.inueco.ru/files/abiturientu/kak_poluchit_nalogoviu_vyichet.pdf"
-                        target="_blank">ссылке</a> </p>
-                  </div>
+                  <div class="row mx-auto px-4"><p>С подробными правилами получения налогового вычета вы можете ознакомиться по <a href="https://www.inueco.ru/files/abiturientu/kak_poluchit_nalogoviu_vyichet.pdf" target="_blank">ссылке</a> </p></div>
                 </div>
               </div>
             </div>
@@ -1244,15 +1180,15 @@
             </div>
             <div class="p-4">
               <p class="m-0 fw-bold fs-1-suut">
-                114 200<span class="fw-bold fs-5">р/год</span>
+                115 000<span class="fw-bold fs-5">р/год</span>
               </p>
               <p class="m-0 fw-bold fs-3 text-dark-suut fs-5">очное обучение</p>
             </div>
             <div class="p-4">
               <p class="m-0 fw-bold fs-1-suut">
-                58 000<span class="fw-bold fs-5">р/год</span>
+                55 000 <span class="fw-bold fs-5">р/год</span>
               </p>
-              <p class="m-0 fw-bold fs-3 text-dark-suut fs-5">очно-заочное обучение</p>
+              <p class="m-0 fw-bold fs-3 text-dark-suut fs-5">заочное обучение</p>
             </div>
           </div>
           <div class="row p-0 mx-auto col-12 col-md-7">
@@ -1301,16 +1237,14 @@
               <img src="./img/icons8-галочка-480.png" width="48" alt="Форма отправлена">
               <p class="fs-6-5-suut text-medium-suut">Наши специалисты скоро с вами свяжутся</p>
             </div>
-            <form action="https://api-abtr.science174.ru/feedback" method="post" class="d-flex row"
-              id="bottomFormFeedBack">
-              <input type="text" class="fs-6-5-suut form-control my-2 from-control-input-suut " name="username"
-                id="nameControl" placeholder="Имя" />
-              <input type="tel" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="phone"
-                id="phoneControl" placeholder="Телефон" />
-              <input type="email" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="email"
-                id="emailControl" placeholder="Электронная почта" />
-              <input type="hidden" name="specialization"
-                value="07.03.01 Архитектура (бакалавриат), Архитектура зданий и средовых комплексов">
+            <form action="https://api-abtr.science174.ru/feedback" method="post" class="d-flex row" id="bottomFormFeedBack">
+              <input type="text" class="fs-6-5-suut form-control my-2 from-control-input-suut " name="username" id="nameControl"
+                placeholder="Имя" />
+              <input type="tel" class="fs-6-5-suut form-control my-2 from-control-input-suut"  name="phone" id="phoneControl"
+                placeholder="Телефон" />
+              <input type="email" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="email" id="emailControl"
+                placeholder="Электронная почта" />
+              <input type="hidden" name="specialization" value="ИТ, бакалавриат, Системы и технологии искуственного интелекта">
               <button class="btn btn-primary-suut fs-6-5-suut text-transform-uppercase">
                 Отправить заявку
               </button>
@@ -1323,7 +1257,9 @@
       </div>
     </div>
   </section>
-
+  <?php
+    include("../includes/footer.inc.php");
+  ?>  
   <script src="./js/main.js"></script>
   <script src="./js/bootstrap.bundle.min.js.map"></script>
   <script src="./js/bootstrap.bundle.min.js"></script>

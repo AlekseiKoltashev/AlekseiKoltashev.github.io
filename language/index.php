@@ -2,15 +2,8 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-  <link rel="stylesheet" href="./css/bootstrap.min.css" />
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="stylesheet" href="./css/media-style.css" />
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-  <title>Абитуриенту ЮУТУ</title>
+  <?php include_once("../includes/meta.inc.php") ?>
+  <title>Абитуриенту ЮУТУ - Лингвистика</title>
 </head>
 
 <body>
@@ -31,84 +24,32 @@
     </div>
   </div>
 
-  <header>
-    <nav class="navbar navbar-expand-lg bg-white">
-      <div class="container">
-        <a class="navbar-brand" href="https://inueco.ru">
-          <img src="./img/logo.webp" alt="Logo" class="d-inline-block align-text-top" />
-        </a>
-        <div class="d-flex d-lg-none contact-block-wrapper align-items-center">
-          <ul class="list-inline contact-block text-dark-suut">
-            <li class="fs-7-suut list-inline-item contact-block-item">
-              <a class="icon-link align-middle" target="_blank" href="https://vk.com/inuecochel">
-                <img src="./img/vk.png" style="max-height: 30px" alt="" />
-              </a>
-            </li>
+   <!-- HEADER -->
+   <?php include_once("../includes/header-body.inc.php");?>
 
-            <li class="fs-7-suut list-inline-item contact-block-item text-medium-suut text-transform-uppercase">
-              <a href="tel:+73512144111"
-                class="nav-link fs-7-suut contact-block-item text-dark-suut text-medium-suut text-transform-uppercase">+7
-                (351) 214-41-11</a>
-            </li>
-          </ul>
-        </div>
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon border-0"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center me-3" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item border-bottom-animation">
-              <a class="nav-link fs-7-suut text-dark-suut text-medium-suut text-transform-uppercase"
-                href="https://www.inueco.ru/abiturientu/speczialnosti_i_napravleniya_podgotovki/"
-                target="_blank">Абитуриенту</a>
-            </li>
-            <li class="nav-item border-bottom-animation">
-              <a class="nav-link fs-7-suut text-dark-suut text-medium-suut text-transform-uppercase"
-                href="https://www.inueco.ru/abiturientu/speczialnosti_i_napravleniya_podgotovki/">Направления подготовки</a>
-            </li>
-          </ul>
-        </div>
-        <div class="d-none d-lg-flex contact-block-wrapper align-items-center">
-          <ul class="list-inline contact-block text-dark-suut">
-            <li class="fs-7-suut list-inline-item contact-block-item align-middle">
-              <a class="icon-link align-middle" target="_blank" href="https://vk.com/inuecochel">
-                <img src="./img/vk.png" style="max-height: 30px" alt="" />
-              </a>
-            </li>
-            <!-- <li class="fs-7-suut list-inline-item contact-block-item">TG</li> -->
-            <li class="fs-7-suut list-inline-item contact-block-item text-medium-suut text-transform-uppercase">
-              <a href="tel:+73512144111"
-                class="nav-link fs-7-suut contact-block-item text-dark-suut text-medium-suut text-transform-uppercase">+7
-                (351) 214-41-11</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
+<!-- WELCOME BLOCK -->
   <section>
     <div class="container">
       <div class="mx-1 wrapper-specialization-info background-color-gray row px-3 pt-3 pb-1">
         <div class="col-12 row specialization-information m-lg-3">
-          <div class="col-12">
+          <div class="col-10">
             <p class="fs-8-suut text-medium-suut text-transform-uppercase label-specialization m-0">
-              38.03.02 Менеджмент (бакалавриат)
+              45.03.02 Лингвистика (бакалавриат)
             </p>
           </div>
           <div class="col-7 mt-md-2">
             <p class="fs-1-suut fw-bold text-transform-uppercase line-height-small py-0 m-0">
-              Менеджмент <br />
-              организации
+              Международная <br />
+              коммуникация <br />
+              и перевод
             </p>
           </div>
 
           <div class="col-10 col-md-8 col-lg-6 mt-md-4">
             <p class="fs-7-suut text-medium-suut m-0">
-              Присоединяйтесь к программе и откройте для себя мир
-              стратегического планирования, оптимизации процессов и лидерства.
-              Получите навыки, необходимые для успешного руководства командой,
-              развития бизнеса и достижения поставленных целей.
+              Погрузись в мир, где каждый язык открывает дверь в новую
+              реальность, каждое слово ведет к неведомым горизонтам. Открой
+              для себя силу слов и стань мастером межкультурной коммуникации.
             </p>
           </div>
           <div class="col-9 mb-2 mt-md-4">
@@ -133,33 +74,34 @@
         <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
           <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
           <p class="m-0 ms-2 align-self-center fs-6-5-suut">
-            <span class="fw-bold"> Два диплома за четыре года </span>
+            <span class="fw-bold">Два диплома при окончании обучения</span>
             <br />
-            бакалавр/ + специалист в области английского языка
+            Лингвист/переводчик + специалист в области английского языка для
+            детей дошкольного возраста
           </p>
         </div>
         <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
           <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
           <p class="m-0 ms-2 align-self-center fs-6-5-suut">
-            <span class="fw-bold">Методы погружения в профессиональную среду</span>
+            <span class="fw-bold">Метод погружения в языковую среду</span>
             <br />
-            экскурсии на предприятия и организации, связанные с управлением
-            предприятиями, использование возможностей иностранного языка для
-            расширения профессиональных компетенций
+            Вы не просто учите грамматику и словарный запас, вы погружаетесь в
+            культуру, начинаете мыслить и чувствовать на новом языке
           </p>
         </div>
         <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
           <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
           <p class="m-0 ms-2 align-self-center fs-6-5-suut">
-            <span class="fw-bold">Преподаватели – практики,</span> действующие
-            сотрудники предприятий реального сектора экономики
+            <span class="fw-bold">Преподаватели - носители языка</span>
           </p>
         </div>
         <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
           <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
           <p class="m-0 ms-2 align-self-center fs-6-5-suut">
-            <span class="fw-bold">Сотрудничество с действующими предприятиями и государственными
-              органами при прохождении практики</span>
+            <span class="fw-bold">Сотрудничество с передовыми вузами страны</span>
+            <br />
+            при прохождении профессиональной переподготовки или курсов
+            повышения квалификации
           </p>
         </div>
       </div>
@@ -183,7 +125,7 @@
               <div class="col-6">
                 <p id="btnBasisEGE" data-toggle="btnBasis" data-target="#basisEGE" data-targetHide="#basisVU"
                   data-btnHide="#btnBasisVU"
-                  class="m-0 fs-7-suut fw-bold text-decoration-underline text-underline-offset text-transform-uppercase text-dark-suut"
+                  class="m-0 fs-7-suut fw-bold text-decoration-underline text-underline-offset text-transform-uppercase text-dark-suut "
                   role="button">
                   После 11 классов
                 </p>
@@ -217,10 +159,10 @@
 
                   <div class="row border-box-buttom-dark-suut my-3">
                     <div class="col-8 col-sm-9 ps-0">
-                      <p class="fs-6-5-suut m-0">Математика</p>
+                      <p class="fs-6-5-suut m-0">Иностранный язык</p>
                     </div>
                     <div class="col-4 col-sm-3 pe-0">
-                      <p class="fs-6-5-suut m-0 text-end">27 баллов</p>
+                      <p class="fs-6-5-suut m-0 text-end">22 балла</p>
                     </div>
                   </div>
 
@@ -241,9 +183,7 @@
                     </div>
                   </div>
                   <div>
-                    <p class="fs-7-suut">
-                      *один из двух предметов по выбору абитуриента
-                    </p>
+                    <p class="fs-7-suut">*один из двух предметов по выбору абитуриента</p>
                   </div>
                 </div>
               </div>
@@ -264,28 +204,26 @@
                       <p class="fs-6-5-suut m-0 text-end">50 баллов</p>
                     </div>
                   </div>
+
                   <div class="row border-box-buttom-dark-suut my-3">
                     <div class="col-8 col-sm-9 ps-0">
-                      <p class="fs-6-5-suut m-0">Информационные технологии</p>
-                    </div>
-                    <div class="col-4 col-sm-3 pe-0">
-                      <p class="fs-6-5-suut m-0 text-end">50 баллов</p>
-                    </div>
-                  </div>
-                  <div class="row border-box-buttom-dark-suut my-3">
-                    <div class="col-8 col-sm-9 ps-0">
-                      <p class="fs-6-5-suut m-0">нформационные технологии</p>
+                      <p class="fs-6-5-suut m-0">Иностранный язык</p>
                     </div>
                     <div class="col-4 col-sm-3 pe-0">
                       <p class="fs-6-5-suut m-0 text-end">50 баллов</p>
                     </div>
                   </div>
 
+                  <div class="row border-box-buttom-dark-suut my-3">
+                    <div class="col-8 col-sm-9 ps-0">
+                      <p class="fs-6-5-suut m-0">Человек и общество</p>
+                    </div>
+                    <div class="col-4 col-sm-3 pe-0">
+                      <p class="fs-6-5-suut m-0 text-end">50 баллов</p>
+                    </div>
+                  </div>
                   <div>
-                    <p class="fs-7-suut">
-                      вступительные испытания в виде компьютерного
-                      тестирования
-                    </p>
+                    <p class="fs-7-suut">вступительные испытания в виде компьютерного тестирования</p>
                   </div>
                 </div>
               </div>
@@ -326,21 +264,18 @@
             <div class="col-12 col-lg-6 text-center">
               <span class="loader d-none my-5" id="loader_feedback_top"></span>
               <div class="d-none my-5" id="conglaturation_top">
-                <img src="./img/icons8-галочка-480.png" width="48" alt="Форма отправлена" />
-                <p class="fs-6-5-suut text-medium-suut">
-                  Наши специалисты скоро с вами свяжутся
-                </p>
+                <img src="./img/icons8-галочка-480.png" width="48" alt="Форма отправлена">
+                <p class="fs-6-5-suut text-medium-suut">Наши специалисты скоро с вами свяжутся</p>
               </div>
-              <form action="https://api-abtr.science174.ru/feedback" method="post" id="topFormFeedback"
-                class="d-flex row">
-                <input type="text" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="username"
-                  id="nameControl" placeholder="Имя" />
-                <input type="tel" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="phone"
-                  id="phoneControl" placeholder="Телефон" />
-                <input type="email" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="email"
-                  id="emailControl" placeholder="Электронная почта" />
-                <input type="hidden" name="specialization"
-                  value="38.03.02 Менеджмент (бакалавриат), Менеджмент организации" />
+              <form action="https://api-abtr.science174.ru/feedback" method="post" id="topFormFeedback" class="d-flex row">
+                <input type="text" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="username" id="nameControl"
+                  placeholder="Имя" />
+                <input type="tel" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="phone" id="phoneControl"
+                  placeholder="Телефон" />
+                <input type="email" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="email" id="emailControl"
+                  placeholder="Электронная почта" />
+                <input type="hidden" name="specialization" value="Лингвитика, бакалавриат, международные коммуникации и перевод">
+               
                 <button class="btn btn-primary-suut fs-6-5-suut text-transform-uppercase">
                   Отправить заявку
                 </button>
@@ -372,10 +307,8 @@
               </div>
               <div class="col-9">
                 <p class="fs-6-5-suut text-medium-suut m-0">
-                  <b>Интересуетесь управлением организациями </b> в
-                  некоммерческом секторе, государственном управлении или
-                  социальной работе, эта программа предоставляет ключевые
-                  знания и навыки
+                  <b>Хотите путешествовать по миру</b> без языкового барьера,
+                  погружаясь в культуру и этнос посещаемых стран
                 </p>
               </div>
             </div>
@@ -385,10 +318,8 @@
             <div class="wrapper-inner background-color-gray row p-2 p-lg-4 align-items-center h-100 min-height-170">
               <div class="col-9">
                 <p class="fs-6-5-suut text-medium-suut m-0">
-                  <b> Уже работаете в сфере управления или бизнеса</b>,
-                  программа предоставляет возможность дополнительного
-                  профессионального развития и расширения карьерных
-                  возможностей
+                  <b>Искренне увлечены языками, хотите преподавать</b> в
+                  колледже, университете или частном языковом центре
                 </p>
               </div>
               <div class="col-3">
@@ -404,26 +335,10 @@
               </div>
               <div class="col-9">
                 <p class="fs-6-5-suut text-medium-suut m-0">
-                  <b>Вы предприниматель, </b> желающих углубить свои знания в
-                  области управления и развития своего бизнеса
+                  <b>Мечтаете о карьере </b> в переводческой деятельности,
+                  туристической индустрии, журналистике или международных
+                  корпорациях
                 </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-lg-6 py-3 p-2 px-lg-5">
-            <div class="wrapper-inner background-color-gray row p-2 p-lg-4 align-items-center h-100 min-height-170">
-              <div class="col-9">
-                <p class="fs-6-5-suut text-medium-suut m-0">
-                  <b>
-                    Занимаетесь управлением проектами, процессами или
-                    операциями в организации,</b>
-                  программа предлагает специализированные навыки и методы
-                  управления
-                </p>
-              </div>
-              <div class="col-3">
-                <img src="./img/il-web4.webp" class="img-block-programm-for-you" alt="" />
               </div>
             </div>
           </div>
@@ -446,9 +361,7 @@
             <div class="card card-suut h-100" style="width: 100%">
               <img src="./img/stolov.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title" id="notComfortableStudentsCaffe">
-                  Уютное студенческое кафе
-                </h5>
+                <h5 class="card-title" id="notComfortableStudentsCaffe">Уютное студенческое кафе</h5>
                 <p class="card-text text-dark-suut">
                   Где вкусная и доступная еда
                 </p>
@@ -492,10 +405,8 @@
             <div class="card card-suut h-100" style="width: 100%">
               <img src="./img/lingphone.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Индивидуальное рабочее место</h5>
-                <p class="card-text text-dark-suut">
-                  Для каждого студента мощное железо и специализированное ПО
-                </p>
+                <h5 class="card-title">Лингафонная аудитория</h5>
+                <p class="card-text text-dark-suut">Для совершенствования процесса обучения иностранным языкам</p>
               </div>
             </div>
           </div>
@@ -505,9 +416,7 @@
               <img src="./img/cowork.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Зона коворкинга</h5>
-                <p class="card-text text-dark-suut">
-                  Для командной работы, общения или отдыха
-                </p>
+                <p class="card-text text-dark-suut">Для командной работы, общения или отдыха</p>
               </div>
             </div>
           </div>
@@ -533,22 +442,22 @@
         <div class="row">
           <div class="col-6 col-md-3 mb-4">
             <div class="wrapper-inner background-color-gray p-4 h-100 d-flex align-items-center">
-              <img src="./img/akbars.png" style="width: 100%" alt="АК БАРС БАНК" />
+              <img src="./img/урк основная версия.png" style="width: 100%" alt="УРК" />
             </div>
           </div>
           <div class="col-6 col-md-3 mb-4">
             <div class="wrapper-inner background-color-gray p-4 h-100 d-flex d-flex align-items-center">
-              <img src="./img/ural_group.png" style="width: 100%" alt="Урал групп" />
+              <img src="./img/logo2.png" style="width: 100%" alt="ТРАКТОР" />
             </div>
           </div>
           <div class="col-6 col-md-3 mb-4">
             <div class="wrapper-inner background-color-gray p-4 h-100 d-flex d-flex align-items-center">
-              <img src="./img/logo-ariant.svg" style="width: 100%" alt="Группа компаний ариант" />
+              <img src="./img/vidgof.png" style="width: 100%" alt="ВИДГОФ" />
             </div>
           </div>
           <div class="col-6 col-md-3 mb-4">
             <div class="wrapper-inner background-color-gray p-4 h-100 d-flex d-flex align-items-center">
-              <img src="./img/rostelecom.png" style="width: 100%" alt="Ростелеком" />
+              <img src="./img/logo-ariant.svg" style="width: 100%" alt="Ариант" />
             </div>
           </div>
         </div>
@@ -574,7 +483,7 @@
           <div class="mx-1 wrapper background-color-gray px-3 px-lg-4 px-xl-5 py-2 py-xl-4 h-100">
             <div class="row">
               <div class="col-12 text-center">
-                <img src="./img/resume.jpg" class="border-circle" height="200px" alt="Фото в резюме" />
+                <img src="./img/shkal2.jpg" class="border-circle" height="200px" alt="Фото в резюме" />
               </div>
             </div>
             <div class="row mb-2">
@@ -582,12 +491,12 @@
                 <h5 class="text-dark-suut">Зарплата</h5>
                 <div class="wrapper-inner mb-1">
                   <p class="fs-7-suut m-0 p-2 d-inline-block background-color-gray-dark border-suut-12">
-                    Менеджер проекта от 50 тысяч рублей
+                    Уровень владения языка B2 от 60 тысяч рублей
                   </p>
                 </div>
                 <div class="wrapper-inner mb-1">
-                  <p class="fs-7-suut m-0 p-2 pe-5 d-inline-block background-color-gray-dark border-suut-12">
-                    Руководитель отдела от 80 тысяч рублей
+                  <p class="fs-7-suut m-0 p-2 d-inline-block background-color-gray-dark border-suut-12">
+                    Уровень влдаения языка C1/C2 от 80 тысяч рублей
                   </p>
                 </div>
               </div>
@@ -598,63 +507,56 @@
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Применение стратегических и тактических решений
+                    Мастерство перевода на нескольких языках
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Прогнозирование последствий различных действий
+                    Глубокое понимание межкультурной коммуникации
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Эффективно распределять ресурсы, управлять временем,
-                    организовывать работу коллектива
+                    Аналитическое мышление лингвиста
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Эффективно общаться как внутри организации, так и с
-                    внешними стейкхолдерами
+                    Эффективное управление проектами перевода
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Умение поддерживать деловые отношения, вести переговоры,
-                    разрешать конфликты и мотивировать персонал
+                    Критическое мышление и поиск альтернативных решений
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Умение работать с бизнес-аналитикой, финансовыми отчётами,
-                    а также понимание основных экономических и организационных
-                    показателей
+                    Адаптивность и гибкость
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Мотивировать и вдохновлять других, управлять изменениями и
-                    развивать таланты внутри организации
+                    Самоорганизация и самомотивация
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Разрабатывать навыки формулирования, реализации и оценки
-                    стратегий развития организации
+                    Способность находить нестандартные подходы к решению задач
                   </p>
                 </div>
               </div>
@@ -690,126 +592,137 @@
                   <img src="./img/moodle_logo_TM.svg" class="align-middle" width="90px" alt="" />
                   <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
                 </div>
-
-                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/kosultant.png" class="align-middle" width="90px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
-                </div>
-                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/ved-info.png" class="align-middle" width="20px" alt="" />
-                  <p class="d-inline my-0 fs-7-suut align-middle">ВЭД Инфо</p>
-                </div>
-                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/ved-info.png" class="align-middle" width="20px" alt="" />
-                  <p class="d-inline my-0 fs-7-suut align-middle">
-                    ВЭД Декларант
-                  </p>
-                </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-12 col-lg-6 mt-2 mt-lg-0 d-flex flex-column">
+        <div class="col-12 col-lg-6 mt-2 mt-lg-0">
           <div class="col-12">
             <div class="mx-1 wrapper background-color-gray px-3 px-lg-4 px-xl-5 py-3 py-xl-4">
               <h5 class="text-dark-suut">Места работы</h5>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Корпоративные компании
+                  Частные языковые центры
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Малый и средний бизнес
-                </p>
-              </div>
-              <div class="mx-1 mt-2 d-flex align-items-center">
-                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">Стартапы</p>
-              </div>
-              <div class="mx-1 mt-2 d-flex align-items-center">
-                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Стартапы
+                  Переводческие бюро
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Государственные и некоммерческие организации
+                  Рекламные компании
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">Консалтинг</p>
+                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
+                  IT компании
+                </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Отделы маркетинга и рекламы
+                  Школы, колледжи, университеты
+                </p>
+              </div>
+              <div class="mx-1 mt-2 d-flex align-items-center">
+                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
+                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
+                  Туристические компании
+                </p>
+              </div>
+              <div class="mx-1 mt-2 d-flex align-items-center">
+                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
+                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
+                  Гостиничные холдинги
+                </p>
+              </div>
+              <div class="mx-1 mt-2 d-flex align-items-center">
+                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
+                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">Массмедиа</p>
+              </div>
+              <div class="mx-1 mt-2 d-flex align-items-center">
+                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
+                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
+                  Международные агентства по недвижимости
+                </p>
+              </div>
+              <div class="mx-1 mt-2 d-flex align-items-center">
+                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
+                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
+                  Крупные промышленные предприятия
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-12 mt-2 flex-fill">
-            <div class="mx-1 wrapper background-color-gray px-3 px-lg-4 px-xl-5 py-3 py-xl-4 h-100">
+          <div class="col-12 mt-2">
+            <div class="mx-1 wrapper background-color-gray px-3 px-lg-4 px-xl-5 py-3 py-xl-4">
               <h5 class="text-dark-suut">Должности</h5>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Менеджер по проектам
+                  Репетитор, педагог по коррекции речи, лингво коуч
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Менеджер по персоналу
+                  Переводчик или синхронный переводчик
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Менеджер по развитию бизнеса
+                  Менеджер по переводу и локализация рекламных материалов,
+                  разработчик мультиязычного контента, аналитик международных
+                  рынков
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Менеджер по качеству
+                  SEO-специалист на разных языках, SMM менеджер
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Руководитель отдела продаж
+                  Учитель, преподаватель
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Менеджер по маркетингу
+                  Менеджер по туризму, гид-переводчик
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Менеджер по развитию бизнеса
+                  Менеджер по работе с иностранными гостями, Координатор
+                  международных мероприятий и конференций
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Специалист по стратегическому планированию
+                  Копирайтер, редактор
                 </p>
               </div>
-
+              <div class="mx-1 mt-2 d-flex align-items-center">
+                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
+                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">Риелтор</p>
+              </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Преподаватель экономических дисциплин
+                  Менеджер по ВЭД
                 </p>
               </div>
             </div>
@@ -831,7 +744,7 @@
         <div class="row">
           <div class="col-12">
             <a class="m-0 fs-7-suut fw-bold text-decoration-underline text-underline-offset text-transform-uppercase text-dark-suut"
-              href="https://www.inueco.ru/sveden/files/002034.pdf" target="_blank">Скачать учебный план</a>
+              href="https://www.inueco.ru/sveden/files/002074.pdf" target="_blank">Скачать учебный план</a>
           </div>
         </div>
         <div class="row mt-3">
@@ -848,21 +761,18 @@
                 <div class="accordion-body">
                   <div class="row mx-auto px-4">
                     <div class="col-12 col-md-6 col-lg-4">
-                      <p сlass="fs-6-5-suut">Основы менеджмента</p>
                       <p сlass="fs-6-5-suut">Иностранный язык</p>
+                      <p сlass="fs-6-5-suut">Практический курс первого иностранного языка</p>
+
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                      <p сlass="fs-6-5-suut">
-                        Информационные технологии в профессиональной
-                        деятельности
-                      </p>
+                      <p сlass="fs-6-5-suut">Практический курс второго (китайского) иностранного языка</p>
+                      <p сlass="fs-6-5-suut">Введение в профессию. Основы педагогики и психологии</p>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">Информационные технологии в профессиональной деятельности</p>
                       <p сlass="fs-6-5-suut">Персональный менеджмент</p>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                      <p сlass="fs-6-5-suut">
-                        Теория организации и организационное поведение
-                      </p>
-                      <p сlass="fs-6-5-suut">Маркетинг</p>
                     </div>
                   </div>
                 </div>
@@ -879,25 +789,19 @@
               <div id="collapseTwoOP" class="accordion-collapse collapse" data-bs-parent="#accordionBlockOP">
                 <div class="accordion-body">
                   <div class="row mx-auto px-4">
-                    <div class="col-12 col-md-6 col-lg-6">
-                      <p сlass="fs-6-5-suut">Маркетинг</p>
-                      <p сlass="fs-6-5-suut">
-                        Методы принятия управленческих решений
-                      </p>
-                      <p сlass="fs-6-5-suut">
-                        Иностранный язык делового общения
-                      </p>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">Международные бизнес-коммуникации на иностранном языке</p>
+                      <p сlass="fs-6-5-suut">Практический курс первого иностранного языка</p>
+
                     </div>
-                    <div class="col-12 col-md-6 col-lg-6">
-                      <p сlass="fs-6-5-suut">
-                        Управление конкурентоспособностью
-                      </p>
-                      <p сlass="fs-6-5-suut">
-                        Менеджмент продаж и мерчендайзинг
-                      </p>
-                      <p сlass="fs-6-5-suut">
-                        Электронный документооборот в управлении
-                      </p>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">Практический курс второго (китайского) иностранного языка</p>
+                      <p сlass="fs-6-5-suut">История языка и введение в спецфилологию</p>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">Теория перевода</p>
+
                     </div>
                   </div>
                 </div>
@@ -915,22 +819,18 @@
                 <div class="accordion-body">
                   <div class="row mx-auto px-4">
                     <div class="col-12 col-md-6 col-lg-4">
-                      <p сlass="fs-6-5-suut">Логистика</p>
-                      <p сlass="fs-6-5-suut">Стратегический менеджмент</p>
-                      <p сlass="fs-6-5-suut">
-                        Современные маркетинговые коммуникации
-                      </p>
+                      <p сlass="fs-6-5-suut">Стратегии эффективного копирайтинга</p>
+                      <p сlass="fs-6-5-suut">Основы языкознания</p>
+                      <p сlass="fs-6-5-suut">История и география стран первого иностранного языка</p>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                      <p сlass="fs-6-5-suut">Финансовый менеджмент</p>
-                      <p сlass="fs-6-5-suut">
-                        Учет и анализ (финансовый учет, управленческий учет,
-                        финансовый анализ)
-                      </p>
+                      <p сlass="fs-6-5-suut">Теоретическая грамматика</p>
+                      <p сlass="fs-6-5-suut">Практический курс перевода первого иностранного языка</p>
+
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                      <p сlass="fs-6-5-suut">Риск-менеджмент</p>
-                      <p сlass="fs-6-5-suut">Управление стоимостью бизнеса</p>
+                      <p сlass="fs-6-5-suut">Перевод переговоров</p>
+                      <p сlass="fs-6-5-suut">Культура стран первого иностранного языка</p>
                     </div>
                   </div>
                 </div>
@@ -948,26 +848,18 @@
                 <div class="accordion-body">
                   <div class="row mx-auto px-4">
                     <div class="col-12 col-md-6 col-lg-4">
-                      <p сlass="fs-6-5-suut">
-                        Учет и анализ (финансовый учет, управленческий учет,
-                        финансовый анализ)
-                      </p>
-                      <p сlass="fs-6-5-suut">Антикризисное управление</p>
-                      <p сlass="fs-6-5-suut">Проект-менеджмент</p>
+                      <p сlass="fs-6-5-suut">История литературы стран первого иностранного языка</p>
+                      <p сlass="fs-6-5-suut">Стилистика</p>
+                      <p сlass="fs-6-5-suut">Практический курс перевода первого иностранного языка</p>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                      <p сlass="fs-6-5-suut">
-                        Интернет-маркетинг и продвижение
-                      </p>
-                      <p сlass="fs-6-5-suut">Реинжиниринг бизнеса</p>
-                      <p сlass="fs-6-5-suut">Инновационный менеджмент</p>
+                      <p сlass="fs-6-5-suut">Практический курс перевода второго (китайского) иностранного языка</p>
+                      <p сlass="fs-6-5-suut">Технический перевод</p>
+                      <p сlass="fs-6-5-suut">Художественный перевод</p>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                      <p сlass="fs-6-5-suut">Проект-менеджмент</p>
-                      <p сlass="fs-6-5-suut">
-                        Поддержка субъектов малого и среднего
-                        предпринимательства
-                      </p>
+                      <p сlass="fs-6-5-suut">Перевод деловой корреспонденции</p>
+                      <p сlass="fs-6-5-suut">Третий (испанский) иностранный язык</p>
                     </div>
                   </div>
                 </div>
@@ -994,18 +886,15 @@
       <div class="wrapper background-color-gray mx-1 p-2 p-md-4 h-100 d-flex align-items-center">
         <div class="row">
           <div class="col-3 p-0 p-md-2 text-center my-auto">
-            <img src="./img/baranova.webp" data-bs-toggle="modal" data-target="#videoModal" data-bs-target="#videoModal"
-              data-theVideo="https://www.youtube.com/embed/oMqjXKgr__0?si=MxvXdslyfu03g9bT" class="" role="button"
+            <img src="./img/СиневаPlay.JPG" data-bs-toggle="modal" data-target="#videoModal" data-bs-target="#videoModal"
+              data-theVideo="https://www.youtube.com/embed/hDItRMraexw?si=L4a4pbo3jY-wceQJ" class="" role="button"
               style="border-radius: 50%; width: 70%" alt="" />
           </div>
           <div class="col-9 my-auto p-0 p-md-2">
-            <p class="fs-6-5-suut m-0 p-0">
-              <b>Баранова Наталья</b>, студентка 2 курса
-            </p>
+            <p class="fs-6-5-suut m-0 p-0"><b>Синева Полина</b>, студентка 3 курса</p>
             <p class="fs-6-5-suut m-0">
-              <q class="fst-italic">Программа менеджмент поможет стать вам востребованным
-                специалистом, обеспечит вас всеми необходимыми инструментами
-                для достижения целей.</q>
+              <q class="fst-italic ">Южно-уральский технологический университет, это место где я нахожу вдохновление и
+                возможность развиваться, как профессионал и конечно же, как личность</q>
             </p>
           </div>
         </div>
@@ -1014,18 +903,15 @@
       <div class="wrapper background-color-gray mt-3 mx-1 p-2 p-md-4 h-100 d-flex align-items-center">
         <div class="row">
           <div class="col-3 text-center my-auto p-0 p-md-2">
-            <img src="./img/andreeva.webp" data-bs-toggle="modal" data-target="#videoModal" data-bs-target="#videoModal"
-              data-theVideo="https://www.youtube.com/embed/-xaN8qecy98?si=Kuj1x8iJ9-vxQnMY" class="" role="button"
-              style="border-radius: 50%; width: 70%" alt="" />
+            <img src="./img/сердитыхPlay.JPG" data-bs-toggle="modal" data-target="#videoModal"
+              data-bs-target="#videoModal" data-theVideo="https://www.youtube.com/embed/REJhfi_InsQ?si=4WQqTwWPytEZ80pS"
+              class="" role="button" style="border-radius: 50%; width: 70%" alt="" />
           </div>
           <div class="col-9 my-auto p-0 p-md-2">
-            <p class="fs-6-5-suut m-0 p-0">
-              <b>Андреева Софья</b>, студентка 3 курса
-            </p>
+            <p class="fs-6-5-suut m-0 p-0"><b>Сердитых Данил</b>, студент 3 курса</p>
             <p class="fs-6-5-suut m-0">
-              <q class="fst-italic">Мы учимся не только теоретическим аспектам менеджмента, но и
-                активно применяем знания на практике, решая реальные бизнес
-                кейсы.</q>
+              <q class="fst-italic">Обучаясь на кафедре лингвистики я обрел множество связей, друзей, знакомых и любимых
+                преподавателей. Это дверь в успешное будущее, в котором будут ждать сотни возможностей.</q>
             </p>
           </div>
         </div>
@@ -1038,7 +924,7 @@
     <div class="container mt-5">
       <div class="mx-1 wrapper background-color-gray px-3 px-lg-4 px-xl-5 py-4 py-xl-5">
         <div class="row">
-          <div class="col-12 col-md-5 col-lg-4 my-auto">
+          <div class="col-12 col-md-5  col-lg-4 my-auto">
             <p class="fs-1-suut fw-bold text-transform-uppercase">
               Наши преподаватели
             </p>
@@ -1046,57 +932,55 @@
           <div class="col-12 col-md-7 col-lg-8">
             <div class="d-flex wrapper-inner background-color-white px-2 px-lg-2 px-xl-3 py-2 py-xl-3 mb-2">
               <div class="col-4 my-auto">
-                <img src="./img/garipov.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
+                <img src="./img/sea.jpg" class="p-2" style="border-radius: 50%" width="100%" alt="" />
               </div>
               <div class="col-8 my-auto p-2">
-                <h5>Гарипов Роберт Ильизаревич</h5>
+                <h5>Скачкова Екатерина Анатольевна</h5>
                 <p class="fs-8-suut">
-                  зав. Кафедры «Экономика и управление», к.э.н., доцент кафедры «Экономика и управление», председатель
-                  правления ТСН «Энтузиастов 12»
-                  Дисциплины: Основы экономики
-
+                  Заведующий кафедрой лингвистики и гуманитарные дисциплины,
+                  кандидат педагогических наук, доцент прошла международное
+                  повышение квалификации в «International House London» по
+                  программе «Cambridge CELTA – Certificate in Teaching English
+                  to Speakers of Other Languages». CELTA - квалификация в
+                  области преподавания английского языка как второго.
+                  Сертификат CELTA выдается подразделением Кембриджского
+                  университета
                 </p>
               </div>
             </div>
 
             <div class="d-flex wrapper-inner background-color-white px-2 px-lg-2 px-xl-3 py-2 py-xl-3 mb-2">
               <div class="col-4 my-auto">
-                <img src="./img/borisenko.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
+                <img src="./img/YUVK.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
               </div>
               <div class="col-8 my-auto p-2">
-                <h5>Борисенко Яна Михайловна</h5>
+                <h5>Казаченок Юлия Викторовна</h5>
                 <p class="fs-8-suut">
-                  к.э.н., доцент кафедры «Экономика и управление»,
-                  Дисциплины: Менеджмент, Проект-менеджмент, Маркетинг.
-
+                  Доцент кафедры «Лингвистика и гуманитарные дисциплины», кандидат педагогических наук – имеет повышения
+                  квалификации по программам «Педагогика высшей школы. Образовательные технологии в современном вузе»
+                  (2021); «Управление конфликтами в
+                  образовательной организации» (2021), «Jalinga Studio: создание современных образовательных
+                  видеороликов и интерактивных презентационных материалов» (2021), «Технологии работы преподавателя вуза
+                  с обучающимися с инвалидностью и ограниченными возможностями здоровья в условиях инклюзии» (2022).
                 </p>
               </div>
             </div>
 
             <div class="d-flex wrapper-inner background-color-white px-2 px-lg-2 px-xl-3 py-2 py-xl-3 mb-2">
               <div class="col-4 my-auto">
-                <img src="./img/novokshonova.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
+                <img src="./img/div.jpg" class="p-2" style="border-radius: 50%" width="100%" alt="" />
               </div>
               <div class="col-8 my-auto p-2">
-                <h5>Лысенко Юлия Валентиновна</h5>
+                <h5>Денисова Ирина Владимировна</h5>
                 <p class="fs-8-suut">
-                  доктор э.н., профессор, профессор кафедры «Экономика и
-                  управление», финансовый директор ООО «УралЕвро» Дисциплины:
-                  Управление стоимостью бизнеса
-                </p>
-              </div>
-            </div>
-            <div class="d-flex wrapper-inner background-color-white px-2 px-lg-2 px-xl-3 py-2 py-xl-3 mb-2">
-              <div class="col-4 my-auto">
-                <img src="./img/paseshnik.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
-              </div>
-              <div class="col-8 my-auto p-2">
-                <h5>Пасешник Наталья Петровна</h5>
-                <p class="fs-8-suut">
-                  к.э.н., доцент кафедры «Экономика и управление»,
-                  Дисциплины: Методы принятия управленческих решений, Менеджмент продаж и мерчендайзинг, Теория
-                  организации и организационное поведение
-
+                  Кандидат филологических наук, доцент, относится к числу руководителей и работников организаций,
+                  деятельность которых связана с направленностью (профилем) реализуемой образовательной программы
+                  Прошла курсы повышения квалификации по программе «Overseas Teachers Refresher Course» (школа «Regent
+                  Language Training» Лондон), «IT в переводе», БФУ имени И. Канта (2023); «Современные педагогические
+                  технологии в образовательном процессе»; «Практическая грамматика английского
+                  языка»; «Обучение младших классов, обучение языку на основе заданий, развитие
+                  учителя и саморефлексии, межкультурная компетентность, обучение деловому языку, преподавание
+                  академического английского языка» - EF International Language Campuses (2024)
                 </p>
               </div>
             </div>
@@ -1176,15 +1060,12 @@
                 <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
                   type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneFAQ" aria-expanded="false"
                   aria-controls="collapseOneFAQ">
-                  Какие дополнительные образовательные программы или курсы
-                  доступны студентам для расширения знаний и навыков в области
-                  менеджмента организации?
+                  Сколько языков я буду знать?
                 </button>
               </h2>
-              <div id="collapseOneFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
+              <div id="collapseOneFAQ" class="accordion-collapse collapse " data-bs-parent="#accordionBlockFAQ">
                 <div class="accordion-body">
-                  <div class="row mx-auto px-4">Курсы по 1С: Предприятие, Работа с нейросетями и все образовательные
-                    программы, реализуемые в нашем Вузе.</div>
+                  <div class="row mx-auto px-4">Три – английский, китайский и испанский.</div>
                 </div>
               </div>
             </div>
@@ -1193,13 +1074,17 @@
                 <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
                   type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoFAQ" aria-expanded="false"
                   aria-controls="collapseTwoFAQ">
-                  Как проходит практика?
+                  Какие нормы языков мы будем изучать?
                 </button>
               </h2>
               <div id="collapseTwoFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
                 <div class="accordion-body">
-                  <div class="row mx-auto px-4">Практика проходит на предприятиях реального сектора экономики по профилю
-                    подготовки.</div>
+                  <div class="row mx-auto px-4">В рамках подготовки по направлению «Лингвистика», одной из изучаемых
+                    норм языка будет Received Pronunciation (RP), также известная как «стандартное произношение» или
+                    «BBC English». Это один из самых узнаваемых и традиционно престижных вариантов произношения
+                    британского английского языка. RP часто используется в обучении как эталонный образец произношения в
+                    Великобритании и других странах, и его изучение дает студентам-лингвистам понимание ключевых
+                    характеристик, которые можно применять для анализа и обучения английскому языку.</div>
                 </div>
               </div>
             </div>
@@ -1208,38 +1093,68 @@
                 <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
                   type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreeFAQ" aria-expanded="false"
                   aria-controls="collapseThreeFAQ">
-                  Есть ли возможность участвовать в студенческих конференциях
-                  или других мероприятиях по обмену знаниями и опытом в
-                  области управления?
+                  Как проходит практика?
                 </button>
               </h2>
               <div id="collapseThreeFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
                 <div class="accordion-body">
-                  <div class="row mx-auto px-4">Да, в Вузе действует студенческое научное общество, которое помогает
-                    студентам участвовать во внутренних и внешних мероприятиях.</div>
+                  <div class="row mx-auto px-4">
+                    <p>Практика проходит в три этапа: учебная, производственная и преддипломная.</p>
+                    <p><b>Учебная</b> практика организуется в Уральском региональном колледже, где студенты университета
+                      принимают активное участие в обучении студентов колледжа иностранным языкам. В ходе этой практики
+                      студенты не только преподают, но и занимаются разработкой учебных материалов, проводят занятия и
+                      воркшопы. Завершается учебная практика написанием отчёта, в котором анализируется опыт работы и
+                      оцениваются полученные навыки.</p>
+                    <p><b>Производственная</b> практика проводится в более динамичной среде, например, в гранд-отеле
+                      «Видгоф». Во время практики на рецепшене студенты взаимодействуют с иностранными гостями,
+                      используя свои языковые навыки в реальных условиях. Они также участвуют в организации и проведении
+                      экскурсионных программ, помогают гостям с решением различных вопросов и проблем, что способствует
+                      развитию профессиональных и коммуникативных навыков.</p>
+                    <p>
+                      <b>Преддипломная</b> практика тесно связана с подготовкой к написанию дипломной работы. Она
+                      организуется таким образом, чтобы место и характер практики соответствовали тематике выпускной
+                      квалификационной работы каждого студента. Это позволяет студентам погрузиться в специфику
+                      исследования, получить необходимые данные и опыт для дипломной работы.
+                    </p>
+                    <p>
+                      Если тема дипломной работы студента затрагивает переводческий аспект, например, изучение методик и
+                      технологий перевода, или анализ сложностей перевода технической документации, студенту будет
+                      рекомендовано пройти производственную практику в переводческом бюро. Там он сможет непосредственно
+                      участвовать в процессах перевода, редактирования и адаптации текстов на различные языки, что
+                      позволит ему набраться необходимого опыта и собрать материалы для своей дипломной работы.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
+                  type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourFAQ" aria-expanded="false"
+                  aria-controls="collapseFourFAQ">
+                  Как я смогу получить два диплома за 4 года?
+                </button>
+              </h2>
+              <div id="collapseFourFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
+                <div class="accordion-body">
+                  <div class="row mx-auto px-4">Первый диплом бакалавра по основной образовательной программе
+                    «Международная коммуникация и перевод» и второй по дополнительной профессиональной программе
+                    переподготовки «English Tutor for Young Learners» (Специалист в области английского языка для детей
+                    дошкольного возраста).</div>
+                </div>
+              </div>
+            </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
                   type="button" data-bs-toggle="collapse" data-bs-target="#collapseFiveFAQ" aria-expanded="false"
                   aria-controls="collapseFiveFAQ">
-                  Как можно оформить образовательный кредит с господдержкой от
-                  3%?
+                  Как можно оформить образовательный кредит с господдержкой от 3%?
                 </button>
               </h2>
               <div id="collapseFiveFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
                 <div class="accordion-body">
-                  <div class="row mx-auto px-4">
-                    <p>
-                      С подробными правилами оформления образовательного
-                      кредита вы можете ознакомиться по
-                      <a href="https://www.inueco.ru/files/abiturientu/kak_oformit_kredit_3_procenta.pdf"
-                        target="_blank">ссылке</a>
-                    </p>
-                  </div>
+                  <div class="row mx-auto px-4"><p>С подробными правилами оформления образовательного кредита вы можете ознакомиться по <a href="https://www.inueco.ru/files/abiturientu/kak_oformit_kredit_3_procenta.pdf" target="_blank">ссылке</a></p></div>
                 </div>
               </div>
             </div>
@@ -1254,14 +1169,7 @@
               </h2>
               <div id="collapseSixFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
                 <div class="accordion-body">
-                  <div class="row mx-auto px-4">
-                    <p>
-                      С подробными правилами получения налогового вычета вы
-                      можете ознакомиться по
-                      <a href="https://www.inueco.ru/files/abiturientu/kak_poluchit_nalogoviu_vyichet.pdf"
-                        target="_blank">ссылке</a>
-                    </p>
-                  </div>
+                  <div class="row mx-auto px-4"><p>С подробными правилами получения налогового вычета вы можете ознакомиться по <a href="https://www.inueco.ru/files/abiturientu/kak_poluchit_nalogoviu_vyichet.pdf" target="_blank">ссылке</a> </p></div>
                 </div>
               </div>
             </div>
@@ -1286,17 +1194,13 @@
               <p class="m-0 fw-bold fs-1-suut">
                 110 000<span class="fw-bold fs-5">р/год</span>
               </p>
-              <p class="m-0 fw-bold fs-3 text-dark-suut fs-5">
-                очное обучение
-              </p>
+              <p class="m-0 fw-bold fs-3 text-dark-suut fs-5">очное обучение</p>
             </div>
             <div class="p-4">
               <p class="m-0 fw-bold fs-1-suut">
-                53 000<span class="fw-bold fs-5">р/год</span>
+                55 000<span class="fw-bold fs-5">р/год</span>
               </p>
-              <p class="m-0 fw-bold fs-3 text-dark-suut fs-5">
-                заочное обучение
-              </p>
+              <p class="m-0 fw-bold fs-3 text-dark-suut fs-5">заочное обучение</p>
             </div>
           </div>
           <div class="row p-0 mx-auto col-12 col-md-7">
@@ -1328,40 +1232,37 @@
   <!-- ФОРМА ОБРАТНОЙ СВЯЗИ -->
   <section>
     <div class="container my-5">
-      <div class="row p-1 mt-3">
+      <div class=" row p-1 mt-3">
         <div class="wrapper-inner background-color-gray-dark row mx-auto align-items-center py-4 px-lg-5">
           <div class="col-12 col-lg-6">
-            <p class="fs-3 fw-bold p-0 m-0">Остались вопросы?</p>
+            <p class="fs-3 fw-bold p-0 m-0">
+              Остались вопросы?
+            </p>
             <p class="fs-6-5-suut p-0 m-0">
-              Эксперты приемной комиссии подробно ответят на все вопросы про
-              поступление и обучение.
+              Эксперты приемной комиссии подробно ответят на все вопросы про поступление и обучение.
             </p>
           </div>
 
           <div class="col-12 col-lg-6 text-center">
             <span class="loader d-none my-5" id="loader_feedback_bottom"></span>
             <div class="d-none my-5" id="conglaturation_bottom">
-              <img src="./img/icons8-галочка-480.png" width="48" alt="Форма отправлена" />
-              <p class="fs-6-5-suut text-medium-suut">
-                Наши специалисты скоро с вами свяжутся
-              </p>
+              <img src="./img/icons8-галочка-480.png" width="48" alt="Форма отправлена">
+              <p class="fs-6-5-suut text-medium-suut">Наши специалисты скоро с вами свяжутся</p>
             </div>
-            <form action="https://api-abtr.science174.ru/feedback" method="post" class="d-flex row"
-              id="bottomFormFeedBack">
-              <input type="text" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="username"
-                id="nameControl" placeholder="Имя" />
-              <input type="tel" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="phone"
-                id="phoneControl" placeholder="Телефон" />
-              <input type="email" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="email"
-                id="emailControl" placeholder="Электронная почта" />
-              <input type="hidden" name="specialization"
-                value="38.03.02 Менеджмент (бакалавриат), Менеджмент организации" />
+            <form action="https://api-abtr.science174.ru/feedback" method="post" class="d-flex row" id="bottomFormFeedBack">
+              <input type="text" class="fs-6-5-suut form-control my-2 from-control-input-suut " name="username" id="nameControl"
+                placeholder="Имя" />
+              <input type="tel" class="fs-6-5-suut form-control my-2 from-control-input-suut"  name="phone" id="phoneControl"
+                placeholder="Телефон" />
+              <input type="email" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="email" id="emailControl"
+                placeholder="Электронная почта" />
+              <input type="hidden" name="specialization" value="Лингвитика, бакалавриат, международные коммуникации и перевод">
+              
               <button class="btn btn-primary-suut fs-6-5-suut text-transform-uppercase">
                 Отправить заявку
               </button>
               <p class="fs-8-suut text-dark-suut"> Отправляя заявку с помощью данной формы, вы соглашаетесь с обработкой своих персональных данных в соответствии с 
-                <a href="https://www.inueco.ru/files/sveden/files/document/zachitaPD.pdf"> положением</a>
-              </p>
+                <a href="https://www.inueco.ru/files/sveden/files/document/zachitaPD.pdf"> положением</a></p>
             </form>
           </div>
         </div>
@@ -1369,6 +1270,50 @@
     </div>
   </section>
 
+
+  <!-- <section class="container-fluid bg-sutu-dark_green">
+    <footer class="container d-flex flex-wrap justify-content-between align-items-center py-3">
+      <div class="col-md-3  align-items-center">
+        <div>
+        <a href="https://inueco.ru/" target="_blank" class="navbar-brand mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <img src="./img/logo_yutu.webp" alt="Южно-уральский технологический университет">
+        </a>
+      </div>
+        
+      </div>
+      <div class="col-md-2 align-self-start">
+        <div>
+          <p class="fw-bold text-white">Телефон call-центра</p>
+          <p class=" text-white">+7 (351) 214-41-11</p>
+        </div>
+      </div>
+      <div class="col-md-3 align-self-start">
+        <div>
+          <p class="fw-bold text-white">Адреса приёма документов</p>
+          <p class=" text-white">г. Челябинск, Комсомольский пр, 113а</p>
+          <p class=" text-white">г. Челябинск, ул. Кожзаводская 1</p>
+          <p class=" text-white">г. Челябинск, ул. Комаровского 9а</p>
+        </div>
+      </div>
+      <div class="col-md-3 align-self-start">
+        <div>
+          <p class="fw-bold text-white">Режим работы</p>
+          <p class=" text-white">Пн - Пт: 8:30 - 17:00</p>
+          <p class=" text-white">Сб: 8:30-17:00</p>
+          <p class=" text-white">Вс: Выходной</p>
+        </div>
+      </div>
+      <ul class="nav col-md-3 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </footer>
+  </section> -->
+
+  <?php
+    include("../includes/footer.inc.php");
+  ?>
   <script src="./js/main.js"></script>
   <script src="./js/bootstrap.bundle.min.js.map"></script>
   <script src="./js/bootstrap.bundle.min.js"></script>

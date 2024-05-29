@@ -188,7 +188,7 @@ html, body{
     color: #000;
 }
 
-.navbar-brand{
+.navbar-brand-animation{
     animation: animShowFromUpAndLeft 1.2s ease-in-out 0s 1 normal forwards;
 }
 
@@ -512,3 +512,7 @@ button.btn-primary-suut:hover{
       transform: rotate(360deg);
     }
   } 
+
+  .bg-sutu-dark_green{
+    background-color: #008690  !important;
+  }

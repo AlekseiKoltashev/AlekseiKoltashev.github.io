@@ -2,15 +2,8 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-  <link rel="stylesheet" href="./css/bootstrap.min.css" />
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="stylesheet" href="./css/media-style.css" />
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-  <title>Абитуриенту ЮУТУ</title>
+<?php include_once("../includes/meta.inc.php") ?>
+  <title>Абитуриенту ЮУТУ - Управление IT-проектами</title>
 </head>
 
 <body>
@@ -31,60 +24,10 @@
     </div>
   </div>
 
-  <header>
-    <nav class="navbar navbar-expand-lg bg-white">
-      <div class="container">
-        <a class="navbar-brand" href="https://inueco.ru">
-          <img src="./img/logo.webp" alt="Logo" class="d-inline-block align-text-top" />
-        </a>
-        <div class="d-flex d-lg-none contact-block-wrapper align-items-center">
-          <ul class="list-inline contact-block text-dark-suut">
-            <li class="fs-7-suut list-inline-item contact-block-item"><a class="icon-link align-middle"
-              target="_blank" href="https://vk.com/inuecochel">
-              <img src="./img/vk.png" style="max-height:30px;" alt="">
-            </a></li>
-            
-            <li class="fs-7-suut list-inline-item contact-block-item text-medium-suut text-transform-uppercase">
-              <a href="tel:+73512144111"
-                class="nav-link fs-7-suut  contact-block-item  text-dark-suut text-medium-suut text-transform-uppercase">+7
-                (351) 214-41-11</a>
-            </li>
-          </ul>
-        </div>
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon border-0"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center me-3" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item border-bottom-animation">
-              <a class="nav-link fs-7-suut text-dark-suut text-medium-suut text-transform-uppercase"
-                href="https://www.inueco.ru/abiturientu/speczialnosti_i_napravleniya_podgotovki/"
-                target="_blank">Абитуриенту</a>
-            </li>
-            <li class="nav-item border-bottom-animation">
-              <a class="nav-link fs-7-suut text-dark-suut text-medium-suut text-transform-uppercase"
-                href="https://www.inueco.ru/abiturientu/speczialnosti_i_napravleniya_podgotovki/" >Направления подготовки</a>
-            </li>
-          </ul>
-        </div>
-        <div class="d-none d-lg-flex contact-block-wrapper align-items-center">
-          <ul class="list-inline contact-block text-dark-suut">
-            <li class="fs-7-suut list-inline-item contact-block-item align-middle"><a class="icon-link align-middle"
-                target="_blank" href="https://vk.com/inuecochel">
-                <img src="./img/vk.png" style="max-height:30px;" alt="">
-              </a></li>
-            <!-- <li class="fs-7-suut list-inline-item contact-block-item">TG</li> -->
-            <li class="fs-7-suut list-inline-item contact-block-item text-medium-suut text-transform-uppercase">
-              <a href="tel:+73512144111"
-                class="nav-link fs-7-suut  contact-block-item  text-dark-suut text-medium-suut text-transform-uppercase">+7
-                (351) 214-41-11</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
+  <!-- HEADER -->
+  <?php include_once("../includes/header-body.inc.php");?>
+
+  <!-- WELCOME BLOCK -->
   <section>
     <div class="container">
       <div class="mx-1 wrapper-specialization-info background-color-gray row px-3 pt-3 pb-1 justify-content-center">
@@ -94,17 +37,16 @@
               09.03.02 Информационные системы и технологии (бакалавриат)
             </p>
           </div>
-          <div class="col-12 mt-md-2">
+          <div class="col-12 mt-1 mt-md-2">
             <p class="fs-1-suut fw-bold text-transform-uppercase line-height-small py-0 m-0">
-              Разработка<br />
-              программных решений<br />
-              для бизнеса
+              Управление<br />
+              IT проектами
             </p>
           </div>
 
-          <div class="col-12 col-sm-8 col-md-7 col-lg-6 mt-md-4">
+          <div class="col-12 col-sm-8 col-md-7 col-lg-6 mt-2 mt-md-4">
             <p class="fs-7-suut text-medium-suut m-0">
-              Присоединяйтесь к нам, чтобы освоить современные методы и инструменты разработки программного обеспечения, обучиться анализу и проектированию информационных систем, а также узнать, как применять их для оптимизации бизнес-процессов и повышения конкурентоспособности компаний
+              Станьте лидером в мире информационных технологий! У нас вы освоите ключевые навыки и методики управления проектами, научитесь эффективно организовывать работу команды, достигать поставленных целей и успешно завершать проекты. Примите вызов и станьте специалистом, востребованным в любой отрасли!
             </p>
           </div>
           <div class="col-12 col-sm-9 mb-2 mt-md-4">
@@ -328,7 +270,7 @@
                   placeholder="Телефон" />
                 <input type="email" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="email" id="emailControl"
                   placeholder="Электронная почта" />
-                <input type="hidden" name="specialization" value="ИТ, бакалавриат, разработка программных решений для бизнеса">
+                <input type="hidden" name="specialization" value="ИТ, бакалавриат, управление IT проектами">
                 <button class="btn btn-primary-suut fs-6-5-suut text-transform-uppercase">
                   Отправить заявку
                 </button>
@@ -360,7 +302,7 @@
               </div>
               <div class="col-9">
                 <p class="fs-6-5-suut text-medium-suut m-0">
-                  <b>Интересуетесь сферой информационных технологий и разработки программного обеспечения</b>
+                  <b>Интересуетесь компьютерными системами и технологиями</b>
                 </p>
               </div>
             </div>
@@ -370,7 +312,7 @@
             <div class="wrapper-inner background-color-gray row p-2 p-lg-4 align-items-center h-100 min-height-170">
               <div class="col-9">
                 <p class="fs-6-5-suut text-medium-suut m-0">
-                  <b>Желаете освоить современные методы и инструменты создания программных продуктов</b>
+                  <b>Желаете освоить методики управления проектами</b>
                 </p>
               </div>
               <div class="col-3">
@@ -386,7 +328,7 @@
               </div>
               <div class="col-9">
                 <p class="fs-6-5-suut text-medium-suut m-0">
-                  <b>Стремитесь к карьере в IT-индустрии,</b>  в том числе в компаниях, которые используют программные решения для оптимизации бизнес-процессов
+                  <b>Стремитесь работать в сфере IT и бизнеса</b> 
                 </p>
               </div>
             </div>
@@ -396,7 +338,7 @@
               
               <div class="col-9">
                 <p class="fs-6-5-suut text-medium-suut m-0">
-                  <b>Готовы учиться анализу и проектированию информационных систем, </b> а также их применению в различных сферах бизнеса и общественной жизни
+                  <b>Хотите развивать карьеру в проектном менеджменте</b>
                 </p>
               </div>
               <div class="col-3">
@@ -553,12 +495,12 @@
                 <h5 class="text-dark-suut">Зарплата</h5>
                 <div class="wrapper-inner mb-1">
                   <p class="fs-7-suut m-0 p-2 d-inline-block background-color-gray-dark border-suut-12">
-                    Junior разработчик ERP-систем от 50 тысяч рублей
+                    ИТ-проектный менеджер от 60 тысяч рублей
                   </p>
                 </div>
                 <div class="wrapper-inner mb-1">
-                  <p class="fs-7-suut m-0 p-2 d-inline-block background-color-gray-dark border-suut-12">
-                    Middle разработчик ERP-систем от 80 тысяч рублей
+                  <p class="fs-7-suut m-0 me-4 p-2 d-inline-block background-color-gray-dark border-suut-12">
+                    Аналитик ИТ-проектов от 80 тысяч рублей
                   </p>
                 </div>
               </div>
@@ -629,7 +571,7 @@
                 </div>
               </div>
             </div>
-            <div class="row mb-2 mt-4">
+            <div class="row mb-2 mt-4" >
               <div class="col-12">
                 <h5 class="text-dark-suut">Владение языками программирования и фреймоврками</h5>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
@@ -771,31 +713,31 @@
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Разработчик программного обеспечения
+                  ИТ-проектный менеджер
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Backend разработчик
+                  Аналитик ИТ-проектов
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Frontend разработки
+                  Специалист по управлению рисками
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Разработчик мобильных приложения для Android и IOS
+                  Консультант по управлению проектами
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Системный аналитик
+                  Специалист по внедрению систем
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
@@ -804,12 +746,7 @@
                   Специалист по автоматизации бизнес-процессов
                 </p>
               </div>
-              <div class="mx-1 mt-2 d-flex align-items-center">
-                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Менеджер проектов
-                </p>
-              </div>
+              
               
             </div>
           </div>
@@ -878,8 +815,8 @@
 
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                      <p сlass="fs-6-5-suut">Корпоративные информационные системы</p>
-                      <p сlass="fs-6-5-suut">Бизнес-процессы и основы организационного управления</p>
+                      <p сlass="fs-6-5-suut">Основы информационной безопасности</p>
+                      <p сlass="fs-6-5-suut">Управление ИТ-проектами</p>
 
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
@@ -903,7 +840,7 @@
                   <div class="row mx-auto px-4">
                     <div class="col-12 col-md-6 col-lg-4">
                       <p сlass="fs-6-5-suut">Администрирование в информационных системах</p>
-                      <p сlass="fs-6-5-suut">Управление ИТ-сервисами и контентом</p>
+                      <p сlass="fs-6-5-suut">Проектное управление в области Big Data и аналитики</p>
                       
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
@@ -913,7 +850,7 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                       <p сlass="fs-6-5-suut">Защита информации и управление доступом к данным</p>
-                      <p сlass="fs-6-5-suut">Основы web-технологий</p>
+                      <p сlass="fs-6-5-suut">Методологии управления проектами</p>
                     </div>
                   </div>
                 </div>
@@ -932,14 +869,15 @@
                   <div class="row mx-auto px-4">
                    
                     <div class="col-12 col-md-6 col-lg-6">
-                      <p сlass="fs-6-5-suut">Управление ИТ-проектами</p>
-                      <p сlass="fs-6-5-suut">Правовая защита интеллектуальной собственности	</p>
-                      
+                      <p сlass="fs-6-5-suut">Управление качеством и тестирование в ИТ</p>
+                      <p сlass="fs-6-5-suut">Правовая защита интеллектуальной собственности</p>
+                      <p сlass="fs-6-5-suut">Системы искусственного интеллекта</p>
                     </div>
                     <div class="col-12 col-md-6 col-lg-6">
-                      <p сlass="fs-6-5-suut">Разработка программного обеспечения для микроконтроллеров	</p>
+                      <p сlass="fs-6-5-suut">Информационная безопасность в ИТ проекта</p>
                       <p сlass="fs-6-5-suut">Преддипломная практика и подготовка к диплому</p>
                     </div>
+                    
                   </div>
                 </div>
               </div>
@@ -1256,7 +1194,7 @@
             </div>
             <div class="p-4">
               <p class="m-0 fw-bold fs-1-suut">
-                53 000<span class="fw-bold fs-5">р/год</span>
+                55 000<span class="fw-bold fs-5">р/год</span>
               </p>
               <p class="m-0 fw-bold fs-3 text-dark-suut fs-5">заочное обучение</p>
             </div>
@@ -1314,7 +1252,7 @@
                 placeholder="Телефон" />
               <input type="email" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="email" id="emailControl"
                 placeholder="Электронная почта" />
-              <input type="hidden" name="specialization" value="ИТ, бакалавриат, разработка программных решений для бизнеса">
+              <input type="hidden" name="specialization" value="ИТ, бакалавриат, управление IT проектами">
               <button class="btn btn-primary-suut fs-6-5-suut text-transform-uppercase">
                 Отправить заявку
               </button>
@@ -1327,7 +1265,9 @@
       </div>
     </div>
   </section>
-
+  <?php
+    include("../includes/footer.inc.php");
+  ?>                 
   <script src="./js/main.js"></script>
   <script src="./js/bootstrap.bundle.min.js.map"></script>
   <script src="./js/bootstrap.bundle.min.js"></script>
