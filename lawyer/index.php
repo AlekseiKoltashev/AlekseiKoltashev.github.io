@@ -75,9 +75,9 @@
         <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
           <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
           <p class="m-0 ms-2 align-self-center fs-6-5-suut">
-            <span class="fw-bold">Два диплома при окончании обучения</span>
+            <span class="fw-bold">Два диплома после окончании обучения</span>
             <br />
-            бакалавр юриспруденции + специалист в области английского
+            бакалавр юриспруденции + специалист в области английского языка
           </p>
         </div>
         <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
