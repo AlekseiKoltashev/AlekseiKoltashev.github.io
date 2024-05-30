@@ -48,7 +48,7 @@
             <p class="fs-7-suut text-medium-suut m-0">
               Погрузитесь в увлекательный мир права, изучите его тонкости и
               принципы, освойте навыки анализа и решения правовых
-              вопросов.Подготовьтесь к захватывающей и значимой карьере в
+              вопросов. Подготовьтесь к захватывающей и значимой карьере в
               юриспруденции, где ваша компетенция и влияние могут стать
               основой для справедливости и правопорядка в обществе.
             </p>
@@ -583,38 +583,22 @@
             <div class="row mb-2">
               <div class="col-12">
                 <h5 class="text-dark-suut">Владение технологиями</h5>
-                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/figma.png" class="align-middle" width="25px" alt="" />
-                  <p class="d-inline my-0 fs-7-suut align-middle">Figma</p>
-                </div>
-                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/myquiz.svg" class="align-middle" width="80px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
-                </div>
+                
+                
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
                   <img src="./img/gigacha.png" class="align-middle" width="20px" alt="" />
                   <p class="d-inline my-0 fs-7-suut align-middle">GigaChat</p>
                 </div>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/getlocus.svg" class="align-middle" width="90px" alt="" />
+                  <img src="./img/yaforms.svg" class="align-middle" width="90px" alt="" />
                   <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
                 </div>
-                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/cupcut.png" class="align-middle" width="90px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
-                </div>
+               
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
                   <img src="./img/Jalinga_logo_color.png" class="align-middle" width="90px" alt="" />
                   <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
                 </div>
-                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/moodle_logo_TM.svg" class="align-middle" width="90px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
-                </div>
-                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/garant.svg" class="align-middle" width="90px" style="max-height: 100%" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
-                </div>
+                
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
                   <img src="./img/kosultant.png" class="align-middle" width="90px" alt="" />
                   <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
@@ -741,12 +725,7 @@
                   Нотариус, нотариальный эксперт, помощник нотариуса
                 </p>
               </div>
-              <div class="mx-1 mt-2 d-flex align-items-center">
-                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Преподаватель юридических дисциплин
-                </p>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -981,7 +960,7 @@
                 <h5>Ефименко Евгения Николаевна</h5>
                 <p class="fs-8-suut">
                   И.о. заведующего кафедрой «Юриспруденция», кандидат
-                  юридических наук. Общий стаж работы 15 лет. Дисциплины:
+                  юридических наук. Общий стаж работы 20 лет. Дисциплины:
                   Уголовное право, Криминология, Уголовно-исполнительное
                   право, Исполнительное производство.
                 </p>

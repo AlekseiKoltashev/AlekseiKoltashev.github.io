@@ -27,11 +27,11 @@
             <li class="nav-item border-bottom-animation">
               <a class="nav-link fs-7-suut text-dark-suut text-medium-suut text-transform-uppercase"
                 href="https://www.inueco.ru/abiturientu/speczialnosti_i_napravleniya_podgotovki/"
-                target="_blank">Абитуриенту</a>
+                target="_blank">Специальности</a>
             </li>
             <li class="nav-item border-bottom-animation">
-              <a class="nav-link fs-7-suut text-dark-suut text-medium-suut text-transform-uppercase" href="https://www.inueco.ru/abiturientu/speczialnosti_i_napravleniya_podgotovki/"
-                target="">Направления подготовки</a>
+              <a class="nav-link fs-7-suut text-dark-suut text-medium-suut text-transform-uppercase" href="https://www.inueco.ru/abiturientu/pravila_priyoma_2024/postupaj_prosto_i_byistro"
+                target="_blank">Поступай просто и быстро</a>
             </li>
           </ul>
         </div>

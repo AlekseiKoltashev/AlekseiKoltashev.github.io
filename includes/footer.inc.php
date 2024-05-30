@@ -16,7 +16,7 @@
         <p class=" text-white">+7 (351) 214-41-11</p>
       </div>
     </div>
-    <div class="сol-12  col-md-3 align-self-start mt-2 mt-md-0">
+    <!-- <div class="сol-12  col-md-3 align-self-start mt-2 mt-md-0">
       <div>
         <p class="fw-bold text-white">Адреса приёма документов</p>
         <p class=" text-white">г. Челябинск, Комсомольский пр, 113а</p>
@@ -31,7 +31,7 @@
         <p class=" text-white">Сб: 8:30 - 17:00</p>
         <p class=" text-white">Вс: Выходной</p>
       </div>
-    </div>
+    </div> -->
     </div>
   </footer>
 </section>
