@@ -113,10 +113,9 @@
         <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
           <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
           <p class="m-0 ms-2 align-self-center fs-6-5-suut">
-            <span class="fw-bold">Трендовые материалы для дизайнера</span>
+            <span class="fw-bold">Трендовые материалы для архитектора</span>
             <br />
-            черепа анатомические; муляжи фруктов-овощей, цветов; драпировки; керамика (горшки, вазы); макетные доски и
-            другое
+            черепа анатомические, муляжи фруктов-овощей, цветов, драпировки, керамика (горшки, вазы), макетные доски и другое
           </p>
         </div>
       </div>
@@ -312,7 +311,7 @@
       <div class="mx-1 wrapper px-3 px-lg-4 px-xl-5 py-4 py-xl-5">
         <div class="row">
           <p class="fs-1-suut fw-bold text-transform-uppercase">
-            Эта программа для вас, если вы...
+            Эта программа для вас, если вы ...
           </p>
         </div>
         <div class="row justify-content-center">
@@ -350,7 +349,7 @@
               </div>
               <div class="col-9">
                 <p class="fs-6-5-suut text-medium-suut m-0">
-                  <b>Желаете овладеть программами для проектирования и визуализации зданий такими как 3ds Max, NanoCAD и
+                  <b>Желаете овладеть программами для проектирования и визуализации зданий, такими как 3ds Max, NanoCAD и
                     Revi </b>
 
                 </p>
@@ -505,12 +504,12 @@
                 <h5 class="text-dark-suut">Зарплата</h5>
                 <div class="wrapper-inner mb-1">
                   <p class="fs-7-suut m-0 p-2 d-inline-block background-color-gray-dark border-suut-12">
-                    Архитектор без опыта от 50 тысяч рублей
+                    Архитектор без опыта от 55 тысяч рублей
                   </p>
                 </div>
                 <div class="wrapper-inner mb-1">
-                  <p class="fs-7-suut m-0 p-2 pe-3 d-inline-block background-color-gray-dark border-suut-12">
-                    Архитектор с опытом от 80 тысяч рублей
+                  <p class="fs-7-suut m-0 p-2 pe-5 d-inline-block background-color-gray-dark border-suut-12">
+                    Архитектор с опытом от 90 тысяч рублей
                   </p>
                 </div>
               </div>
@@ -585,33 +584,22 @@
               <div class="col-12">
                 <h5 class="text-dark-suut">Владение технологиями</h5>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/figma.png" class="align-middle" width="25px" alt="" />
-                  <p class="d-inline my-0 fs-7-suut align-middle">Figma</p>
+                  <img src="./img/tilda.png" class="align-middle" width="25px" alt="" />
+                  <p class="d-inline my-0 fs-7-suut align-middle">Tilda</p>
                 </div>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/myquiz.svg" class="align-middle" width="80px" alt="" />
+                  <img src="./img/yaforms.svg" class="align-middle" width="80px" alt="" />
                   <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
                 </div>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/gigacha.png" class="align-middle" width="20px" alt="" />
-                  <p class="d-inline my-0 fs-7-suut align-middle">GigaChat</p>
+                  <img src="./img/adobe_indesign.webp" class="align-middle" width="20px" alt="" />
+                  <p class="d-inline my-0 fs-7-suut align-middle">Adobe InDesign</p>
                 </div>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/getlocus.svg" class="align-middle" width="90px" alt="" />
+                  <img src="./img/SketchUp.png" class="align-middle" width="90px" alt="" />
                   <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
                 </div>
-                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/cupcut.png" class="align-middle" width="90px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
-                </div>
-                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/Jalinga_logo_color.png" class="align-middle" width="90px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
-                </div>
-                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/moodle_logo_TM.svg" class="align-middle" width="90px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
-                </div>
+                
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
                   <img src="./img/Adobe_Illustrator.png" class="align-middle" width="20px" alt="" />
                   <p class="d-inline  my-0   fs-7-suut align-middle">Adobe Illustrator</p>
@@ -624,10 +612,7 @@
                   <img src="./img/CorelDraw.png" class="align-middle" width="90px" alt="" />
                   <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Adobe Photoshop</p> -->
                 </div>
-                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/3dsmax.webp" class="align-middle" width="90px" style="max-height: 100%;" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Adobe Photoshop</p> -->
-                </div>
+                
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
                   <img src="./img/nanocad.webp" class="align-middle" width="90px" style="max-height: 100%;" alt="" />
                   <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Adobe Photoshop</p> -->
@@ -718,12 +703,7 @@
                   Архитектор по реставрации
                 </p>
               </div>
-              <div class="mx-1 mt-2 d-flex align-items-center">
-                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Преподаватель архитектурных дисциплин в ВУЗах и колледжах
-                </p>
-              </div>
+              
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
@@ -952,7 +932,7 @@
             <p class="fs-6-5-suut m-0 p-0"><b>Сердитых Данил</b>, студент 3 курса</p>
             <p class="fs-6-5-suut m-0">
               <q class="fst-italic">Обучаясь на кафедре лингвистики я обрел множество связей, друзей, знакомых и любимых
-                преподавателей. Это дверь в успешное будущее, в котором будут ждать сотни возможностей.</q>
+                преподавателей. Это дверь в успешное будущее, в котором будут ждать сотни возможностей</q>
             </p>
           </div>
         </div>
@@ -1099,7 +1079,6 @@
                     дизайнеров для создания инновационных и уникальных зданий. Ожидается, что развитие архитектуры в
                     России будет не только фундаментальным, но и востребованным в ближайшие годы. Благодаря активной
                     поддержке государства и росту интереса общества к архитектуре, можно
-
                     ожидать появления новых уникальных зданий, городских ансамблей и архитектурных комплексов, способных
                     конкурировать с лучшими мировыми образцами.</div>
                 </div>
@@ -1125,7 +1104,7 @@
                     проходят под руководством опытных архитекторов в рамках сотрудничества с архитектурными бюро
                     Челябинска. Главная ценность практики состоит в том, что во время реального проектирования студенты
                     проявляют инициативу, раскрывают свой творческий потенциал и несут ответственность за свои решения.
-                    Эти навыки станут основой успешной архитектурной деятельности наших выпускников.ы
+                    Эти навыки станут основой успешной архитектурной деятельности наших выпускников.
                   </div>
                 </div>
               </div>
