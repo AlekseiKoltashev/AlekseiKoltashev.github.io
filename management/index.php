@@ -49,7 +49,8 @@
               Присоединяйтесь к программе и откройте для себя мир
               стратегического планирования, оптимизации процессов и лидерства.
               Получите навыки, необходимые для успешного руководства командой,
-              развития бизнеса и достижения поставленных целей.
+              развития бизнеса и достижения поставленных целей. </br>
+              Будь лидером. Будь менеджером. Будь успешным!
             </p>
           </div>
           <div class="col-9 mb-2 mt-md-4">
@@ -76,7 +77,7 @@
           <p class="m-0 ms-2 align-self-center fs-6-5-suut">
             <span class="fw-bold"> Два диплома за четыре года </span>
             <br />
-            бакалавр/ + специалист в области английского языка
+            бакалавр + иностранный язык для профессионального общения
           </p>
         </div>
         <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
@@ -84,23 +85,31 @@
           <p class="m-0 ms-2 align-self-center fs-6-5-suut">
             <span class="fw-bold">Методы погружения в профессиональную среду</span>
             <br />
-            экскурсии на предприятия и организации, связанные с управлением
-            предприятиями, использование возможностей иностранного языка для
-            расширения профессиональных компетенций
+            экскурсии на предприятия и организации, связанные с управлением предприятиями
           </p>
         </div>
         <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
           <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
           <p class="m-0 ms-2 align-self-center fs-6-5-suut">
-            <span class="fw-bold">Преподаватели – практики,</span> действующие
-            сотрудники предприятий реального сектора экономики
+            <span class="fw-bold">Квалифицированный профессорско-преподавательский состав</span>, имеющие ученые степени и ученые звания, с большим опытом работы в бизнесе и академической среде. Преподаватели-практики, действующие сотрудники предприятий реального сектора экономики
           </p>
         </div>
         <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
           <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
           <p class="m-0 ms-2 align-self-center fs-6-5-suut">
-            <span class="fw-bold">Сотрудничество с действующими предприятиями и государственными
-              органами при прохождении практики</span>
+            <span class="fw-bold">Наличие соглашений с ведущими компаниями,</span> что позволяет студентам проходить стажировки и практики, получая реальный опыт работы
+          </p>
+        </div>
+        <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
+          <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
+          <p class="m-0 ms-2 align-self-center fs-6-5-suut">
+            <span class="fw-bold">Активный центр карьеры,</span> который помогает студентам в трудоустройстве
+          </p>
+        </div>
+        <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
+          <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
+          <p class="m-0 ms-2 align-self-center fs-6-5-suut">
+            <span class="fw-bold">Современная программа обучения,</span>регулярно обновляется, чтобы включать последние тенденции и методы в области менеджмента, включая цифровые технологии, устойчивое развитие и глобальные бизнес-практики
           </p>
         </div>
       </div>
@@ -215,7 +224,7 @@
                   </div>
                   <div class="row border-box-buttom-dark-suut my-3">
                     <div class="col-8 col-sm-9 ps-0">
-                      <p class="fs-6-5-suut m-0">нформационные технологии</p>
+                      <p class="fs-6-5-suut m-0">Основы экономики</p>
                     </div>
                     <div class="col-4 col-sm-3 pe-0">
                       <p class="fs-6-5-suut m-0 text-end">50 баллов</p>
@@ -313,10 +322,7 @@
               </div>
               <div class="col-9">
                 <p class="fs-6-5-suut text-medium-suut m-0">
-                  <b>Интересуетесь управлением организациями </b> в
-                  некоммерческом секторе, государственном управлении или
-                  социальной работе, эта программа предоставляет ключевые
-                  знания и навыки
+                  <b> Хотите быть профессионалом в области управления, </b>способным работать в организациях различных форм собственности и направлений деятельности, решать широкий спектр практических задач
                 </p>
               </div>
             </div>
@@ -523,13 +529,16 @@
                 <h5 class="text-dark-suut">Зарплата</h5>
                 <div class="wrapper-inner mb-1">
                   <p class="fs-7-suut m-0 p-2 d-inline-block background-color-gray-dark border-suut-12">
-                    Менеджер проекта от 50 тысяч рублей
+                    Специалист по маркетингу от 57 тысяч рублей
                   </p>
                 </div>
                 <div class="wrapper-inner mb-1">
-                  <p class="fs-7-suut m-0 p-2 pe-5 d-inline-block background-color-gray-dark border-suut-12">
-                    Руководитель отдела от 80 тысяч рублей
+                  <p class="fs-7-suut m-0 p-2 pe-5 d-inline-block background-color-gray-dark border-suut-12" style="width:80%">
+                    Руководитель отдела от 70 тысяч рублей
                   </p>
+                </div>
+                <div>
+                  <p class="fs-8-suut text-dark-suut">Средняя зарплата в Челябинске по данным HeadHunter</p>
                 </div>
               </div>
             </div>
@@ -539,63 +548,68 @@
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Применение стратегических и тактических решений
+                    Планирование, организация, контроль и мониторинг
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Прогнозирование последствий различных действий
+                    Эффективное взаимодействие с коллегами, клиентами и партнерами, умение слушать и выражать свои мысли
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Эффективно распределять ресурсы, управлять временем,
-                    организовывать работу коллектива
+                    Умение представлять информацию в ясной и убедительной форме
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Эффективно общаться как внутри организации, так и с
-                    внешними стейкхолдерами
+                    Способность собирать, анализировать и интерпретировать данные для принятия обоснованных решений. Умение использовать программы для анализа данных (например, Excel, SPSS)
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Умение поддерживать деловые отношения, вести переговоры,
-                    разрешать конфликты и мотивировать персонал
+                    Проведение рыночных исследований, анализировать конкурентов и выявлять потребности клиентов
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Умение работать с бизнес-аналитикой, финансовыми отчётами,
-                    а также понимание основных экономических и организационных
-                    показателей
+                  Принимать взвешенные и своевременные решения в условиях неопределенности
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Мотивировать и вдохновлять других, управлять изменениями и
-                    развивать таланты внутри организации
+                  Использовать IT-инструменты для принятия управленческих решений (1С, БИТРИКС24, MS Excel, SMM, CRM и др.)
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Разрабатывать навыки формулирования, реализации и оценки
-                    стратегий развития организации
+                    Формировать и реализовывать стратегии компании, долгосрочные и краткосрочные цели и задачи
+                  </p>
+                </div>
+                <div class="mx-1 mt-2 d-flex align-items-center">
+                  <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
+                  <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
+                    Анализировать бизнес-процессы, количественные и качественные показатели операционной деятельности компании
+                  </p>
+                </div>
+                <div class="mx-1 mt-2 d-flex align-items-center">
+                  <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
+                  <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
+                    Оценивать риски и надежность бизнес-процессов с учетом потребностей бизнеса
                   </p>
                 </div>
               </div>
@@ -604,48 +618,34 @@
               <div class="col-12">
                 <h5 class="text-dark-suut">Владение технологиями</h5>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/figma.png" class="align-middle" width="25px" alt="" />
-                  <p class="d-inline my-0 fs-7-suut align-middle">Figma</p>
+                  <img src="./img/trello_logo.png" class="align-middle" width="80px" alt="" />
+                  
                 </div>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/myquiz.svg" class="align-middle" width="80px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
+                  <img src="./img/logo_bitrix24.png" class="align-middle" width="80px" alt="" />
+                  
                 </div>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/gigacha.png" class="align-middle" width="20px" alt="" />
-                  <p class="d-inline my-0 fs-7-suut align-middle">GigaChat</p>
+                  <img src="./img/logo1c.png" class="align-middle" width="20px" alt="" />
+                  <p class="d-inline my-0 fs-7-suut align-middle">1C:Предприятие</p>
                 </div>
-                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/getlocus.svg" class="align-middle" width="90px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
-                </div>
-                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/cupcut.png" class="align-middle" width="90px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
-                </div>
+                
+               
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
                   <img src="./img/Jalinga_logo_color.png" class="align-middle" width="90px" alt="" />
                   <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
                 </div>
-                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/moodle_logo_TM.svg" class="align-middle" width="90px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
-                </div>
+               
 
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/kosultant.png" class="align-middle" width="90px" alt="" />
+                  <img src="./img/asana_logo.png" class="align-middle" width="90px" alt="" />
                   <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
                 </div>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/ved-info.png" class="align-middle" width="20px" alt="" />
-                  <p class="d-inline my-0 fs-7-suut align-middle">ВЭД Инфо</p>
+                  <img src="./img/direct.png" class="align-middle" width="20px" alt="" />
+                  <p class="d-inline my-0 fs-7-suut align-middle">Яндекс.Директ</p>
                 </div>
-                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/ved-info.png" class="align-middle" width="20px" alt="" />
-                  <p class="d-inline my-0 fs-7-suut align-middle">
-                    ВЭД Декларант
-                  </p>
-                </div>
+                
               </div>
             </div>
           </div>
@@ -671,12 +671,7 @@
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">Стартапы</p>
               </div>
-              <div class="mx-1 mt-2 d-flex align-items-center">
-                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Стартапы
-                </p>
-              </div>
+              
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
@@ -701,25 +696,25 @@
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Менеджер по проектам
+                  Менеджер по продажам
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Менеджер по персоналу
+                  Менеджер по работе с клиентами
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Менеджер по развитию бизнеса
+                  Проектный менеджер
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Менеджер по качеству
+                  HR-менеджер
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
@@ -731,26 +726,62 @@
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Менеджер по маркетингу
+                  Менеджер по маркетингу (маркетолог)
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Менеджер по развитию бизнеса
+                  Финансовый аналитик
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Специалист по стратегическому планированию
+                Административный менеджер
                 </p>
               </div>
 
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Преподаватель экономических дисциплин
+                Бизнес-консультант
+                </p>
+              </div>
+              <div class="mx-1 mt-2 d-flex align-items-center">
+                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
+                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
+                Консультант по маркетингу
+                </p>
+              </div>
+              <div class="mx-1 mt-2 d-flex align-items-center">
+                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
+                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
+                Логистический менеджер
+                </p>
+              </div>
+              <div class="mx-1 mt-2 d-flex align-items-center">
+                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
+                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
+                Менеджер по закупкам
+                </p>
+              </div>
+              <div class="mx-1 mt-2 d-flex align-items-center">
+                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
+                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
+                Менеджер отеля
+                </p>
+              </div>
+              <div class="mx-1 mt-2 d-flex align-items-center">
+                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
+                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
+                Менеджер туристической компании
+                </p>
+              </div>
+              <div class="mx-1 mt-2 d-flex align-items-center">
+                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
+                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
+                Менеджер по рекламе
                 </p>
               </div>
             </div>
@@ -772,7 +803,7 @@
         <div class="row">
           <div class="col-12">
             <a class="m-0 fs-7-suut fw-bold text-decoration-underline text-underline-offset text-transform-uppercase text-dark-suut"
-              href="https://www.inueco.ru/sveden/files/002034.pdf" target="_blank">Скачать учебный план</a>
+              href="https://www.inueco.ru/sveden/files/002530.pdf" target="_blank">Скачать учебный план</a>
           </div>
         </div>
         <div class="row mt-3">
@@ -946,7 +977,7 @@
             <p class="fs-6-5-suut m-0">
               <q class="fst-italic">Программа менеджмент поможет стать вам востребованным
                 специалистом, обеспечит вас всеми необходимыми инструментами
-                для достижения целей.</q>
+                для достижения целей</q>
             </p>
           </div>
         </div>
@@ -966,7 +997,7 @@
             <p class="fs-6-5-suut m-0">
               <q class="fst-italic">Мы учимся не только теоретическим аспектам менеджмента, но и
                 активно применяем знания на практике, решая реальные бизнес
-                кейсы.</q>
+                кейсы</q>
             </p>
           </div>
         </div>
@@ -1008,7 +1039,7 @@
                 <h5>Борисенко Яна Михайловна</h5>
                 <p class="fs-8-suut">
                   к.э.н., доцент кафедры «Экономика и управление»,
-                  Дисциплины: Менеджмент, Проект-менеджмент, Маркетинг.
+                  Дисциплины: Менеджмент, Проект-менеджмент, Маркетинг
 
                 </p>
               </div>
@@ -1016,7 +1047,7 @@
 
             <div class="d-flex wrapper-inner background-color-white px-2 px-lg-2 px-xl-3 py-2 py-xl-3 mb-2">
               <div class="col-4 my-auto">
-                <img src="./img/novokshonova.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
+                <img src="./img/lisenko.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
               </div>
               <div class="col-8 my-auto p-2">
                 <h5>Лысенко Юлия Валентиновна</h5>
@@ -1125,7 +1156,7 @@
               <div id="collapseOneFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
                 <div class="accordion-body">
                   <div class="row mx-auto px-4">Курсы по 1С: Предприятие, Работа с нейросетями и все образовательные
-                    программы, реализуемые в нашем Вузе.</div>
+                    программы, реализуемые в нашем Вузе</div>
                 </div>
               </div>
             </div>
@@ -1140,7 +1171,7 @@
               <div id="collapseTwoFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
                 <div class="accordion-body">
                   <div class="row mx-auto px-4">Практика проходит на предприятиях реального сектора экономики по профилю
-                    подготовки.</div>
+                    подготовки</div>
                 </div>
               </div>
             </div>
@@ -1157,11 +1188,24 @@
               <div id="collapseThreeFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
                 <div class="accordion-body">
                   <div class="row mx-auto px-4">Да, в Вузе действует студенческое научное общество, которое помогает
-                    студентам участвовать во внутренних и внешних мероприятиях.</div>
+                    студентам участвовать во внутренних и внешних мероприятиях</div>
                 </div>
               </div>
             </div>
-
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
+                  type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourFAQ" aria-expanded="false"
+                  aria-controls="collapseFourFAQ">
+                  Какие проекты в период обучения я буду реализовывать?
+                </button>
+              </h2>
+              <div id="collapseFourFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
+                <div class="accordion-body">
+                  <div class="row mx-auto px-4">Вы будете исследовать способы повышения конкурентоспособности компании и принципы бережливого производства, проводить стратегический анализ внешней и внутренней среды предприятия, научитесь определять возможности и источники риска</div>
+                </div>
+              </div>
+            </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
@@ -1257,7 +1301,7 @@
               <p class="fs-6-5-suut text-dark-suut">
                 Платите только проценты по кредиту в течение всего обучения
                 и 9 месяцев после выпуска. Основную часть сможете выплачивать
-                уже во время работы по новой специальности.
+                уже во время работы по новой специальности
               </p>
             </div>
           </div>
@@ -1275,7 +1319,7 @@
             <p class="fs-3 fw-bold p-0 m-0">Остались вопросы?</p>
             <p class="fs-6-5-suut p-0 m-0">
               Эксперты приемной комиссии подробно ответят на все вопросы про
-              поступление и обучение.
+              поступление и обучение
             </p>
           </div>
 

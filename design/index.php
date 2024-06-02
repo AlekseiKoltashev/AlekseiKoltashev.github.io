@@ -49,7 +49,7 @@
             <p class="fs-7-suut text-medium-suut m-0">
               Хочешь стать мастером мгновенного смысла, опережающим долгое слово быстрой картинкой? Тогда тебе к нам, в
               ЮУТУ, за получением практических дизайн-навыков, развивающих системное, концептуальное мышление и общую
-              визуальную культуру.
+              визуальную культуру
             </p>
           </div>
           <div class="col-9 mb-2 mt-md-4">
@@ -116,8 +116,7 @@
           <p class="m-0 ms-2 align-self-center fs-6-5-suut">
             <span class="fw-bold">Трендовые материалы для дизайнера</span>
             <br />
-            черепа анатомические; муляжи фруктов-овощей, цветов; драпировки; керамика (горшки, вазы); макетные доски и
-            другое
+            черепа анатомические, муляжи фруктов-овощей, цветов, драпировки, керамика (горшки, вазы), макетные доски и другое
           </p>
         </div>
       </div>
@@ -313,7 +312,7 @@
       <div class="mx-1 wrapper px-3 px-lg-4 px-xl-5 py-4 py-xl-5">
         <div class="row">
           <p class="fs-1-suut fw-bold text-transform-uppercase">
-            Эта программа для вас, если вы...
+            Эта программа для вас, если вы ...
           </p>
         </div>
         <div class="row justify-content-center">
@@ -351,7 +350,7 @@
               <div class="col-9">
                 <p class="fs-6-5-suut text-medium-suut m-0">
                   <b>Мечтаете о карьере в IT, </b>
-                  узнать основы UX и веб-дизайна, создавать сайты на Tilda; общаться с заказчиком, разбираться в
+                  узнать основы UX и веб-дизайна, создавать сайты на Tilda, общаться с заказчиком, разбираться в
                   техинческих заданиях и формировании проектной стоимости
                 </p>
               </div>
@@ -521,13 +520,16 @@
                 <h5 class="text-dark-suut">Зарплата</h5>
                 <div class="wrapper-inner mb-1">
                   <p class="fs-7-suut m-0 p-2 d-inline-block background-color-gray-dark border-suut-12">
-                    Графический дизайнер уровня junior от 40 тысяч рублей
+                    Графический дизайнер уровня junior от 57 тысяч рублей
                   </p>
                 </div>
                 <div class="wrapper-inner mb-1">
-                  <p class="fs-7-suut m-0 pe-3 p-2 d-inline-block background-color-gray-dark border-suut-12">
-                    Графический дизайнер уровня middle от 80 тысяч рублей
+                  <p class="fs-7-suut m-0 pe-5 p-2 d-inline-block background-color-gray-dark border-suut-12">
+                    Графический дизайнер уровня middle от 99 тысяч рублей
                   </p>
+                </div>
+                <div>
+                  <p class="fs-8-suut text-dark-suut">Средняя зарплата в Челябинске по данным HeadHunter</p>
                 </div>
               </div>
             </div>
@@ -604,33 +606,22 @@
                   <img src="./img/figma.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline my-0 fs-7-suut align-middle">Figma</p>
                 </div>
+                
+               
+               
+                
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/myquiz.svg" class="align-middle" width="80px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
+                  <img src="./img/tilda.png" class="align-middle" width="25px" alt="" />
+                  <p class="d-inline  my-0   fs-6-5-suut align-middle">Tilda</p>
                 </div>
-                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/gigacha.png" class="align-middle" width="20px" alt="" />
-                  <p class="d-inline my-0 fs-7-suut align-middle">GigaChat</p>
-                </div>
-                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/getlocus.svg" class="align-middle" width="90px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
-                </div>
-                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/cupcut.png" class="align-middle" width="90px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
-                </div>
-                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/Jalinga_logo_color.png" class="align-middle" width="90px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
-                </div>
-                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/moodle_logo_TM.svg" class="align-middle" width="90px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
-                </div>
+               
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
                   <img src="./img/Adobe_Illustrator.png" class="align-middle" width="20px" alt="" />
                   <p class="d-inline  my-0   fs-6-5-suut align-middle">Adobe Illustrator</p>
+                </div>
+                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
+                  <img src="./img/adobe_indesign.webp" class="align-middle" width="20px" alt="" />
+                  <p class="d-inline  my-0   fs-6-5-suut align-middle">Adobe InDesign</p>
                 </div>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
                   <img src="./img/Adobe_Photoshop.png" class="align-middle" width="20px" alt="" />
@@ -912,15 +903,14 @@
       <div class="wrapper background-color-gray mx-1 p-2 p-md-4 h-100 d-flex align-items-center">
         <div class="row">
           <div class="col-3 p-0 p-md-2 text-center my-auto">
-            <img src="./img/СиневаPlay.JPG" data-bs-toggle="modal" data-target="#videoModal"
-              data-bs-target="#videoModal" data-theVideo="https://www.youtube.com/embed/hDItRMraexw?si=L4a4pbo3jY-wceQJ"
+            <img src="./img/asatulina_play.webp" data-bs-toggle="modal" data-target="#videoModal"
+              data-bs-target="#videoModal" data-theVideo="https://www.youtube.com/embed/nzv19LHfZ2c?si=BHo00_wfjvsepWx3"
               class="" role="button" style="border-radius: 50%; width: 70%" alt="" />
           </div>
           <div class="col-9 my-auto p-0 p-md-2">
-            <p class="fs-6-5-suut m-0 p-0"><b>Синева Полина</b>, студентка 3 курса</p>
+            <p class="fs-6-5-suut m-0 p-0"><b>Асатуллина Юлия</b>, студентка 3 курса</p>
             <p class="fs-6-5-suut m-0">
-              <q class="fst-italic ">Южно-уральский технологический университет, это место где я нахожу вдохновление и
-                возможность развиваться, как профессионал и конечно же, как личность</q>
+              <q class="fst-italic ">В университете я обрела много новых друзей. Преподаватели  делятся своим опытом и всегда поддерживают во всех начинаниях</q>
             </p>
           </div>
         </div>
@@ -929,15 +919,14 @@
       <div class="wrapper background-color-gray mt-3 mx-1 p-2 p-md-4 h-100 d-flex align-items-center">
         <div class="row">
           <div class="col-3 text-center my-auto p-0 p-md-2">
-            <img src="./img/сердитыхPlay.JPG" data-bs-toggle="modal" data-target="#videoModal"
-              data-bs-target="#videoModal" data-theVideo="https://www.youtube.com/embed/REJhfi_InsQ?si=4WQqTwWPytEZ80pS"
+            <img src="./img/cherepanov_play.webp" data-bs-toggle="modal" data-target="#videoModal"
+              data-bs-target="#videoModal" data-theVideo="https://www.youtube.com/embed/-LthJYe0x18?si=gfLTGbNQjfFFtrod"
               class="" role="button" style="border-radius: 50%; width: 70%" alt="" />
           </div>
           <div class="col-9 my-auto p-0 p-md-2">
-            <p class="fs-6-5-suut m-0 p-0"><b>Сердитых Данил</b>, студент 3 курса</p>
+            <p class="fs-6-5-suut m-0 p-0"><b>Черепанов Сергей</b>, студент 3 курса</p>
             <p class="fs-6-5-suut m-0">
-              <q class="fst-italic">Обучаясь на кафедре лингвистики я обрел множество связей, друзей, знакомых и любимых
-                преподавателей. Это дверь в успешное будущее, в котором будут ждать сотни возможностей.</q>
+              <q class="fst-italic">Во время обучения помимо графического дизайна затрагиваются и другие виды дизайна например дизайн интерфейсов или дизайн окружающей среды, что дает гибкие возможности при выборе профессии после окончания университета</q>
             </p>
           </div>
         </div>
@@ -958,18 +947,12 @@
           <div class="col-12 col-md-7 col-lg-8">
             <div class="d-flex wrapper-inner background-color-white px-2 px-lg-2 px-xl-3 py-2 py-xl-3 mb-2">
               <div class="col-4 my-auto">
-                <img src="./img/eag.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
+                <img src="./img/savochkina.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
               </div>
               <div class="col-8 my-auto p-2">
-                <h5>Епифанова Анастасия Геннадьевна</h5>
+                <h5>Савочкина Екатерина Эдуардовна</h5>
                 <p class="fs-8-suut">
-                  Заведующий кафедрой строительства, архитектуры и дизайна, кандидат культурологии, доцент, Член
-                  Межрегиональной общественной организации «Координационный Совет работодателей по подготовке молодых
-                  специалистов для работы в строительной отрасли».
-                  Эксперт всероссийского чемпионатного движенияпо профессиональному мастерству.
-                  Прошла международное повышение квалификации в «The School of journalism in Prague» по курсу
-                  «Journalism and Public Relations»
-
+                  Член Союза художников РФ
                 </p>
               </div>
             </div>
@@ -1083,7 +1066,7 @@
                     клиента. Дизайнер, который работает в коммуникационном дизайне, продуктовом дизайне будет цениться
                     всегда и эта ниша полностью останется за человеком. Если дизайнер делал только логотипы, и только
                     вот этот графический значок, не вникая в бизнес-процессы, маркетинг и продукт клиента, то время
-                    таких дизайнеров будет уходить.</div>
+                    таких дизайнеров будет уходить</div>
                 </div>
               </div>
             </div>
@@ -1115,7 +1098,7 @@
                     практик позволяет нашим студентам получить не только образование, но и комплексное видение своей
                     будущей профессии. Работая на практических занятиях в Университете и в профильных компаниях,
                     студенты решают реальные практические задачи, нарабатывают своё портфолио и после выпуска из
-                    Университета имеют конкурентоспособное резюме.
+                    Университета имеют конкурентоспособное резюме
                   </div>
                 </div>
               </div>
@@ -1205,7 +1188,7 @@
               <p class="fs-6-5-suut text-dark-suut">
                 Платите только проценты по кредиту в течение всего обучения
                 и 9 месяцев после выпуска. Основную часть сможете выплачивать
-                уже во время работы по новой специальности.
+                уже во время работы по новой специальности
               </p>
             </div>
           </div>
@@ -1224,7 +1207,7 @@
               Остались вопросы?
             </p>
             <p class="fs-6-5-suut p-0 m-0">
-              Эксперты приемной комиссии подробно ответят на все вопросы про поступление и обучение.
+              Эксперты приемной комиссии подробно ответят на все вопросы про поступление и обучение
             </p>
           </div>
 
