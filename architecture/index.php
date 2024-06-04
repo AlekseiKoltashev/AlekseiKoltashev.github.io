@@ -380,84 +380,7 @@
     </section>
 
     <!-- ЧТОБЫ УЧИТЬСЯ БЫЛО ПРИЯТНЕЕ -->
-    <section>
-        <div class="container mt-5">
-            <div class="mx-1 wrapper background-color-gray px-3 px-lg-4 px-xl-5 py-4 py-xl-5">
-                <div class="row">
-                    <p class="fs-1-suut fw-bold text-transform-uppercase">
-                        Чтобы учиться было приятнее
-                    </p>
-                </div>
-                <div class="row mt-3">
-                    <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
-                        <div class="card card-suut h-100" style="width: 100%">
-                            <img src="./img/stolov.jpg" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title" id="notComfortableStudentsCaffe">Уютное студенческое кафе</h5>
-                                <p class="card-text text-dark-suut">
-                                    Где вкусная и доступная еда
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
-                        <div class="card card-suut h-100" style="width: 100%">
-                            <img src="./img/cafe.jpg" class="card-img-top" id="notCoffeShop" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title" id="notCoffeShopText">Кофешоп</h5>
-                                <p class="card-text text-dark-suut">В каждом из корпусов</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
-                        <div class="card card-suut h-100" style="width: 100%">
-                            <img src="./img/jalinga.jpg" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Студия записи Jalinga</h5>
-                                <p class="card-text text-dark-suut">
-                                    Для эффектных и интерактивных презентаций
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
-                        <div class="card card-suut h-100" style="width: 100%">
-                            <img src="./img/tSxKVfmH9n8.jpg" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Тренажерный зал</h5>
-                                <p class="card-text text-dark-suut">Для всех студентов</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
-                        <div class="card card-suut h-100" style="width: 100%">
-                            <img src="./img/lingphone.jpg" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Индивидуальное рабочее место</h5>
-                                <p class="card-text text-dark-suut">Для каждого студента. <br> С мощным железом и
-                                    профессиональным ПО
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
-                        <div class="card card-suut h-100" style="width: 100%">
-                            <img src="./img/cowork.jpg" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Зона коворкинга</h5>
-                                <p class="card-text text-dark-suut">Для командной работы, общения или отдыха</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include_once("../includes/section-for-funny-edu-common.inc.php") ?>
 
     <!-- ПРАКТИКА СТУДЕНТОВ -->
     <section>
@@ -959,7 +882,7 @@
                         <p class="fs-6-5-suut m-0 p-0"><b>Набиуллина Расина</b>, студентка 2 курса</p>
                         <p class="fs-6-5-suut m-0">
                             <q class="fst-italic ">В Южно-Уральском технологическом университете изучают не только
-                                дизайн зданий, но и влияение архитектуры на окружающую среду, учимся создавать
+                                дизайн зданий, но и влияние архитектуры на окружающую среду, учимся создавать
                                 комфортные и функциональные пространства которые отражают нашу культуру и историю</q>
                         </p>
                     </div>
@@ -983,21 +906,12 @@
                     <div class="col-12 col-md-7 col-lg-8">
                         <div class="d-flex wrapper-inner background-color-white px-2 px-lg-2 px-xl-3 py-2 py-xl-3 mb-2">
                             <div class="col-4 my-auto">
-                                <img src="./img/eag.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
+                                <img src="./img/bsv.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
                             </div>
                             <div class="col-8 my-auto p-2">
-                                <h5>Епифанова Анастасия Геннадьевна</h5>
+                                <h5>Бахарева Светлана Васильевна</h5>
                                 <p class="fs-8-suut">
-                                    Заведующий кафедрой строительства, архитектуры и дизайна, кандидат культурологии,
-                                    доцент, Член
-                                    Межрегиональной общественной организации «Координационный Совет работодателей по
-                                    подготовке молодых
-                                    специалистов для работы в строительной отрасли».
-                                    Эксперт всероссийского чемпионатного движенияпо профессиональному мастерству.
-                                    Прошла международное повышение квалификации в «The School of journalism in Prague»
-                                    по курсу
-                                    «Journalism and Public Relations»
-
+                                    Член Союза художников РФ
                                 </p>
                             </div>
                         </div>

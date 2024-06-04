@@ -109,7 +109,7 @@
         <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
           <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
           <p class="m-0 ms-2 align-self-center fs-6-5-suut">
-            <span class="fw-bold">Современная программа обучения,</span>регулярно обновляется, чтобы включать последние тенденции и методы в области менеджмента, включая цифровые технологии, устойчивое развитие и глобальные бизнес-практики
+            <span class="fw-bold">Современная программа обучения </span>регулярно обновляется, чтобы включать последние тенденции и методы в области менеджмента, включая цифровые технологии, устойчивое развитие и глобальные бизнес-практики
           </p>
         </div>
       </div>
@@ -381,87 +381,83 @@
 
   <!-- ЧТОБЫ УЧИТЬСЯ БЫЛО ПРИЯТНЕЕ -->
   <section>
-    <div class="container mt-5">
-      <div class="mx-1 wrapper background-color-gray px-3 px-lg-4 px-xl-5 py-4 py-xl-5">
-        <div class="row">
-          <p class="fs-1-suut fw-bold text-transform-uppercase">
-            Чтобы учиться было приятнее
-          </p>
+        <div class="container mt-5">
+            <div class="mx-1 wrapper background-color-gray px-3 px-lg-4 px-xl-5 py-4 py-xl-5">
+                <div class="row">
+                    <p class="fs-1-suut fw-bold text-transform-uppercase">
+                        Чтобы учиться было приятнее
+                    </p>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
+                        <div class="card card-suut h-100" style="width: 100%">
+                            <img src="./img/stolov.jpg" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title" id="notComfortableStudentsCaffe">Уютное студенческое кафе</h5>
+                                <p class="card-text text-dark-suut">
+                                    Где вкусная и доступная еда
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
+                        <div class="card card-suut h-100" style="width: 100%">
+                            <img src="./img/cafe.jpg" class="card-img-top" id="notCoffeShop" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title" id="notCoffeShopText">Кофешоп</h5>
+                                <p class="card-text text-dark-suut">В каждом из корпусов</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
+                        <div class="card card-suut h-100" style="width: 100%">
+                            <img src="./img/jalinga.jpg" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title">Студия записи Jalinga</h5>
+                                <p class="card-text text-dark-suut">
+                                    Для эффектных и интерактивных презентаций
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
+                        <div class="card card-suut h-100" style="width: 100%">
+                            <img src="./img/sportzal.webp" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title">Тренажерный зал</h5>
+                                <p class="card-text text-dark-suut">Для всех студентов</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
+                        <div class="card card-suut h-100" style="width: 100%">
+                            <img src="./img/individual_pc.webp" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title">Индивидуальное рабочее место</h5>
+                                <p class="card-text text-dark-suut">С современным аппаратным и программным обеспечением
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
+                        <div class="card card-suut h-100" style="width: 100%">
+                            <img src="./img/coworking.webp" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title">Зона коворкинга</h5>
+                                <p class="card-text text-dark-suut">Для командной работы, общения или отдыха</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row mt-3">
-          <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
-            <div class="card card-suut h-100" style="width: 100%">
-              <img src="./img/stolov.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title" id="notComfortableStudentsCaffe">
-                  Уютное студенческое кафе
-                </h5>
-                <p class="card-text text-dark-suut">
-                  Где вкусная и доступная еда
-                </p>
-              </div>
-            </div>
-          </div>
+    </section>
 
-          <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
-            <div class="card card-suut h-100" style="width: 100%">
-              <img src="./img/cafe.jpg" class="card-img-top" id="notCoffeShop" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title" id="notCoffeShopText">Кофешоп</h5>
-                <p class="card-text text-dark-suut">В каждом из корпусов</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
-            <div class="card card-suut h-100" style="width: 100%">
-              <img src="./img/jalinga.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Студия записи Jalinga</h5>
-                <p class="card-text text-dark-suut">
-                  Для эффектных и интерактивных презентаций
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
-            <div class="card card-suut h-100" style="width: 100%">
-              <img src="./img/tSxKVfmH9n8.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Тренажерный зал</h5>
-                <p class="card-text text-dark-suut">Для всех студентов</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
-            <div class="card card-suut h-100" style="width: 100%">
-              <img src="./img/lingphone.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Индивидуальное рабочее место</h5>
-                <p class="card-text text-dark-suut">
-                  Для каждого студента мощное железо и специализированное ПО
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
-            <div class="card card-suut h-100" style="width: 100%">
-              <img src="./img/cowork.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Зона коворкинга</h5>
-                <p class="card-text text-dark-suut">
-                  Для командной работы, общения или отдыха
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- ПРАКТИКА СТУДЕНТОВ -->
   <section>
@@ -1023,7 +1019,7 @@
               <div class="col-8 my-auto p-2">
                 <h5>Гарипов Роберт Ильизаревич</h5>
                 <p class="fs-8-suut">
-                  зав. Кафедры «Экономика и управление», к.э.н., доцент кафедры «Экономика и управление», председатель
+                  зав. кафедры «Экономика и управление», к.э.н., доцент кафедры «Экономика и управление», председатель
                   правления ТСН «Энтузиастов 12»
                   Дисциплины: Основы экономики
 

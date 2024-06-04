@@ -49,7 +49,7 @@
             <p class="fs-7-suut text-medium-suut m-0">
               Погрузись в мир, где каждый язык открывает дверь в новую
               реальность, каждое слово ведет к неведомым горизонтам. Открой
-              для себя силу слов и стань мастером межкультурной коммуникации.
+              для себя силу слов и стань мастером межкультурной коммуникации
             </p>
           </div>
           <div class="col-9 mb-2 mt-md-4">
@@ -74,7 +74,7 @@
         <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
           <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
           <p class="m-0 ms-2 align-self-center fs-6-5-suut">
-            <span class="fw-bold">Два диплома после окончании обучения</span>
+            <span class="fw-bold">Два диплома после окончания обучения</span>
             <br />
             Лингвист/переводчик + специалист в области английского языка для
             детей дошкольного возраста
@@ -744,7 +744,7 @@
         <div class="row">
           <div class="col-12">
             <a class="m-0 fs-7-suut fw-bold text-decoration-underline text-underline-offset text-transform-uppercase text-dark-suut"
-              href="https://www.inueco.ru/sveden/files/002074.pdf" target="_blank">Скачать учебный план</a>
+              href="https://www.inueco.ru/sveden/files/002559.pdf" target="_blank">Скачать учебный план</a>
           </div>
         </div>
         <div class="row mt-3">
@@ -911,7 +911,7 @@
             <p class="fs-6-5-suut m-0 p-0"><b>Сердитых Данил</b>, студент 3 курса</p>
             <p class="fs-6-5-suut m-0">
               <q class="fst-italic">Обучаясь на кафедре лингвистики я обрел множество связей, друзей, знакомых и любимых
-                преподавателей. Это дверь в успешное будущее, в котором будут ждать сотни возможностей.</q>
+                преподавателей. Это дверь в успешное будущее, в котором будут ждать сотни возможностей</q>
             </p>
           </div>
         </div>
@@ -961,14 +961,14 @@
                   (2021); «Управление конфликтами в
                   образовательной организации» (2021), «Jalinga Studio: создание современных образовательных
                   видеороликов и интерактивных презентационных материалов» (2021), «Технологии работы преподавателя вуза
-                  с обучающимися с инвалидностью и ограниченными возможностями здоровья в условиях инклюзии» (2022).
+                  с обучающимися с инвалидностью и ограниченными возможностями здоровья в условиях инклюзии» (2022)
                 </p>
               </div>
             </div>
 
             <div class="d-flex wrapper-inner background-color-white px-2 px-lg-2 px-xl-3 py-2 py-xl-3 mb-2">
               <div class="col-4 my-auto">
-                <img src="./img/div.jpg" class="p-2" style="border-radius: 50%" width="100%" alt="" />
+                <img src="./img/div.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
               </div>
               <div class="col-8 my-auto p-2">
                 <h5>Денисова Ирина Владимировна</h5>
@@ -1154,7 +1154,7 @@
               </h2>
               <div id="collapseFiveFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
                 <div class="accordion-body">
-                  <div class="row mx-auto px-4"><p>С подробными правилами оформления образовательного кредита вы можете ознакомиться по <a href="https://www.inueco.ru/files/abiturientu/kak_oformit_kredit_3_procenta.pdf" target="_blank">ссылке</a></p></div>
+                  <div class="row mx-auto px-4"><p>С подробными правилами оформления образовательного кредита вы можете ознакомиться по <a href="https://www.inueco.ru/files/abiturientu/kak_oformit_kredit_3_procenta.pdf" target="_blank">ссылке.</a></p></div>
                 </div>
               </div>
             </div>
@@ -1169,7 +1169,7 @@
               </h2>
               <div id="collapseSixFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
                 <div class="accordion-body">
-                  <div class="row mx-auto px-4"><p>С подробными правилами получения налогового вычета вы можете ознакомиться по <a href="https://www.inueco.ru/files/abiturientu/kak_poluchit_nalogoviu_vyichet.pdf" target="_blank">ссылке</a> </p></div>
+                  <div class="row mx-auto px-4"><p>С подробными правилами получения налогового вычета вы можете ознакомиться по <a href="https://www.inueco.ru/files/abiturientu/kak_poluchit_nalogoviu_vyichet.pdf" target="_blank">ссылке.</a> </p></div>
                 </div>
               </div>
             </div>
@@ -1220,7 +1220,7 @@
               <p class="fs-6-5-suut text-dark-suut">
                 Платите только проценты по кредиту в течение всего обучения
                 и 9 месяцев после выпуска. Основную часть сможете выплачивать
-                уже во время работы по новой специальности.
+                уже во время работы по новой специальности
               </p>
             </div>
           </div>
@@ -1239,7 +1239,7 @@
               Остались вопросы?
             </p>
             <p class="fs-6-5-suut p-0 m-0">
-              Эксперты приемной комиссии подробно ответят на все вопросы про поступление и обучение.
+              Эксперты приемной комиссии подробно ответят на все вопросы про поступление и обучение
             </p>
           </div>
 
@@ -1271,45 +1271,6 @@
   </section>
 
 
-  <!-- <section class="container-fluid bg-sutu-dark_green">
-    <footer class="container d-flex flex-wrap justify-content-between align-items-center py-3">
-      <div class="col-md-3  align-items-center">
-        <div>
-        <a href="https://inueco.ru/" target="_blank" class="navbar-brand mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-          <img src="./img/logo_yutu.webp" alt="Южно-уральский технологический университет">
-        </a>
-      </div>
-        
-      </div>
-      <div class="col-md-2 align-self-start">
-        <div>
-          <p class="fw-bold text-white">Телефон call-центра</p>
-          <p class=" text-white">+7 (351) 214-41-11</p>
-        </div>
-      </div>
-      <div class="col-md-3 align-self-start">
-        <div>
-          <p class="fw-bold text-white">Адреса приёма документов</p>
-          <p class=" text-white">г. Челябинск, Комсомольский пр, 113а</p>
-          <p class=" text-white">г. Челябинск, ул. Кожзаводская 1</p>
-          <p class=" text-white">г. Челябинск, ул. Комаровского 9а</p>
-        </div>
-      </div>
-      <div class="col-md-3 align-self-start">
-        <div>
-          <p class="fw-bold text-white">Режим работы</p>
-          <p class=" text-white">Пн - Пт: 8:30 - 17:00</p>
-          <p class=" text-white">Сб: 8:30-17:00</p>
-          <p class=" text-white">Вс: Выходной</p>
-        </div>
-      </div>
-      <ul class="nav col-md-3 justify-content-end list-unstyled d-flex">
-        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-      </ul>
-    </footer>
-  </section> -->
 
   <?php
     include("../includes/footer.inc.php");

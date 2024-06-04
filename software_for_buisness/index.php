@@ -353,82 +353,7 @@
   </section>
 
   <!-- ЧТОБЫ УЧИТЬСЯ БЫЛО ПРИЯТНЕЕ -->
-  <section>
-    <div class="container mt-5">
-      <div class="mx-1 wrapper background-color-gray px-3 px-lg-4 px-xl-5 py-4 py-xl-5">
-        <div class="row">
-          <p class="fs-1-suut fw-bold text-transform-uppercase">
-            Чтобы учиться было приятнее
-          </p>
-        </div>
-        <div class="row mt-3">
-          <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
-            <div class="card card-suut h-100" style="width: 100%">
-              <img src="./img/stolov.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title" id="notComfortableStudentsCaffe">Уютное студенческое кафе</h5>
-                <p class="card-text text-dark-suut">
-                  Где вкусная и доступная еда
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
-            <div class="card card-suut h-100" style="width: 100%">
-              <img src="./img/cafe.jpg" class="card-img-top" id="notCoffeShop" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title" id="notCoffeShopText">Кофешоп</h5>
-                <p class="card-text text-dark-suut">В каждом из корпусов</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
-            <div class="card card-suut h-100" style="width: 100%">
-              <img src="./img/jalinga.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Студия записи Jalinga</h5>
-                <p class="card-text text-dark-suut">
-                  Для эффектных и интерактивных презентаций
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
-            <div class="card card-suut h-100" style="width: 100%">
-              <img src="./img/tSxKVfmH9n8.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Тренажерный зал</h5>
-                <p class="card-text text-dark-suut">Для всех студентов</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
-            <div class="card card-suut h-100" style="width: 100%">
-              <img src="./img/lingphone.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Индивидуальное рабочее место</h5>
-                <p class="card-text text-dark-suut">С мощным железом и специализированным ПО</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
-            <div class="card card-suut h-100" style="width: 100%">
-              <img src="./img/cowork.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Зона коворкинга</h5>
-                <p class="card-text text-dark-suut">Для командной работы, общения или отдыха</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <?php include_once("../includes/section-for-funny-edu-common.inc.php") ?>
 
   <!-- ПРАКТИКА СТУДЕНТОВ -->
   <section>
@@ -773,7 +698,7 @@
         <div class="row">
           <div class="col-12">
             <a class="m-0 fs-7-suut fw-bold text-decoration-underline text-underline-offset text-transform-uppercase text-dark-suut"
-              href="https://www.inueco.ru/sveden/files/001984.pdf" target="_blank">Скачать учебный план</a>
+              href="https://www.inueco.ru/sveden/files/002729.pdf" target="_blank">Скачать учебный план</a>
           </div>
         </div>
         <div class="row mt-3">
@@ -916,7 +841,7 @@
             <p class="fs-6-5-suut m-0 p-0"><b>Резепен Вадим</b>, студент 4 курса</p>
             <p class="fs-6-5-suut m-0">
               <q class="fst-italic ">Пройдя 4 курса обучения понимаю, что не ошибся с выбором ВУЗа. В Южно-Уральском технологическом университете 
-                отличная технологическая база, позволяющая реализовать себя, как it специалиста.
+                отличная технологическая база, позволяющая реализовать себя, как it специалиста
               </q>
             </p>
           </div>
@@ -934,7 +859,7 @@
             <p class="fs-6-5-suut m-0 p-0"><b>Беллер Александр</b>, студент 4 курса</p>
             <p class="fs-6-5-suut m-0">
               <q class="fst-italic">Южно-Уральский технологический университет, предлагает студентам широкий выбор специальностей инженерных и it направлений. 
-                Здесь уделяют особое внимание практической подготовке, что делает выпускников конкурентноспособными на рынке труда.
+                Здесь уделяют особое внимание практической подготовке, что делает выпускников конкурентноспособными на рынке труда
               </q>
             </p>
           </div>
@@ -1097,7 +1022,7 @@
               </h2>
               <div id="collapseOneFAQ" class="accordion-collapse collapse " data-bs-parent="#accordionBlockFAQ">
                 <div class="accordion-body">
-                  <div class="row mx-auto px-4">В процессе обучения вы освоите несколько языков программирования, включая C++, Python, PHP, JavaScript и C#.</div>
+                  <div class="row mx-auto px-4">В процессе обучения вы освоите несколько языков программирования, включая C++, Python, PHP, JavaScript и C#</div>
                 </div>
               </div>
             </div>
@@ -1111,7 +1036,7 @@
               </h2>
               <div id="collapseTwoFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
                 <div class="accordion-body">
-                  <div class="row mx-auto px-4">Вы познакомитесь с различными фреймворками и библиотеками, такими как Django, React.js, Xamarin, ASP.NET и другими.</div>
+                  <div class="row mx-auto px-4">Вы познакомитесь с различными фреймворками и библиотеками, такими как Django, React.js, Xamarin, ASP.NET и другими</div>
                 </div>
               </div>
             </div>
@@ -1126,25 +1051,12 @@
               <div id="collapseThreeFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
                 <div class="accordion-body">
                   <div class="row mx-auto px-4">
-                    Практика будет проходить в ведущих профильных организациях, где вы сможете применить полученные знания и навыки на практике под руководством практикующих специалистов.
+                    Практика будет проходить в ведущих профильных организациях, где вы сможете применить полученные знания и навыки на практике под руководством практикующих специалистов
                   </div>
                 </div>
               </div>
             </div>
-            <!-- <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
-                  type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourFAQ" aria-expanded="false"
-                  aria-controls="collapseFourFAQ">
-                  Как я смогу получить два диплома за 4 года?
-                </button>
-              </h2>
-              <div id="collapseFourFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
-                <div class="accordion-body">
-                  <div class="row mx-auto px-4">??????</div>
-                </div>
-              </div>
-            </div> -->
+           
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
@@ -1221,7 +1133,7 @@
               <p class="fs-6-5-suut text-dark-suut">
                 Платите только проценты по кредиту в течение всего обучения
                 и 9 месяцев после выпуска. Основную часть сможете выплачивать
-                уже во время работы по новой специальности.
+                уже во время работы по новой специальности
               </p>
             </div>
           </div>
@@ -1240,7 +1152,7 @@
               Остались вопросы?
             </p>
             <p class="fs-6-5-suut p-0 m-0">
-              Эксперты приемной комиссии подробно ответят на все вопросы про поступление и обучение.
+              Эксперты приемной комиссии подробно ответят на все вопросы про поступление и обучение
             </p>
           </div>
 
