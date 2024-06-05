@@ -284,11 +284,11 @@
               </div>
               <form action="https://api-abtr.science174.ru/feedback" method="post" id="topFormFeedback"
                 class="d-flex row">
-                <input type="text" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="username"
+                <input type="text" required class="fs-6-5-suut form-control my-2 from-control-input-suut" name="username"
                   id="nameControl" placeholder="Имя" />
-                <input type="tel" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="phone"
+                <input type="tel" required class="fs-6-5-suut form-control my-2 from-control-input-suut" name="phone"
                   id="phoneControl" placeholder="Телефон" />
-                <input type="email" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="email"
+                <input type="email" required class="fs-6-5-suut form-control my-2 from-control-input-suut" name="email"
                   id="emailControl" placeholder="Электронная почта" />
                 <input type="hidden" name="specialization"
                   value="54.03.01. Дизайн (бакалавриат), Графический и коммуникационный дизайн">
@@ -1143,11 +1143,11 @@
             </div>
             <form action="https://api-abtr.science174.ru/feedback" method="post" class="d-flex row"
               id="bottomFormFeedBack">
-              <input type="text" class="fs-6-5-suut form-control my-2 from-control-input-suut " name="username"
+              <input type="text" required class="fs-6-5-suut form-control my-2 from-control-input-suut " name="username"
                 id="nameControl" placeholder="Имя" />
-              <input type="tel" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="phone"
+              <input type="tel" required class="fs-6-5-suut form-control my-2 from-control-input-suut" name="phone"
                 id="phoneControl" placeholder="Телефон" />
-              <input type="email" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="email"
+              <input type="email" required class="fs-6-5-suut form-control my-2 from-control-input-suut" name="email"
                 id="emailControl" placeholder="Электронная почта" />
               <input type="hidden" name="specialization"
                 value="54.03.01. Дизайн (бакалавриат), Графический и коммуникационный дизайн">

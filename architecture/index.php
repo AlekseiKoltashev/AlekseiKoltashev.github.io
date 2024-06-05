@@ -291,11 +291,11 @@
                             </div>
                             <form action="https://api-abtr.science174.ru/feedback" method="post" id="topFormFeedback"
                                 class="d-flex row">
-                                <input type="text" class="fs-6-5-suut form-control my-2 from-control-input-suut"
+                                <input type="text" required class="fs-6-5-suut form-control my-2 from-control-input-suut"
                                     name="username" id="nameControl" placeholder="Имя" />
-                                <input type="tel" class="fs-6-5-suut form-control my-2 from-control-input-suut"
+                                <input type="tel" required class="fs-6-5-suut form-control my-2 from-control-input-suut"
                                     name="phone" id="phoneControl" placeholder="Телефон" />
-                                <input type="email" class="fs-6-5-suut form-control my-2 from-control-input-suut"
+                                <input type="email" required class="fs-6-5-suut form-control my-2 from-control-input-suut"
                                     name="email" id="emailControl" placeholder="Электронная почта" />
                                 <input type="hidden" name="specialization"
                                     value="07.03.01 Архитектура (бакалавриат), Архитектура зданий и средовых комплексов">
@@ -1197,11 +1197,11 @@
                         </div>
                         <form action="https://api-abtr.science174.ru/feedback" method="post" class="d-flex row"
                             id="bottomFormFeedBack">
-                            <input type="text" class="fs-6-5-suut form-control my-2 from-control-input-suut "
-                                name="username" id="nameControl" placeholder="Имя" />
-                            <input type="tel" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="phone"
+                            <input type="text" required class="fs-6-5-suut form-control my-2 from-control-input-suut "
+                                name="username"  id="nameControl" placeholder="Имя" />
+                            <input type="tel" required class="fs-6-5-suut form-control my-2 from-control-input-suut" name="phone"
                                 id="phoneControl" placeholder="Телефон" />
-                            <input type="email" class="fs-6-5-suut form-control my-2 from-control-input-suut"
+                            <input type="email" required class="fs-6-5-suut form-control my-2 from-control-input-suut"
                                 name="email" id="emailControl" placeholder="Электронная почта" />
                             <input type="hidden" name="specialization"
                                 value="07.03.01 Архитектура (бакалавриат), Архитектура зданий и средовых комплексов">

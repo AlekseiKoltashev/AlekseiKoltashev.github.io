@@ -283,11 +283,11 @@
               </div>
               <form action="https://api-abtr.science174.ru/feedback" method="post" id="topFormFeedback"
                 class="d-flex row">
-                <input type="text" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="username"
+                <input type="text" required class="fs-6-5-suut form-control my-2 from-control-input-suut" name="username"
                   id="nameControl" placeholder="Имя" />
-                <input type="tel" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="phone"
+                <input type="tel" required class="fs-6-5-suut form-control my-2 from-control-input-suut" name="phone"
                   id="phoneControl" placeholder="Телефон" />
-                <input type="email" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="email"
+                <input type="email" required class="fs-6-5-suut form-control my-2 from-control-input-suut" name="email"
                   id="emailControl" placeholder="Электронная почта" />
                 <input type="hidden" name="specialization"
                   value="38.03.02 Менеджмент (бакалавриат), Менеджмент организации" />
@@ -1041,19 +1041,7 @@
               </div>
             </div>
 
-            <div class="d-flex wrapper-inner background-color-white px-2 px-lg-2 px-xl-3 py-2 py-xl-3 mb-2">
-              <div class="col-4 my-auto">
-                <img src="./img/lisenko.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
-              </div>
-              <div class="col-8 my-auto p-2">
-                <h5>Лысенко Юлия Валентиновна</h5>
-                <p class="fs-8-suut">
-                  доктор э.н., профессор, профессор кафедры «Экономика и
-                  управление», финансовый директор ООО «УралЕвро» Дисциплины:
-                  Управление стоимостью бизнеса
-                </p>
-              </div>
-            </div>
+            
             <div class="d-flex wrapper-inner background-color-white px-2 px-lg-2 px-xl-3 py-2 py-xl-3 mb-2">
               <div class="col-4 my-auto">
                 <img src="./img/paseshnik.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
@@ -1329,11 +1317,11 @@
             </div>
             <form action="https://api-abtr.science174.ru/feedback" method="post" class="d-flex row"
               id="bottomFormFeedBack">
-              <input type="text" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="username"
+              <input type="text" required class="fs-6-5-suut form-control my-2 from-control-input-suut" name="username"
                 id="nameControl" placeholder="Имя" />
-              <input type="tel" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="phone"
+              <input type="tel" required class="fs-6-5-suut form-control my-2 from-control-input-suut" name="phone"
                 id="phoneControl" placeholder="Телефон" />
-              <input type="email" class="fs-6-5-suut form-control my-2 from-control-input-suut" name="email"
+              <input type="email"  required class="fs-6-5-suut form-control my-2 from-control-input-suut" name="email"
                 id="emailControl" placeholder="Электронная почта" />
               <input type="hidden" name="specialization"
                 value="38.03.02 Менеджмент (бакалавриат), Менеджмент организации" />
