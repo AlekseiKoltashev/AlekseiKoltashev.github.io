@@ -266,21 +266,11 @@
                 <img src="./img/icons8-галочка-480.png" width="48" alt="Форма отправлена">
                 <p class="fs-6-5-suut text-medium-suut">Наши специалисты скоро с вами свяжутся</p>
               </div>
-              <form action="https://api-abtr.science174.ru/feedback" method="post" id="topFormFeedback" class="d-flex row">
-                <input type="text" required class="fs-6-5-suut form-control my-2 from-control-input-suut" name="username" id="nameControl"
-                  placeholder="Имя" />
-                <input type="tel" required class="fs-6-5-suut form-control my-2 from-control-input-suut" name="phone" id="phoneControl"
-                  placeholder="Телефон" />
-                <input type="email" required class="fs-6-5-suut form-control my-2 from-control-input-suut" name="email" id="emailControl"
-                  placeholder="Электронная почта" />
-                <input type="hidden" name="specialization" value="ИТ, бакалавриат, информационная безопасность">
-                <button class="btn btn-primary-suut fs-6-5-suut text-transform-uppercase">
-                  Отправить заявку
-                </button>
-                <p class="fs-8-suut text-dark-suut"> Отправляя заявку с помощью данной формы, вы соглашаетесь с обработкой своих персональных данных в соответствии с 
-                  <a href="https://www.inueco.ru/files/sveden/files/document/zachitaPD.pdf"> положением</a>
-                </p>
-              </form>
+              <?php $SPEC_NAME="09.03.02 ИТ, бакалавриат, информационная безопасность"; ?>
+                <?php
+                    include("../includes/form-top.inc.php");
+                ?> 
+            
             </div>
           </div>
         </div>
@@ -1170,21 +1160,10 @@
               <img src="./img/icons8-галочка-480.png" width="48" alt="Форма отправлена">
               <p class="fs-6-5-suut text-medium-suut">Наши специалисты скоро с вами свяжутся</p>
             </div>
-            <form action="https://api-abtr.science174.ru/feedback" method="post" class="d-flex row" id="bottomFormFeedBack">
-              <input type="text" required class="fs-6-5-suut form-control my-2 from-control-input-suut " name="username" id="nameControl"
-                placeholder="Имя" />
-              <input type="tel" required class="fs-6-5-suut form-control my-2 from-control-input-suut"  name="phone" id="phoneControl"
-                placeholder="Телефон" />
-              <input type="email" required class="fs-6-5-suut form-control my-2 from-control-input-suut" name="email" id="emailControl"
-                placeholder="Электронная почта" />
-              <input type="hidden" name="specialization" value="ИТ, бакалавриат, информационная безопасность">
-              <button class="btn btn-primary-suut fs-6-5-suut text-transform-uppercase">
-                Отправить заявку
-              </button>
-              <p class="fs-8-suut text-dark-suut"> Отправляя заявку с помощью данной формы, вы соглашаетесь с обработкой своих персональных данных в соответствии с 
-                <a href="https://www.inueco.ru/files/sveden/files/document/zachitaPD.pdf"> положением</a>
-              </p>
-            </form>
+            <?php
+                include("../includes/form-bottom.inc.php");
+            ?> 
+            
           </div>
         </div>
       </div>

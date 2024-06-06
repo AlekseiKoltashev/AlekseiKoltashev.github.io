@@ -54,15 +54,19 @@ function autoPlayYouTubeModal(){
           data: form.serialize(), // serializes the form's elements.
           success: function(data)
           {
-            // $("#loader_feedback").addClass('d-none');
-            // $("#conglaturation_top").removeClass("d-none");
+            $("#loader_feedback_top").addClass('d-none');
+            if (data.hasOwnProperty("error")){
+              $(form).removeClass('d-none');
+              $("#wrongMessageFormOne").text(data.error);
+            }else{
+              
+              $("#conglaturation_top").removeClass("d-none");
+            }
             console.log(data); 
           },
           complete : function(data)
           {
-            $("#loader_feedback_top").addClass('d-none');
-            $("#conglaturation_top").removeClass("d-none");
-            console.log(data); 
+            
           },
       });
       
@@ -81,17 +85,21 @@ function autoPlayYouTubeModal(){
         url: actionUrl,
         data: form.serialize(), // serializes the form's elements.
         success: function(data)
-        {
-          // $("#loader_feedback").addClass('d-none');
-          // $("#conglaturation_top").removeClass("d-none");
-          console.log(data); 
-        },
-        complete : function(data)
-        {
-          $("#loader_feedback_bottom").addClass('d-none');
-          $("#conglaturation_bottom").removeClass("d-none");
-          console.log(data); 
-        },
+          {
+            $("#loader_feedback_bottom").addClass('d-none');
+            if (data.hasOwnProperty("error")){
+              $(form).removeClass('d-none');
+              $("#wrongMessageFormTwo").text(data.error);
+            }else{
+              
+              $("#conglaturation_bottom").removeClass("d-none");
+            }
+            console.log(data); 
+          },
+          complete : function(data)
+          {
+            
+          },
     });
     
 });

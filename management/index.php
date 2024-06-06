@@ -75,9 +75,9 @@
         <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
           <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
           <p class="m-0 ms-2 align-self-center fs-6-5-suut">
-            <span class="fw-bold"> Два диплома за четыре года </span>
+            <span class="fw-bold"> Обширное поле для будущей деятельности </span>
             <br />
-            бакалавр + иностранный язык для профессионального общения
+            менеджеры требуются во всех отраслях, организациях и структурах
           </p>
         </div>
         <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
@@ -281,23 +281,10 @@
                   Наши специалисты скоро с вами свяжутся
                 </p>
               </div>
-              <form action="https://api-abtr.science174.ru/feedback" method="post" id="topFormFeedback"
-                class="d-flex row">
-                <input type="text" required class="fs-6-5-suut form-control my-2 from-control-input-suut" name="username"
-                  id="nameControl" placeholder="Имя" />
-                <input type="tel" required class="fs-6-5-suut form-control my-2 from-control-input-suut" name="phone"
-                  id="phoneControl" placeholder="Телефон" />
-                <input type="email" required class="fs-6-5-suut form-control my-2 from-control-input-suut" name="email"
-                  id="emailControl" placeholder="Электронная почта" />
-                <input type="hidden" name="specialization"
-                  value="38.03.02 Менеджмент (бакалавриат), Менеджмент организации" />
-                <button class="btn btn-primary-suut fs-6-5-suut text-transform-uppercase">
-                  Отправить заявку
-                </button>
-                <p class="fs-8-suut text-dark-suut"> Отправляя заявку с помощью данной формы, вы соглашаетесь с обработкой своих персональных данных в соответствии с 
-                  <a href="https://www.inueco.ru/files/sveden/files/document/zachitaPD.pdf"> положением</a>
-                </p>
-              </form>
+              <?php $SPEC_NAME="38.03.02 Менеджмент (бакалавриат), Менеджмент организации"; ?>
+              <?php
+              include("../includes/form-top.inc.php");
+              ?> 
             </div>
           </div>
         </div>
@@ -1315,23 +1302,10 @@
                 Наши специалисты скоро с вами свяжутся
               </p>
             </div>
-            <form action="https://api-abtr.science174.ru/feedback" method="post" class="d-flex row"
-              id="bottomFormFeedBack">
-              <input type="text" required class="fs-6-5-suut form-control my-2 from-control-input-suut" name="username"
-                id="nameControl" placeholder="Имя" />
-              <input type="tel" required class="fs-6-5-suut form-control my-2 from-control-input-suut" name="phone"
-                id="phoneControl" placeholder="Телефон" />
-              <input type="email"  required class="fs-6-5-suut form-control my-2 from-control-input-suut" name="email"
-                id="emailControl" placeholder="Электронная почта" />
-              <input type="hidden" name="specialization"
-                value="38.03.02 Менеджмент (бакалавриат), Менеджмент организации" />
-              <button class="btn btn-primary-suut fs-6-5-suut text-transform-uppercase">
-                Отправить заявку
-              </button>
-              <p class="fs-8-suut text-dark-suut"> Отправляя заявку с помощью данной формы, вы соглашаетесь с обработкой своих персональных данных в соответствии с 
-                <a href="https://www.inueco.ru/files/sveden/files/document/zachitaPD.pdf"> положением</a>
-              </p>
-            </form>
+           
+            <?php
+              include("../includes/form-bottom.inc.php");
+            ?> 
           </div>
         </div>
       </div>
