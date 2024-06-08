@@ -9,7 +9,7 @@
                 <div class="row mt-3">
                     <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
                         <div class="card card-suut h-100" style="width: 100%">
-                            <img src="./img/stolov.jpg" class="card-img-top" alt="..." />
+                            <img src="./img/stolov.webp" class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title" id="notComfortableStudentsCaffe">Уютное студенческое кафе</h5>
                                 <p class="card-text text-dark-suut">
@@ -21,7 +21,7 @@
 
                     <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
                         <div class="card card-suut h-100" style="width: 100%">
-                            <img src="./img/cafe.jpg" class="card-img-top" id="notCoffeShop" alt="..." />
+                            <img src="./img/cafe.webp" class="card-img-top" id="notCoffeShop" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title" id="notCoffeShopText">Кофешоп</h5>
                                 <p class="card-text text-dark-suut">В каждом из корпусов</p>
@@ -31,7 +31,7 @@
 
                     <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
                         <div class="card card-suut h-100" style="width: 100%">
-                            <img src="./img/jalinga.jpg" class="card-img-top" alt="..." />
+                            <img src="./img/jalinga.webp" class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">Студия записи Jalinga</h5>
                                 <p class="card-text text-dark-suut">
@@ -43,7 +43,7 @@
 
                     <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
                         <div class="card card-suut h-100" style="width: 100%">
-                            <img src="./img/tSxKVfmH9n8.jpg" class="card-img-top" alt="..." />
+                            <img src="./img/sportzal.webp" class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">Тренажерный зал</h5>
                                 <p class="card-text text-dark-suut">Для всех студентов</p>
@@ -53,7 +53,7 @@
 
                     <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
                         <div class="card card-suut h-100" style="width: 100%">
-                            <img src="./img/lingphone.jpg" class="card-img-top" alt="..." />
+                            <img src="./img/individual_ws.webp" class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">Индивидуальное рабочее место</h5>
                                 <p class="card-text text-dark-suut">С современным аппаратным и программным обеспечением
@@ -64,7 +64,7 @@
 
                     <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
                         <div class="card card-suut h-100" style="width: 100%">
-                            <img src="./img/cowork.jpg" class="card-img-top" alt="..." />
+                            <img src="./img/coworking.webp" class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">Зона коворкинга</h5>
                                 <p class="card-text text-dark-suut">Для командной работы, общения или отдыха</p>

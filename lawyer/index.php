@@ -75,9 +75,9 @@
         <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
           <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
           <p class="m-0 ms-2 align-self-center fs-6-5-suut">
-            <span class="fw-bold">Два диплома после окончания обучения</span>
+            <span class="fw-bold">Возможность повышения квалификации по дополнительным профессиональным программам</span>
             <br />
-            бакалавр юриспруденции + специалист в области английского языка
+            противодействие преступлениям, совершаемым с использованием информационно-коммуникационных технологий, работа с нейросетями, оказание первой помощи и др.
           </p>
         </div>
         <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
@@ -104,6 +104,8 @@
               государственными органами при прохождении практик</span>
           </p>
         </div>
+        
+      </section>
       </div>
     </div>
   </section>

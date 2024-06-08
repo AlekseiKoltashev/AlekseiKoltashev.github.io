@@ -378,7 +378,7 @@
                 <div class="row mt-3">
                     <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
                         <div class="card card-suut h-100" style="width: 100%">
-                            <img src="./img/stolov.jpg" class="card-img-top" alt="..." />
+                            <img src="./img/stolov.webp" class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title" id="notComfortableStudentsCaffe">Уютное студенческое кафе</h5>
                                 <p class="card-text text-dark-suut">
@@ -390,7 +390,7 @@
 
                     <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
                         <div class="card card-suut h-100" style="width: 100%">
-                            <img src="./img/cafe.jpg" class="card-img-top" id="notCoffeShop" alt="..." />
+                            <img src="./img/cafe.webp" class="card-img-top" id="notCoffeShop" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title" id="notCoffeShopText">Кофешоп</h5>
                                 <p class="card-text text-dark-suut">В каждом из корпусов</p>
@@ -400,7 +400,7 @@
 
                     <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
                         <div class="card card-suut h-100" style="width: 100%">
-                            <img src="./img/jalinga.jpg" class="card-img-top" alt="..." />
+                            <img src="./img/jalinga.webp" class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">Студия записи Jalinga</h5>
                                 <p class="card-text text-dark-suut">
@@ -422,7 +422,7 @@
 
                     <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
                         <div class="card card-suut h-100" style="width: 100%">
-                            <img src="./img/individual_pc.webp" class="card-img-top" alt="..." />
+                            <img src="./img/individual_ws.webp" class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">Индивидуальное рабочее место</h5>
                                 <p class="card-text text-dark-suut">С современным аппаратным и программным обеспечением
@@ -504,7 +504,7 @@
           <div class="mx-1 wrapper background-color-gray px-3 px-lg-4 px-xl-5 py-2 py-xl-4 h-100">
             <div class="row">
               <div class="col-12 text-center">
-                <img src="./img/resume.jpg" class="border-circle" height="200px" alt="Фото в резюме" />
+                <img src="./img/resume.webp" class="border-circle" height="200px" alt="Фото в резюме" />
               </div>
             </div>
             <div class="row mb-2">
