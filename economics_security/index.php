@@ -2,8 +2,8 @@
 <html lang="ru">
 
 <head>
-  <?php include_once("../includes/meta.inc.php") ?>
-  <title>Абитуриенту ЮУТУ - Юриспруденция магистратура. Юридическая деятельность в органах власти, государственных и муниципальных организациях </title>
+  <?php include_once ("../includes/meta.inc.php") ?>
+  <title>Абитуриенту ЮУТУ - Экономическая безопасность</title>
 </head>
 
 <body>
@@ -23,30 +23,31 @@
       </div>
     </div>
   </div>
-<!-- HEADER -->
-<?php include_once("../includes/header-body.inc.php");?>
+
+  <!-- HEADER -->
+  <?php include_once ("../includes/header-body.inc.php"); ?>
+
+  <!-- WELCOME BLOCK -->
   <section>
     <div class="container">
       <div class="mx-1 wrapper-specialization-info background-color-gray row px-3 pt-3 pb-1">
         <div class="col-12 row specialization-information m-lg-3">
           <div class="col-12">
             <p class="fs-8-suut text-medium-suut text-transform-uppercase label-specialization m-0">
-              40.04.01 Юриспруденция (магистратура)
+              38.05.01 Экономическая безопасность (специалитет)
             </p>
           </div>
           <div class="col-7 mt-md-2">
             <p class="fs-1-suut fw-bold text-transform-uppercase line-height-small py-0 m-0">
-              Юридическая деятельность в органах власти, <br />
-              государственных и муниципальных организациях <br />
-
+              Экономико-правовое обеспечение <br />
+              экономической безопасности
             </p>
           </div>
 
           <div class="col-10 col-md-8 col-lg-6 mt-md-4">
             <p class="fs-7-suut text-medium-suut m-0">
-              Хочешь стать экспертом в области юридической деятельности? Узнай все тонкости и особенности работы в
-              государственных и муниципальных структурах, научись эффективно применять юридические знания в реальной
-              практике.
+              Мы готовим специалистов, способных преодолевать вызовы современного мира и строить устойчивое будущее.
+              Примите вызов и станьте ключевым звеном в обеспечении экономической безопасности!
             </p>
           </div>
           <div class="col-9 mb-2 mt-md-4">
@@ -71,35 +72,50 @@
         <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
           <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
           <p class="m-0 ms-2 align-self-center fs-6-5-suut">
-            <span class="fw-bold">Возможность повышения квалификации по дополнительным профессиональным
-              программам</span>
+            <span class="fw-bold"> Интегративный подход </span>
             <br />
-            противодействие преступлениям, совершаемым с использованием информационно-коммуникационных технологий,
-            Работа с нейросетями, Оказание первой помощи и др.
+            программа объединяет знания и практические навыки из областей экономики и права, что позволяет студентам
+            понимать и анализировать взаимосвязь между этими двумя сферами
           </p>
         </div>
         <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
           <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
           <p class="m-0 ms-2 align-self-center fs-6-5-suut">
-            <span class="fw-bold">Методы погружения в профессиональную среду</span>
+            <span class="fw-bold">Основанный на последних трендах и научных исследованиях, учебный план</span>
             <br />
-            экскурсии в государственные органы, суды и правоохранительные
-            органы, оптимальное сочетание теоретических знаний и
-            практико-ориентированной работы
+            обеспечивает студентам актуальные знания, необходимые для успешной карьеры в сфере экономической
+            безопасности
           </p>
         </div>
         <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
           <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
           <p class="m-0 ms-2 align-self-center fs-6-5-suut">
-            <span class="fw-bold">Преподаватели – действующие практики в области
-              юриспруденции</span>
+            <span class="fw-bold">Программа включает в себя практические занятия, кейс-стадии и проектные работы,
+            </span>
+            которые помогут студентам применить свои знания на практике и развить навыки решения реальных проблем
           </p>
         </div>
         <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
           <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
           <p class="m-0 ms-2 align-self-center fs-6-5-suut">
-            <span class="fw-bold">Сотрудничество с ведущими юридическими организациями и
-              государственными органами при прохождении практик</span>
+            <span class="fw-bold">Обучение проводится опытными преподавателями и специалистами,</span>
+            имеющими широкий опыт работы в сфере экономики и права, что обеспечивает высокий уровень образования
+          </p>
+        </div>
+        <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
+          <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
+          <p class="m-0 ms-2 align-self-center fs-6-5-suut">
+            <span class="fw-bold">Знания и навыки, полученные в ходе обучения, открывают двери к разнообразным карьерным
+              путям,</span>
+            включая работу в государственных органах, юридических фирмах, банках, консалтинговых компаниях и других
+            организациях
+          </p>
+        </div>
+        <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
+          <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
+          <p class="m-0 ms-2 align-self-center fs-6-5-suut">
+            <span class="fw-bold">Возможность построить полезные профессиональные связи</span> с коллегами,
+            преподавателями и практикующими специалистами в области экономики и права
           </p>
         </div>
       </div>
@@ -120,26 +136,76 @@
         <div class="row justify-content-between">
           <div class="col-12 col-lg-6">
             <div class="row mb-2">
-              <div class="col-8">
+              <div class="col-6">
                 <p id="btnBasisEGE" data-toggle="btnBasis" data-target="#basisEGE" data-targetHide="#basisVU"
                   data-btnHide="#btnBasisVU"
                   class="m-0 fs-7-suut fw-bold text-decoration-underline text-underline-offset text-transform-uppercase text-dark-suut"
                   role="button">
-                  На базе высшего образования
+                  После 11 классов
                 </p>
               </div>
-              <!-- <div class="col-6">
+              <div class="col-6">
                 <p id="btnBasisVU" data-toggle="btnBasis" data-target="#basisVU" data-targetHide="#basisEGE"
                   data-btnHide="#btnBasisEGE"
                   class="m-0 fs-7-suut text-decoration-underline text-transform-uppercase text-end text-underline-offset text-dark-suut"
                   role="button">
-                  
+                  После коледжа/вуза
                 </p>
-              </div> -->
+              </div>
             </div>
 
             <div class="row p-1">
               <div id="basisEGE" class="p-3 p-md-4 wrapper-inner background-color-white box-shadow animation-suut">
+                <div class="p-2">
+                  <div class="row">
+                    <p class="fs-6-5-suut text-transform-uppercase ps-0">
+                      На основании результатов ЕГЭ
+                    </p>
+                  </div>
+                  <div class="row border-box-buttom-dark-suut mb-3">
+                    <div class="col-8 col-sm-9 ps-0">
+                      <p class="fs-6-5-suut m-0">Русский язык</p>
+                    </div>
+                    <div class="col-4 col-sm-3 pe-0">
+                      <p class="fs-6-5-suut m-0 text-end">36 баллов</p>
+                    </div>
+                  </div>
+
+                  <div class="row border-box-buttom-dark-suut my-3">
+                    <div class="col-8 col-sm-9 ps-0">
+                      <p class="fs-6-5-suut m-0">Математика</p>
+                    </div>
+                    <div class="col-4 col-sm-3 pe-0">
+                      <p class="fs-6-5-suut m-0 text-end">27 баллов</p>
+                    </div>
+                  </div>
+
+                  <div class="row border-box-buttom-dark-suut my-3">
+                    <div class="col-8 col-sm-9 ps-0">
+                      <p class="fs-6-5-suut m-0">Обществознание*</p>
+                    </div>
+                    <div class="col-4 col-sm-3 pe-0">
+                      <p class="fs-6-5-suut m-0 text-end">42 балла</p>
+                    </div>
+                  </div>
+                  <div class="row border-box-buttom-dark-suut my-3">
+                    <div class="col-8 col-sm-9 ps-0">
+                      <p class="fs-6-5-suut m-0">История*</p>
+                    </div>
+                    <div class="col-4 col-sm-3 pe-0">
+                      <p class="fs-6-5-suut m-0 text-end">32 балла</p>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="fs-7-suut">
+                      *один из двух предметов по выбору абитуриента
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div id="basisVU"
+                class="p-3 p-md-4 d-none wrapper-inner background-color-white box-shadow animation-suut">
                 <div class="p-2">
                   <div class="row">
                     <p class="fs-6-5-suut text-transform-uppercase ps-0">
@@ -148,16 +214,23 @@
                   </div>
                   <div class="row border-box-buttom-dark-suut mb-3">
                     <div class="col-8 col-sm-9 ps-0">
-                      <p class="fs-6-5-suut m-0">Обществоведение</p>
+                      <p class="fs-6-5-suut m-0">Русский язык</p>
                     </div>
                     <div class="col-4 col-sm-3 pe-0">
                       <p class="fs-6-5-suut m-0 text-end">50 баллов</p>
                     </div>
                   </div>
-
                   <div class="row border-box-buttom-dark-suut my-3">
                     <div class="col-8 col-sm-9 ps-0">
-                      <p class="fs-6-5-suut m-0">Конституционное право</p>
+                      <p class="fs-6-5-suut m-0">Основы экономики</p>
+                    </div>
+                    <div class="col-4 col-sm-3 pe-0">
+                      <p class="fs-6-5-suut m-0 text-end">50 баллов</p>
+                    </div>
+                  </div>
+                  <div class="row border-box-buttom-dark-suut my-3">
+                    <div class="col-8 col-sm-9 ps-0">
+                      <p class="fs-6-5-suut m-0">Информационные технологии</p>
                     </div>
                     <div class="col-4 col-sm-3 pe-0">
                       <p class="fs-6-5-suut m-0 text-end">50 баллов</p>
@@ -165,14 +238,13 @@
                   </div>
 
 
-
+                  <div>
+                    <p class="fs-7-suut">
+                      вступительные испытания в виде компьютерного
+                      тестирования
+                    </p>
+                  </div>
                 </div>
-              </div>
-
-              <div id="basisVU"
-                class="p-3 p-md-4 d-none wrapper-inner background-color-white box-shadow animation-suut">
-
-
               </div>
             </div>
           </div>
@@ -216,10 +288,10 @@
                   Наши специалисты скоро с вами свяжутся
                 </p>
               </div>
-              <?php $SPEC_NAME="Юриспруденция, Магистратура, Юридическая деятельность в органах власти, государственных и муниципальных организациях"; ?>
-                <?php
-                    include("../includes/form-top.inc.php");
-                ?> 
+              <?php $SPEC_NAME = "38.05.01 Экономическая безопасность (специалитет)"; ?>
+              <?php
+              include ("../includes/form-top.inc.php");
+              ?>
             </div>
           </div>
         </div>
@@ -233,7 +305,7 @@
       <div class="mx-1 wrapper px-3 px-lg-4 px-xl-5 py-4 py-xl-5">
         <div class="row">
           <p class="fs-1-suut fw-bold text-transform-uppercase">
-            Эта программа для вас, если...
+            Эта программа для вас, если вы ...
           </p>
         </div>
         <div class="row justify-content-center">
@@ -244,9 +316,8 @@
               </div>
               <div class="col-9">
                 <p class="fs-6-5-suut text-medium-suut m-0">
-                  <b>Вы уже имеете базовые юридические знания и хотите углубить их </b>
-                  для работы в государственных структурах. Эта программа позволит вам получить специализированную
-                  подготовку для карьеры в органах власти и управления
+                  <b> Увлечены и заинтересованы в понимании сложных экономических и правовых вопросов, </b> особенно в
+                  контексте обеспечения экономической безопасности
                 </p>
               </div>
             </div>
@@ -256,9 +327,9 @@
             <div class="wrapper-inner background-color-gray row p-2 p-lg-4 align-items-center h-100 min-height-170">
               <div class="col-9">
                 <p class="fs-6-5-suut text-medium-suut m-0">
-                  <b>Вы хотите повысить свою квалификацию и профессиональные компетенции. </b> Обучение даст вам новые
-                  знания в области правового регулирования деятельности госорганов. Вы сможете применить полученные
-                  навыки в своей практической работе
+                  <b> Стремитесь стать экспертом в области законодательства, регулирования и управления в экономической
+                    сфере</b>
+
                 </p>
               </div>
               <div class="col-3">
@@ -274,21 +345,34 @@
               </div>
               <div class="col-9">
                 <p class="fs-6-5-suut text-medium-suut m-0">
-                  <b>Вы стремитесь занять руководящие или экспертные должности в органах власти. </b>Программа
-                  подготовит вас к успешной работе в государственных и муниципальных организация
+                  <b>Хотите развиваться в области корпоративной безопасности от внешних и внутренних рисков</b>
                 </p>
               </div>
             </div>
           </div>
 
+          <div class="col-12 col-lg-6 py-3 p-2 px-lg-5">
+            <div class="wrapper-inner background-color-gray row p-2 p-lg-4 align-items-center h-100 min-height-170">
+              <div class="col-9">
+                <p class="fs-6-5-suut text-medium-suut m-0">
+                  <b>
+                    Желаете углубить свои знания и навыки в сфере экономической безопасности </b>
 
+                </p>
+              </div>
+              <div class="col-3">
+                <img src="./img/il-web4.webp" class="img-block-programm-for-you" alt="" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- ЧТОБЫ УЧИТЬСЯ БЫЛО ПРИЯТНЕЕ -->
-  <?php include_once("../includes/section-for-funny-edu-common.inc.php") ?>
+  <?php include_once ("../includes/section-for-funny-edu-common.inc.php") ?>
+
 
   <!-- ПРАКТИКА СТУДЕНТОВ -->
   <section>
@@ -307,22 +391,22 @@
         <div class="row">
           <div class="col-6 col-md-3 mb-4">
             <div class="wrapper-inner background-color-gray p-4 h-100 d-flex align-items-center">
-              <img src="./img/mvd_cho.png" style="width: 100%" alt="МВД" />
+              <img src="./img/fns.svg" style="width: 100%" alt="ФНС РОССИИ" />
             </div>
           </div>
           <div class="col-6 col-md-3 mb-4">
             <div class="wrapper-inner background-color-gray p-4 h-100 d-flex d-flex align-items-center">
-              <img src="./img/regioin_sud.webp" style="width: 100%" alt="Районные суды Челябинска" />
+              <img src="./img/sberbank.svg" style="width: 100%" alt="Сбербанк" />
             </div>
           </div>
           <div class="col-6 col-md-3 mb-4">
             <div class="wrapper-inner background-color-gray p-4 h-100 d-flex d-flex align-items-center">
-              <img src="./img/fssp.png" style="width: 100%" alt="ФССП" />
+              <img src="./img/yuzhkonditer.svg" style="width: 100%" alt="Южуралкондитер" />
             </div>
           </div>
           <div class="col-6 col-md-3 mb-4">
             <div class="wrapper-inner background-color-gray p-4 h-100 d-flex d-flex align-items-center">
-              <img src="./img/arbitr.png" style="width: 100%" alt="Арбитражный суд" />
+              <img src="./img/mechel_logo.webp" style="width: 100%" alt="Мечел" />
             </div>
           </div>
         </div>
@@ -356,12 +440,13 @@
                 <h5 class="text-dark-suut">Зарплата</h5>
                 <div class="wrapper-inner mb-1">
                   <p class="fs-7-suut m-0 p-2 d-inline-block background-color-gray-dark border-suut-12">
-                    Начинающий юрист от 50 тысяч рублей
+                  Специалист отдела экономической безопасности от 40 тысяч рублей
                   </p>
                 </div>
                 <div class="wrapper-inner mb-1">
-                  <p class="fs-7-suut m-0 p-2 pe-5 d-inline-block background-color-gray-dark border-suut-12">
-                    Юрист с опытом работы от 80 тысяч рублей
+                  <p class="fs-7-suut m-0 p-2 d-inline-block background-color-gray-dark border-suut-12"
+                    style="width:100%">
+                    Ведущий специалист по экономической безопасности от 60 тысяч рублей
                   </p>
                 </div>
                 <div>
@@ -375,206 +460,198 @@
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Знание законодательства и его применение на практике
+                    Работа с BI-платформами (Business Intelligence)
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Умение анализировать и интерпретировать юридические
-                    документы и материалы
+                   Использование ERP-систем (Enterprise Resource Planning)
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Мастерство составления правовых документов
+                    Владение системами управления рисками (Risk Management Systems)
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Ораторское мастерство и переговорные навыки
+                    Способность собирать, анализировать и интерпретировать данные для принятия обоснованных решений.
+                    Умение использовать программы для анализа данных (например, Excel, SPSS)
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Аналитическое мышление
+                    Владение системами комплаенс-контроля (Compliance Management Systems)
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Работа с клиентами, консультирования и предоставления
-                    юридической помощи
+                    Принимать взвешенные и своевременные решения в условиях неопределенности
                   </p>
                 </div>
 
-                <div class="mx-1 mt-2 d-flex align-items-center">
-                  <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                  <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Умение работать в команде и разрешать конфликты
-                  </p>
-                </div>
+                
 
-                <div class="mx-1 mt-2 d-flex align-items-center">
-                  <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                  <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Креативное мышление и поиск нестандартных решений правовых
-                    проблем
-                  </p>
-                </div>
+               
+               
               </div>
             </div>
             <div class="row mb-2">
               <div class="col-12">
                 <h5 class="text-dark-suut">Владение технологиями</h5>
-                
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/gigacha.png" class="align-middle" width="20px" alt="" />
-                  <p class="d-inline my-0 fs-7-suut align-middle">GigaChat</p>
+                  <img src="./img/trello_logo.png" class="align-middle" width="80px" alt="" />
+
                 </div>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/yaforms.svg" class="align-middle" width="90px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
+                  <img src="./img/logo_bitrix24.png" class="align-middle" width="80px" alt="" />
+
                 </div>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/Jalinga_logo_color.png" class="align-middle" width="90px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
+                  <img src="./img/logo1c.png" class="align-middle" width="20px" alt="" />
+                  <p class="d-inline my-0 fs-7-suut align-middle">1C:Предприятие</p>
                 </div>
-                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/kosultant.png" class="align-middle" width="90px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
-                </div>
+
+
+
+
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-12 col-lg-6 mt-2 mt-lg-0">
+        <div class="col-12 col-lg-6 mt-2 mt-lg-0 d-flex flex-column">
           <div class="col-12">
             <div class="mx-1 wrapper background-color-gray px-3 px-lg-4 px-xl-5 py-3 py-xl-4">
               <h5 class="text-dark-suut">Места работы</h5>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Юридические компании или фирмы
+                Коммерческие организации
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Городские и районные администрации
+                Государственные и правоохранительные органы
                 </p>
               </div>
-              <div class="mx-1 mt-2 d-flex align-items-center">
-                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">Суды</p>
-              </div>
+              
+
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Адвокатские образования
+                Финансовые и банковские структуры
                 </p>
               </div>
+              
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Правоохранительные органы
-                </p>
-              </div>
-              <div class="mx-1 mt-2 d-flex align-items-center">
-                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Государственные органы и органы местного самоуправления
-                </p>
-              </div>
-              <div class="mx-1 mt-2 d-flex align-items-center">
-                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Нотариальные конторы
-                </p>
-              </div>
-              <div class="mx-1 mt-2 d-flex align-items-center">
-                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Образовательные учреждения
-                </p>
-              </div>
-              <div class="mx-1 mt-2 d-flex align-items-center">
-                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Страховые компании
+                Консалтинговые и аудиторские компании
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-12 mt-2">
-            <div class="mx-1 wrapper background-color-gray px-3 px-lg-4 px-xl-5 py-3 py-xl-4">
+          <div class="col-12 mt-2 flex-fill">
+            <div class="mx-1 wrapper background-color-gray px-3 px-lg-4 px-xl-5 py-3 py-xl-4 h-100">
               <h5 class="text-dark-suut">Должности</h5>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Юрист, юрисконсульт
+                Специалист по корпоративной безопасности
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Специалист по заключению договоров
+                Аналитик по рискам и угрозам бизнесу
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Специалист по правовому сопровождению сделок
+                Эксперт по экономической безопасности
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Судья, помощник судьи, секретарь судебного заседания,
-                  специалист суда
+                Консультант по защите активов и предотвращению финансовых потерь
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Адвокат, помощник адвоката, медиатор
+                Руководитель департамента безопасности
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Дознаватель, следователь, прокурор
+                Сотрудник подразделений экономической безопасности
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Судебный пристав
+                Эксперт-аналитик в сфере противодействия экономическим преступлениям
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Специалист юридического отдела, специалист по
-                  государственным закупкам
+                Специалист по защите информации и цифровых активов
+                </p>
+              </div>
+
+              <div class="mx-1 mt-2 d-flex align-items-center">
+                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
+                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
+                Консультант по вопросам экономической политики и безопасности
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Нотариус, нотариальный эксперт, помощник нотариуса
+                Специалист по финансовому мониторингу и противодействию отмыванию доходов
                 </p>
               </div>
-             
+              <div class="mx-1 mt-2 d-flex align-items-center">
+                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
+                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
+                Эксперт по операционной безопасности банковских систем
+                </p>
+              </div>
+              <div class="mx-1 mt-2 d-flex align-items-center">
+                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
+                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
+                Аналитик по оценке уязвимостей и разработке мер защиты
+                </p>
+              </div>
+              <div class="mx-1 mt-2 d-flex align-items-center">
+                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
+                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
+                Специалист по антикризисному управлению и минимизации убытков
+                </p>
+              </div>
+              <div class="mx-1 mt-2 d-flex align-items-center">
+                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
+                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
+                Аудитор
+                </p>
+              </div>
+              
             </div>
           </div>
         </div>
@@ -594,7 +671,7 @@
         <div class="row">
           <div class="col-12">
             <a class="m-0 fs-7-suut fw-bold text-decoration-underline text-underline-offset text-transform-uppercase text-dark-suut"
-              href="https://www.inueco.ru/sveden/files/002645.pdf" target="_blank">Скачать учебный план</a>
+              href="https://www.inueco.ru/sveden/files/002583.pdf" target="_blank">Скачать учебный план</a>
           </div>
         </div>
         <div class="row mt-3">
@@ -611,29 +688,22 @@
                 <div class="accordion-body">
                   <div class="row mx-auto px-4">
                     <div class="col-12 col-md-6 col-lg-4">
-                      <p сlass="fs-6-5-suut">Противодействие коррупции в органах власти, государственных и муниципальных
-                        организациях</p>
-                      <p сlass="fs-6-5-suut">Юридическая риторика</p>
-                      <p сlass="fs-6-5-suut">
-                        Сравнительное правоведени
-                      </p>
+                      <p сlass="fs-6-5-suut">Микроэкономика</p>
+                      <p сlass="fs-6-5-suut">Правоведение</p>
+                      <p сlass="fs-6-5-suut">Введение в специальность</p>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                       <p сlass="fs-6-5-suut">
-                        Правовое регулирование деятельности государственных и муниципальных органов
+                        Информационные технологии в профессиональной
+                        деятельности
                       </p>
-                      <p сlass="fs-6-5-suut">
-                        Юридическая экспертиза
-                      </p>
-                      <p сlass="fs-6-5-suut">
-                        Философия права
-                      </p>
+                      <p сlass="fs-6-5-suut">Макроэкономика</p>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                      <p сlass="fs-6-5-suut">Правовое регулирование деятельности органов законодательной власти</p>
                       <p сlass="fs-6-5-suut">
-                        Парламентское право
+                      Мировая экономика и международные экономические отношения
                       </p>
+                      <p сlass="fs-6-5-suut">Законность и правопорядок</p>
                     </div>
                   </div>
                 </div>
@@ -651,31 +721,152 @@
                 <div class="accordion-body">
                   <div class="row mx-auto px-4">
                     <div class="col-12 col-md-6 col-lg-4">
-                      <p сlass="fs-6-5-suut">Актуальные проблемы юридической техники</p>
-                      <p сlass="fs-6-5-suut">Правовое регулирование государственных и муниципальных закупок</p>
-                      <p сlass="fs-6-5-suut">Правовое регулирование деятельности государственных и муниципальных
-                        учреждений</p>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                      <p сlass="fs-6-5-suut">Проектная деятельность в юридической сфере</p>
-                      <p сlass="fs-6-5-suut">Актуальные проблемы гражданского, арбитражного и административного
-                        судопроизводства</p>
+                      <p сlass="fs-6-5-suut">Профессиональная этика</p>
                       <p сlass="fs-6-5-suut">
-                        Правовое регулирование деятельности органов исполнительной власти
+                      Экономическая безопасность
+                      </p>
+                      <p сlass="fs-6-5-suut">
+                      Статистика
                       </p>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                       <p сlass="fs-6-5-suut">
-                        Правовое регулирование деятельности органов судебной власти
+                      Деньги, кредит, банки
                       </p>
-                      <p сlass="fs-6-5-suut">Антимонопольное право</p>
+                      <p сlass="fs-6-5-suut">
+                      Экономика организации (предприятия)
+                      </p>
+                      <p сlass="fs-6-5-suut">
+                      Управление организацией (предприятием)
+                      </p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">
+                      Административное право
+                      </p>
+                      <p сlass="fs-6-5-suut">
+                      Налоги и налогообложение
+                      </p>
+                      <p сlass="fs-6-5-suut">
+                      Экономическая безопасность кредитных организаций
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-
-
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
+                  type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreeOP" aria-expanded="false"
+                  aria-controls="collapseThreeOP">
+                  3-й курс
+                </button>
+              </h2>
+              <div id="collapseThreeOP" class="accordion-collapse collapse" data-bs-parent="#accordionBlockOP">
+                <div class="accordion-body">
+                  <div class="row mx-auto px-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">Экономический анализ</p>
+                      <p сlass="fs-6-5-suut">Налоги и налогообложение</p>
+                      <p сlass="fs-6-5-suut">
+                      Методы принятия управленческих решений
+                      </p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">Проект-менеджмент</p>
+                      <p сlass="fs-6-5-suut">
+                      Гражданское право
+                      </p>
+                      <p сlass="fs-6-5-suut">
+                      Специальная подготовка
+                      </p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">Правовое обеспечение экономической безопасности хозяйствующих субъектов</p>
+                      <p сlass="fs-6-5-suut">Финансовая математика</p>
+                      <p сlass="fs-6-5-suut">Государственный финансовый контроль и мониторинг</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
+                  type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourOP" aria-expanded="false"
+                  aria-controls="collapseFourOP">
+                  4-й курс
+                </button>
+              </h2>
+              <div id="collapseFourOP" class="accordion-collapse collapse" data-bs-parent="#accordionBlockOP">
+                <div class="accordion-body">
+                  <div class="row mx-auto px-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">
+                      Экономический анализ
+                      </p>
+                      <p сlass="fs-6-5-suut">Оценка и управление рисками в системе экономической безопасности</p>
+                      <p сlass="fs-6-5-suut">Предпринимательское право</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">
+                      Финансовая отчетность
+                      </p>
+                      <p сlass="fs-6-5-suut">Контроль и ревизия</p>
+                      <p сlass="fs-6-5-suut">Безопасность предпринимательской деятельности</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">Оценка и управление рисками в системе экономической безопасности</p>
+                      <p сlass="fs-6-5-suut">
+                      Теория и практика финансового оздоровления предприятия
+                      </p>
+                      <p сlass="fs-6-5-suut">
+                      Инвестиционная политика предприятия
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
+                  type="button" data-bs-toggle="collapse" data-bs-target="#collapseFiveOP" aria-expanded="false"
+                  aria-controls="collapseFiveOP">
+                  5-й курс
+                </button>
+              </h2>
+              <div id="collapseFiveOP" class="accordion-collapse collapse" data-bs-parent="#accordionBlockOP">
+                <div class="accordion-body">
+                  <div class="row mx-auto px-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">
+                      Судебная экономическая экспертиза
+                      </p>
+                      <p сlass="fs-6-5-suut">Методы исследований в сфере экономической безопасности</p>
+                      <p сlass="fs-6-5-suut">Экономические преступления: квалификация и расследование</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">
+                      Внутренний контроль и внутренний аудит
+                      </p>
+                      <p сlass="fs-6-5-suut">Основы военной подготовки</p>
+                      <p сlass="fs-6-5-suut">Налоговое право</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">Экспертиза и оценка инвестиционных и инновационных проектов</p>
+                      <p сlass="fs-6-5-suut">
+                      Экономические преступления: квалификация и расследование
+                      </p>
+                      <p сlass="fs-6-5-suut">
+                      Правовая защита интеллектуальной собственности
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -694,25 +885,25 @@
       </div>
     </div>
     <div class="container">
-    <div class="wrapper background-color-gray mt-3 mx-1 p-2 p-md-4 h-100 d-flex align-items-center">
+      <div class="wrapper background-color-gray mx-1 p-2 p-md-4 h-100 d-flex align-items-center">
         <div class="row">
-          <div class="col-3 text-center my-auto p-0 p-md-2">
-            <img src="./img/sinelnikova.webp" data-bs-toggle="modal" data-target="#videoModal"
-              data-bs-target="#videoModal" data-theVideo="https://www.youtube.com/embed/EFeMqnP7Etw?si=vHjMehHVuc07uZAb"
-              class="" role="button" style="border-radius: 50%; width: 70%" alt="" />
+          <div class="col-3 p-0 p-md-2 text-center my-auto">
+            <img src="./img/lihach_play.webp" data-bs-toggle="modal" data-target="#videoModal" data-bs-target="#videoModal"
+              data-theVideo="https://www.youtube.com/embed/gnwWN9zwa9Q?si=wlVVWJ1RBzKgevNY" class="" role="button"
+              style="border-radius: 50%; width: 70%" alt="" />
           </div>
           <div class="col-9 my-auto p-0 p-md-2">
             <p class="fs-6-5-suut m-0 p-0">
-              <b>Синельникова Арина</b>, студентка 1 курса
+              <b>Лихачев Дмитрий</b>, студент 4 курса
             </p>
             <p class="fs-6-5-suut m-0">
-              <q class="fst-italic">Обучаясь в ЮУТУ я получаю фундаментальные знания в области юриспруденции развивая аналитические и юридические навыки. ЮУТУ предоставляет широкие возможности для прохождения практики</q>
+              <q class="fst-italic">Обучение по этой программе, это возможность развивать критическое мышление, аналитические способности и умение принимать взвешенные решения в условиях неопределенности</q>
             </p>
           </div>
         </div>
       </div>
 
-     
+      
     </div>
   </section>
 
@@ -729,61 +920,31 @@
           <div class="col-12 col-md-7 col-lg-8">
             <div class="d-flex wrapper-inner background-color-white px-2 px-lg-2 px-xl-3 py-2 py-xl-3 mb-2">
               <div class="col-4 my-auto">
-                <img src="./img/efimenko.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
+                <img src="./img/borzih.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
               </div>
               <div class="col-8 my-auto p-2">
-                <h5>Ефименко Евгения Николаевна</h5>
+                <h5>Борзых Георгий Михайлович</h5>
                 <p class="fs-8-suut">
-                  И.о. заведующего кафедрой «Юриспруденция», кандидат юридических наук. Общий стаж работы 15 лет.
-                  Дисциплины: Проектная деятельность в юридической сфере, Правовое регулирование деятельности
-                  государственных и муниципальных органов, Правовое регулирование деятельности органов местного
-                  самоуправления.
+                с 2019 г. работает региональным представителем по Безопасности г. Челябинска в ООО «Гранд Сервис», Региональный представитель Саморегулируемой организации Ассоциации предприятий безопасности «ЖЕЛДОРБЕЗОПАСНОСТЬ»
+
                 </p>
               </div>
             </div>
 
             <div class="d-flex wrapper-inner background-color-white px-2 px-lg-2 px-xl-3 py-2 py-xl-3 mb-2">
               <div class="col-4 my-auto">
-                <img src="./img/novikova.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
+                <img src="./img/lisenko.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
               </div>
               <div class="col-8 my-auto p-2">
-                <h5>Новикова Юлия Сергеевна</h5>
+                <h5>Лысенко Юлия Валентиновна</h5>
                 <p class="fs-8-suut">
-                  Доцент кафедры «Юриспруденция», кандидат юридических наук, доцент. Общий стаж работы 23 года.
-                  Дисциплины: Актуальные проблемы юридической техники, Актуальные проблемы деятельности органов власти
-                  (научно-исследовательский семинар), Сравнительное правоведение, Правовое регулирование деятельности
-                  органов законодательной власти, Парламентское право, Миграционное право.
+                доктор э.н., профессор, профессор кафедры «Экономика и управление», финансовый директор ООО «УралЕвро»
+                Дисциплины: Экономическая безопасность, Безопасность предпринимательской деятельности, Финансовая безопасность национальной экономики
+
                 </p>
               </div>
             </div>
 
-            <div class="d-flex wrapper-inner background-color-white px-2 px-lg-2 px-xl-3 py-2 py-xl-3 mb-2">
-              <div class="col-4 my-auto">
-                <img src="./img/bulavinzeva.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
-              </div>
-              <div class="col-8 my-auto p-2">
-                <h5>Булавинцева Наталья Андреевна</h5>
-                <p class="fs-8-suut">
-                  Судья Арбитражного суда Челябинской области. Общий стаж работы 34 года. Дисциплины: Актуальные
-                  проблемы гражданского, арбитражного и административного судопроизводства.
-                </p>
-              </div>
-
-            </div>
-            <div class="d-flex wrapper-inner background-color-white px-2 px-lg-2 px-xl-3 py-2 py-xl-3 mb-2">
-              <div class="col-4 my-auto">
-                <img src="./img/novokshonov.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
-              </div>
-              <div class="col-8 my-auto p-2">
-                <h5>Новокшонов Константин Анатольевич</h5>
-                <p class="fs-8-suut">
-                  Доцент кафедры «Юриспруденция», кандидат юридических наук. Общий стаж работы 27 лет. Дисциплины:
-                  Противодействие коррупции в органах власти, государственных и муниципальных организациях,
-                  Антимонопольное право, Конкурентное право.
-                </p>
-              </div>
-
-            </div>
           </div>
         </div>
       </div>
@@ -855,66 +1016,24 @@
 
         <div class="row mt-3">
           <div class="accordion" id="accordionBlockFAQ">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
-                  type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneFAQ" aria-expanded="false"
-                  aria-controls="collapseOneFAQ">
-                  Каковы основные навыки, которые приобретает студент во время обучения в магистратуре по юридической
-                  специальности?
-                </button>
-              </h2>
-              <div id="collapseOneFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
-                <div class="accordion-body">
-                  <div class="row mx-auto px-4">
-                    Студенты, обучающиеся на магистратуре, приобретают широкий спектр навыков: глубокие знания права,
-                    этика и профессиональная ответственность,, навыки исследования, аналитические навыки и др.
-                  </div>
-                </div>
-              </div>
-            </div>
+           
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
                   type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoFAQ" aria-expanded="false"
                   aria-controls="collapseTwoFAQ">
-                  Какие возможности для дальнейшего обучения предоставляет диплом магистра по юридической специальности?
+                  Как проходит практика?
                 </button>
               </h2>
               <div id="collapseTwoFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
                 <div class="accordion-body">
-                  <div class="row mx-auto px-4">
-                    Выпускники магистратуры могут претендовать на поступление в аспирантуру или докторантуру по
-                    юридическим наукам. Продолжение обучения в аспирантуре позволяет углубить знания, провести научные
-                    исследования, публикации статьи, получить степень кандидата наук и дальше работать в научной сфере
-                    или преподавании.</br>
-                    Выпускников магистратуры по юридической специальности могут заинтересовать
-                    дополнительные профессиональные курсы углубленного обучения по специализированным юридическим
-                    областям (например, налоговое, корпоративное право, международное право и др.). 
-                  </br>
-                    Студенты с дипломом магистра могут претендовать на руководящие должности в юридических организациях, правительственных
-                    органах, муниципалитетах, правоохранительных структурах и других государственных учреждениях.
-                  </div>
+                  <div class="row mx-auto px-4">Практика проходит на предприятиях реального сектора экономики по профилю
+                    подготовки</div>
                 </div>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
-                  type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreeFAQ" aria-expanded="false"
-                  aria-controls="collapseThreeFAQ">
-                  Какие виды практик и стажировок доступны студентам магистратуры по юридическому направлению?
-                </button>
-              </h2>
-              <div id="collapseThreeFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
-                <div class="accordion-body">
-                  <div class="row mx-auto px-4">
-                    Во время обучения студенты проходят три вида практик: учебная (ознакомительная), производственная (научно-исследовательская работа) и преддипломная практика. Студенты могут проходить практику в органах власти, в государственных и муниципальных организациях.
-                  </div>
-                </div>
-              </div>
-            </div>
-
+           
+          
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
@@ -978,7 +1097,7 @@
             </div>
             <div class="p-4">
               <p class="m-0 fw-bold fs-1-suut">
-                103 200<span class="fw-bold fs-5">р/год</span>
+                110 000<span class="fw-bold fs-5">р/год</span>
               </p>
               <p class="m-0 fw-bold fs-3 text-dark-suut fs-5">
                 очное обучение
@@ -986,7 +1105,7 @@
             </div>
             <div class="p-4">
               <p class="m-0 fw-bold fs-1-suut">
-                53 000<span class="fw-bold fs-5">р/год</span>
+                55 000<span class="fw-bold fs-5">р/год</span>
               </p>
               <p class="m-0 fw-bold fs-3 text-dark-suut fs-5">
                 заочное обучение
@@ -1010,7 +1129,7 @@
               <p class="fs-6-5-suut text-dark-suut">
                 Платите только проценты по кредиту в течение всего обучения
                 и 9 месяцев после выпуска. Основную часть сможете выплачивать
-                уже во время работы по новой специальности.
+                уже во время работы по новой специальности
               </p>
             </div>
           </div>
@@ -1028,7 +1147,7 @@
             <p class="fs-3 fw-bold p-0 m-0">Остались вопросы?</p>
             <p class="fs-6-5-suut p-0 m-0">
               Эксперты приемной комиссии подробно ответят на все вопросы про
-              поступление и обучение.
+              поступление и обучение
             </p>
           </div>
 
@@ -1040,17 +1159,18 @@
                 Наши специалисты скоро с вами свяжутся
               </p>
             </div>
+
             <?php
-                    include("../includes/form-bottom.inc.php");
-                ?> 
+            include ("../includes/form-bottom.inc.php");
+            ?>
           </div>
         </div>
       </div>
     </div>
   </section>
   <?php
-    include("../includes/footer.inc.php");
-  ?> 
+  include ("../includes/footer.inc.php");
+  ?>
   <script src="./js/main.js"></script>
   <script src="./js/bootstrap.bundle.min.js.map"></script>
   <script src="./js/bootstrap.bundle.min.js"></script>

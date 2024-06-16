@@ -2,8 +2,8 @@
 <html lang="ru">
 
 <head>
-  <?php include_once("../includes/meta.inc.php") ?>
-  <title>Абитуриенту ЮУТУ - Юриспруденция магистратура. Юридическая деятельность в органах власти, государственных и муниципальных организациях </title>
+  <?php include_once ("../includes/meta.inc.php") ?>
+  <title>Абитуриенту ЮУТУ - Экономическая безопасность</title>
 </head>
 
 <body>
@@ -23,30 +23,30 @@
       </div>
     </div>
   </div>
-<!-- HEADER -->
-<?php include_once("../includes/header-body.inc.php");?>
+
+  <!-- HEADER -->
+  <?php include_once ("../includes/header-body.inc.php"); ?>
+
+  <!-- WELCOME BLOCK -->
   <section>
     <div class="container">
       <div class="mx-1 wrapper-specialization-info background-color-gray row px-3 pt-3 pb-1">
         <div class="col-12 row specialization-information m-lg-3">
           <div class="col-12">
             <p class="fs-8-suut text-medium-suut text-transform-uppercase label-specialization m-0">
-              40.04.01 Юриспруденция (магистратура)
+              38.05.02 Таможенное дело (специалитет)
             </p>
           </div>
           <div class="col-7 mt-md-2">
             <p class="fs-1-suut fw-bold text-transform-uppercase line-height-small py-0 m-0">
-              Юридическая деятельность в органах власти, <br />
-              государственных и муниципальных организациях <br />
-
+              Таможенный <br />
+              менеджмент
             </p>
           </div>
 
           <div class="col-10 col-md-8 col-lg-6 mt-md-4">
             <p class="fs-7-suut text-medium-suut m-0">
-              Хочешь стать экспертом в области юридической деятельности? Узнай все тонкости и особенности работы в
-              государственных и муниципальных структурах, научись эффективно применять юридические знания в реальной
-              практике.
+            Стань специалистом в таможенном деле и раскрой все его секреты. Ты получишь глубокие теоретические знания в сфере таможенного законодательства, логистики и внешнеэкономической деятельности, практические навыки по декларированию товаров, проведению таможенного контроля и оптимизации таможенных платежей
             </p>
           </div>
           <div class="col-9 mb-2 mt-md-4">
@@ -68,38 +68,36 @@
   <section>
     <div class="container mt-4 px-0 px-md-3 px-lg-5">
       <div class="row mx-auto justify-content-center">
+       
         <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
           <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
-          <p class="m-0 ms-2 align-self-center fs-6-5-suut">
-            <span class="fw-bold">Возможность повышения квалификации по дополнительным профессиональным
-              программам</span>
+          <p class="m-0 ms-2 align-self-top fs-6-5-suut">
+            <span class="fw-bold">Широкие возможности трудоустройства</span>
             <br />
-            противодействие преступлениям, совершаемым с использованием информационно-коммуникационных технологий,
-            Работа с нейросетями, Оказание первой помощи и др.
+            Специальность позволяет подготовить обучающихся к выполнению деятельности, связанной с совершением таможенных операций, применением таможенных процедур, взиманием таможенных платежей и проведением таможенного контроля и иных видов государственного контроля, а также к правоохранительной и организационно-управленческой деятельности
           </p>
         </div>
         <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
           <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
-          <p class="m-0 ms-2 align-self-center fs-6-5-suut">
-            <span class="fw-bold">Методы погружения в профессиональную среду</span>
+          <p class="m-0 ms-2 align-self-top fs-6-5-suut">
+            <span class="fw-bold align-top">Практическая направленность обучения 
+            </span> <br>
+            В программе предусмотрены многочисленные практические занятия, экскурсии и прохождение практики в ведущих таможенных органах, логистических компаниях, а также в структурных подразделениях ВЭД коммерческих организаций, что позволяет студентам получить реальный опыт работы
+          </p>
+        </div>
+        <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
+          <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
+          <p class="m-0 ms-2 align-self-top fs-6-5-suut">
+            <span class="fw-bold">Универсальность специальности,</span> </br> которая дает возможность работать в различных сферах деятельности: таможенной, экономической и правоохранительной
+            
+          </p>
+        </div>
+        <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
+          <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
+          <p class="m-0 ms-2 align-self-top fs-6-5-suut">
+            <span class="fw-bold"> Профессиональный преподавательский состав </span>
             <br />
-            экскурсии в государственные органы, суды и правоохранительные
-            органы, оптимальное сочетание теоретических знаний и
-            практико-ориентированной работы
-          </p>
-        </div>
-        <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
-          <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
-          <p class="m-0 ms-2 align-self-center fs-6-5-suut">
-            <span class="fw-bold">Преподаватели – действующие практики в области
-              юриспруденции</span>
-          </p>
-        </div>
-        <div class="plus-specialization_block mt-3 col-11 col-lg-6 d-flex">
-          <img class="d-block align-self-center" src="./img/icons8-галочка-480.png" alt="Преимущество" />
-          <p class="m-0 ms-2 align-self-center fs-6-5-suut">
-            <span class="fw-bold">Сотрудничество с ведущими юридическими организациями и
-              государственными органами при прохождении практик</span>
+            Учебный процесс ведут опытные преподаватели и практикующие специалисты: сотрудники Федеральной таможенной службы, специалисты по внешнеэкономической деятельности
           </p>
         </div>
       </div>
@@ -120,22 +118,22 @@
         <div class="row justify-content-between">
           <div class="col-12 col-lg-6">
             <div class="row mb-2">
-              <div class="col-8">
+              <div class="col-6">
                 <p id="btnBasisEGE" data-toggle="btnBasis" data-target="#basisEGE" data-targetHide="#basisVU"
                   data-btnHide="#btnBasisVU"
                   class="m-0 fs-7-suut fw-bold text-decoration-underline text-underline-offset text-transform-uppercase text-dark-suut"
                   role="button">
-                  На базе высшего образования
+                  После 11 классов
                 </p>
               </div>
-              <!-- <div class="col-6">
+              <div class="col-6">
                 <p id="btnBasisVU" data-toggle="btnBasis" data-target="#basisVU" data-targetHide="#basisEGE"
                   data-btnHide="#btnBasisEGE"
                   class="m-0 fs-7-suut text-decoration-underline text-transform-uppercase text-end text-underline-offset text-dark-suut"
                   role="button">
-                  
+                  После коледжа/вуза
                 </p>
-              </div> -->
+              </div>
             </div>
 
             <div class="row p-1">
@@ -143,12 +141,21 @@
                 <div class="p-2">
                   <div class="row">
                     <p class="fs-6-5-suut text-transform-uppercase ps-0">
-                      На основании вступительных испытаний
+                      На основании результатов ЕГЭ
                     </p>
                   </div>
                   <div class="row border-box-buttom-dark-suut mb-3">
                     <div class="col-8 col-sm-9 ps-0">
-                      <p class="fs-6-5-suut m-0">Обществоведение</p>
+                      <p class="fs-6-5-suut m-0">Русский язык</p>
+                    </div>
+                    <div class="col-4 col-sm-3 pe-0">
+                      <p class="fs-6-5-suut m-0 text-end">36 баллов</p>
+                    </div>
+                  </div>
+
+                  <div class="row border-box-buttom-dark-suut my-3">
+                    <div class="col-8 col-sm-9 ps-0">
+                      <p class="fs-6-5-suut m-0">Профессиональное тестирование</p>
                     </div>
                     <div class="col-4 col-sm-3 pe-0">
                       <p class="fs-6-5-suut m-0 text-end">50 баллов</p>
@@ -157,7 +164,55 @@
 
                   <div class="row border-box-buttom-dark-suut my-3">
                     <div class="col-8 col-sm-9 ps-0">
-                      <p class="fs-6-5-suut m-0">Конституционное право</p>
+                      <p class="fs-6-5-suut m-0">Обществознание*</p>
+                    </div>
+                    <div class="col-4 col-sm-3 pe-0">
+                      <p class="fs-6-5-suut m-0 text-end">42 балла</p>
+                    </div>
+                  </div>
+                  <div class="row border-box-buttom-dark-suut my-3">
+                    <div class="col-8 col-sm-9 ps-0">
+                      <p class="fs-6-5-suut m-0">Информатика и ИКТ*</p>
+                    </div>
+                    <div class="col-4 col-sm-3 pe-0">
+                      <p class="fs-6-5-suut m-0 text-end">40 баллов</p>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="fs-7-suut">
+                      *один из двух предметов по выбору абитуриента
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div id="basisVU"
+                class="p-3 p-md-4 d-none wrapper-inner background-color-white box-shadow animation-suut">
+                <div class="p-2">
+                  <div class="row">
+                    <p class="fs-6-5-suut text-transform-uppercase ps-0">
+                      На основании вступительных испытаний
+                    </p>
+                  </div>
+                  <div class="row border-box-buttom-dark-suut mb-3">
+                    <div class="col-8 col-sm-9 ps-0">
+                      <p class="fs-6-5-suut m-0">Русский язык</p>
+                    </div>
+                    <div class="col-4 col-sm-3 pe-0">
+                      <p class="fs-6-5-suut m-0 text-end">50 баллов</p>
+                    </div>
+                  </div>
+                  <div class="row border-box-buttom-dark-suut my-3">
+                    <div class="col-8 col-sm-9 ps-0">
+                      <p class="fs-6-5-suut m-0">Профессиональное тестирование</p>
+                    </div>
+                    <div class="col-4 col-sm-3 pe-0">
+                      <p class="fs-6-5-suut m-0 text-end">50 баллов</p>
+                    </div>
+                  </div>
+                  <div class="row border-box-buttom-dark-suut my-3">
+                    <div class="col-8 col-sm-9 ps-0">
+                      <p class="fs-6-5-suut m-0">Информационные технологии</p>
                     </div>
                     <div class="col-4 col-sm-3 pe-0">
                       <p class="fs-6-5-suut m-0 text-end">50 баллов</p>
@@ -165,14 +220,13 @@
                   </div>
 
 
-
+                  <div>
+                    <p class="fs-7-suut">
+                      вступительные испытания в виде компьютерного
+                      тестирования
+                    </p>
+                  </div>
                 </div>
-              </div>
-
-              <div id="basisVU"
-                class="p-3 p-md-4 d-none wrapper-inner background-color-white box-shadow animation-suut">
-
-
               </div>
             </div>
           </div>
@@ -216,10 +270,10 @@
                   Наши специалисты скоро с вами свяжутся
                 </p>
               </div>
-              <?php $SPEC_NAME="Юриспруденция, Магистратура, Юридическая деятельность в органах власти, государственных и муниципальных организациях"; ?>
-                <?php
-                    include("../includes/form-top.inc.php");
-                ?> 
+              <?php $SPEC_NAME = "38.05.02. Таможенное дело (специалитет)"; ?>
+              <?php
+              include ("../includes/form-top.inc.php");
+              ?>
             </div>
           </div>
         </div>
@@ -233,7 +287,7 @@
       <div class="mx-1 wrapper px-3 px-lg-4 px-xl-5 py-4 py-xl-5">
         <div class="row">
           <p class="fs-1-suut fw-bold text-transform-uppercase">
-            Эта программа для вас, если...
+            Эта программа для вас, если вы ...
           </p>
         </div>
         <div class="row justify-content-center">
@@ -244,28 +298,31 @@
               </div>
               <div class="col-9">
                 <p class="fs-6-5-suut text-medium-suut m-0">
-                  <b>Вы уже имеете базовые юридические знания и хотите углубить их </b>
-                  для работы в государственных структурах. Эта программа позволит вам получить специализированную
-                  подготовку для карьеры в органах власти и управления
+                  <b>Интересуетесь международной торговлей и внешнеэкономической деятельностью и стремитесь </b> понять, как функционирует международная торговля, международные перевозки, как реализуются таможенные процедуры и происходит регулирование внешнеэкономической деятельности
                 </p>
               </div>
             </div>
           </div>
 
+          
+
+         
+
           <div class="col-12 col-lg-6 py-3 p-2 px-lg-5">
             <div class="wrapper-inner background-color-gray row p-2 p-lg-4 align-items-center h-100 min-height-170">
               <div class="col-9">
                 <p class="fs-6-5-suut text-medium-suut m-0">
-                  <b>Вы хотите повысить свою квалификацию и профессиональные компетенции. </b> Обучение даст вам новые
-                  знания в области правового регулирования деятельности госорганов. Вы сможете применить полученные
-                  навыки в своей практической работе
+                  <b>
+                  Планируете работать в сфере государственного управления или безопасности </b>
+                  и работать в структурах, занимающихся защитой экономических интересов страны и контролем над внешнеэкономической деятельностью
                 </p>
               </div>
               <div class="col-3">
-                <img src="./img/il-web3.webp" class="img-block-programm-for-you" alt="" />
+                <img src="./img/il-web4.webp" class="img-block-programm-for-you" alt="" />
               </div>
             </div>
           </div>
+
 
           <div class="col-12 col-lg-6 py-3 p-2 px-lg-5">
             <div class="wrapper-inner background-color-gray row p-2 p-lg-4 align-items-center h-100 min-height-170">
@@ -274,12 +331,30 @@
               </div>
               <div class="col-9">
                 <p class="fs-6-5-suut text-medium-suut m-0">
-                  <b>Вы стремитесь занять руководящие или экспертные должности в органах власти. </b>Программа
-                  подготовит вас к успешной работе в государственных и муниципальных организация
+                  <b>Интересуетесь правовыми аспектами внешнеэкономической деятельности </b>
+                  и хотите разбираться в правовых вопросах, связанных с таможенным делом и международной торговлей 
                 </p>
               </div>
             </div>
           </div>
+
+
+
+          <div class="col-12 col-lg-6 py-3 p-2 px-lg-5">
+            <div class="wrapper-inner background-color-gray row p-2 p-lg-4 align-items-center h-100 min-height-170">
+              <div class="col-9">
+                <p class="fs-6-5-suut text-medium-suut m-0">
+                  <b>Хотите внести вклад в безопасность и экономическое развитие страны, </b>
+                  сзащищать экономические интересы государства, обеспечивать безопасность на границах и содействовать легальной международной торговле
+                </p>
+              </div>
+              <div class="col-3">
+                <img src="./img/il-web3.webp" class="img-block-programm-for-you" alt="" />
+              </div>
+            </div>
+          </div>
+
+
 
 
         </div>
@@ -288,7 +363,8 @@
   </section>
 
   <!-- ЧТОБЫ УЧИТЬСЯ БЫЛО ПРИЯТНЕЕ -->
-  <?php include_once("../includes/section-for-funny-edu-common.inc.php") ?>
+  <?php include_once ("../includes/section-for-funny-edu-common.inc.php") ?>
+
 
   <!-- ПРАКТИКА СТУДЕНТОВ -->
   <section>
@@ -304,27 +380,23 @@
     </div>
     <div class="container">
       <div class="wrapper background-color-white py-2 py-xl-2">
-        <div class="row">
+        <div class="row justify-content-between">
           <div class="col-6 col-md-3 mb-4">
             <div class="wrapper-inner background-color-gray p-4 h-100 d-flex align-items-center">
-              <img src="./img/mvd_cho.png" style="width: 100%" alt="МВД" />
+              <img src="./img/fts.webp" style="width: 100%" alt="ФЕДЕРАЛЬНАЯ ТАМОЖЕННАЯ СЛУЖБА РОССИИ" />
             </div>
           </div>
           <div class="col-6 col-md-3 mb-4">
             <div class="wrapper-inner background-color-gray p-4 h-100 d-flex d-flex align-items-center">
-              <img src="./img/regioin_sud.webp" style="width: 100%" alt="Районные суды Челябинска" />
+              <img src="./img/avia_chel.svg" style="width: 100%" alt="Аэропорт Челябинск" />
             </div>
           </div>
           <div class="col-6 col-md-3 mb-4">
             <div class="wrapper-inner background-color-gray p-4 h-100 d-flex d-flex align-items-center">
-              <img src="./img/fssp.png" style="width: 100%" alt="ФССП" />
+              <img src="./img/chkpz.png" style="width: 100%" alt="Челябинский кузнечно-прессовый завод" />
             </div>
           </div>
-          <div class="col-6 col-md-3 mb-4">
-            <div class="wrapper-inner background-color-gray p-4 h-100 d-flex d-flex align-items-center">
-              <img src="./img/arbitr.png" style="width: 100%" alt="Арбитражный суд" />
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
@@ -356,12 +428,13 @@
                 <h5 class="text-dark-suut">Зарплата</h5>
                 <div class="wrapper-inner mb-1">
                   <p class="fs-7-suut m-0 p-2 d-inline-block background-color-gray-dark border-suut-12">
-                    Начинающий юрист от 50 тысяч рублей
+                  Таможенный брокер от 30 тысяч рублей
                   </p>
                 </div>
                 <div class="wrapper-inner mb-1">
-                  <p class="fs-7-suut m-0 p-2 pe-5 d-inline-block background-color-gray-dark border-suut-12">
-                    Юрист с опытом работы от 80 тысяч рублей
+                  <p class="fs-7-suut m-0 p-2 d-inline-block background-color-gray-dark border-suut-12"
+                    style="width:100%">
+                    Специалиста по ВЭД на предприятии от 45 тысяч рублей
                   </p>
                 </div>
                 <div>
@@ -375,59 +448,56 @@
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Знание законодательства и его применение на практике
+                     Умение работать в специальных программах
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Умение анализировать и интерпретировать юридические
-                    документы и материалы
+                  Осуществлять таможенный контроль при совершении таможенных операций и процедур
+                  таможенного контроля, в том числе после выпуска товаров, и иных видов государственного контроля  
+                </p>
+                </div>
+
+                <div class="mx-1 mt-2 d-flex align-items-center">
+                  <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
+                  <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
+                  Применение товарной номенклатуры внешнеэкономической деятельности
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Мастерство составления правовых документов
+                  Определять и контролировать таможенную стоимость товаров
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Ораторское мастерство и переговорные навыки
+                  Проводить расчет таможенных платежей
                   </p>
                 </div>
 
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Аналитическое мышление
+                  Осуществлять в пределах своей компетенции валютный контроль операций, связанных с перемещением товаров через таможенную границу РФ
                   </p>
                 </div>
-
+                
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Работа с клиентами, консультирования и предоставления
-                    юридической помощи
+                  Обеспечение соблюдения мер таможенно-тарифного регулирования, запретов и ограничений, мер защиты внутреннего рынка в отношении товаров, перемещаемых через таможенную границу
                   </p>
                 </div>
-
                 <div class="mx-1 mt-2 d-flex align-items-center">
                   <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                   <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Умение работать в команде и разрешать конфликты
-                  </p>
-                </div>
-
-                <div class="mx-1 mt-2 d-flex align-items-center">
-                  <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                  <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Креативное мышление и поиск нестандартных решений правовых
-                    проблем
+                  Выявлять и пресекать административные правонарушения и преступления в сфере таможенного дела
                   </p>
                 </div>
               </div>
@@ -435,146 +505,132 @@
             <div class="row mb-2">
               <div class="col-12">
                 <h5 class="text-dark-suut">Владение технологиями</h5>
-                
+               
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/gigacha.png" class="align-middle" width="20px" alt="" />
-                  <p class="d-inline my-0 fs-7-suut align-middle">GigaChat</p>
+                  <img src="./img/declarant.svg" class="align-middle" width="90px" alt="" />
+
                 </div>
                 <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/yaforms.svg" class="align-middle" width="90px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
-                </div>
-                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/Jalinga_logo_color.png" class="align-middle" width="90px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
-                </div>
-                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
-                  <img src="./img/kosultant.png" class="align-middle" width="90px" alt="" />
-                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
+                  <img src="./img/logo1c.png" class="align-middle" width="20px" alt="" />
+                  <p class="d-inline my-0 fs-7-suut align-middle">1C:Таможня</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-12 col-lg-6 mt-2 mt-lg-0">
+        <div class="col-12 col-lg-6 mt-2 mt-lg-0 d-flex flex-column">
           <div class="col-12">
             <div class="mx-1 wrapper background-color-gray px-3 px-lg-4 px-xl-5 py-3 py-xl-4">
               <h5 class="text-dark-suut">Места работы</h5>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Юридические компании или фирмы
+                Федеральная таможенная служба 
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Городские и районные администрации
+                Логистические компании
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">Суды</p>
+                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">Предприятия различных форм собственности, осуществляющие внешнеэкономическую деятельность </p>
               </div>
-              <div class="mx-1 mt-2 d-flex align-items-center">
-                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Адвокатские образования
-                </p>
-              </div>
+
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Правоохранительные органы
+                Консалтинговые фирмы
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Государственные органы и органы местного самоуправления
-                </p>
+                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">Крупные промышленные предприятия</p>
               </div>
-              <div class="mx-1 mt-2 d-flex align-items-center">
-                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Нотариальные конторы
-                </p>
-              </div>
-              <div class="mx-1 mt-2 d-flex align-items-center">
-                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Образовательные учреждения
-                </p>
-              </div>
-              <div class="mx-1 mt-2 d-flex align-items-center">
-                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
-                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Страховые компании
-                </p>
-              </div>
+              
             </div>
           </div>
-          <div class="col-12 mt-2">
-            <div class="mx-1 wrapper background-color-gray px-3 px-lg-4 px-xl-5 py-3 py-xl-4">
+          <div class="col-12 mt-2 flex-fill">
+            <div class="mx-1 wrapper background-color-gray px-3 px-lg-4 px-xl-5 py-3 py-xl-4 h-100">
               <h5 class="text-dark-suut">Должности</h5>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Юрист, юрисконсульт
+                Декларант
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Специалист по заключению договоров
+                Испектор таможенной службы
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Специалист по правовому сопровождению сделок
+                Менеджер по работе с таможней
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Судья, помощник судьи, секретарь судебного заседания,
-                  специалист суда
+                Специалист внешнеэкономической деятельности
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Адвокат, помощник адвоката, медиатор
+                Специалист по таможенному оформлению и контролю
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Дознаватель, следователь, прокурор
+                Таможенный брокер
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Судебный пристав
+                Аналитик в отделах тарифного и нетарифного регулирования
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Специалист юридического отдела, специалист по
-                  государственным закупкам
+                Эксперт по противодействию таможенным правонарушениям
+                </p>
+              </div>
+
+              <div class="mx-1 mt-2 d-flex align-items-center">
+                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
+                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
+                Руководитель таможенного поста или отдела
                 </p>
               </div>
               <div class="mx-1 mt-2 d-flex align-items-center">
                 <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
                 <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                  Нотариус, нотариальный эксперт, помощник нотариуса
+                Менеджер по ВЭД
                 </p>
               </div>
-             
+              <div class="mx-1 mt-2 d-flex align-items-center">
+                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
+                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
+                Специалист по логистике международных перевозок
+                </p>
+              </div>
+              <div class="mx-1 mt-2 d-flex align-items-center">
+                <img src="./img/check-resume.png" class="align-middle" width="25px" alt="" />
+                <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
+                Эксперт по минимизации таможенных рисков и издержек
+                </p>
+              </div>
+              
+              
             </div>
           </div>
         </div>
@@ -594,7 +650,7 @@
         <div class="row">
           <div class="col-12">
             <a class="m-0 fs-7-suut fw-bold text-decoration-underline text-underline-offset text-transform-uppercase text-dark-suut"
-              href="https://www.inueco.ru/sveden/files/002645.pdf" target="_blank">Скачать учебный план</a>
+              href="https://www.inueco.ru/sveden/files/002594.pdf" target="_blank">Скачать учебный план</a>
           </div>
         </div>
         <div class="row mt-3">
@@ -611,29 +667,21 @@
                 <div class="accordion-body">
                   <div class="row mx-auto px-4">
                     <div class="col-12 col-md-6 col-lg-4">
-                      <p сlass="fs-6-5-suut">Противодействие коррупции в органах власти, государственных и муниципальных
-                        организациях</p>
-                      <p сlass="fs-6-5-suut">Юридическая риторика</p>
-                      <p сlass="fs-6-5-suut">
-                        Сравнительное правоведени
-                      </p>
+                      <p сlass="fs-6-5-suut">Правоведение</p>
+                      <p сlass="fs-6-5-suut">Введение в специальность</p>
+                      <p сlass="fs-6-5-suut">Иностранный язык</p>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                       <p сlass="fs-6-5-suut">
-                        Правовое регулирование деятельности государственных и муниципальных органов
+                      История таможенного дела и таможенной политики России 
                       </p>
-                      <p сlass="fs-6-5-suut">
-                        Юридическая экспертиза
-                      </p>
-                      <p сlass="fs-6-5-suut">
-                        Философия права
-                      </p>
+                      <p сlass="fs-6-5-suut">Информационные технологии в профессиональной деятельности</p>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                      <p сlass="fs-6-5-suut">Правовое регулирование деятельности органов законодательной власти</p>
                       <p сlass="fs-6-5-suut">
-                        Парламентское право
+                      Основы таможенного дела
                       </p>
+                      <p сlass="fs-6-5-suut">Этика государственной службы и государственного служащего</p>
                     </div>
                   </div>
                 </div>
@@ -651,31 +699,147 @@
                 <div class="accordion-body">
                   <div class="row mx-auto px-4">
                     <div class="col-12 col-md-6 col-lg-4">
-                      <p сlass="fs-6-5-suut">Актуальные проблемы юридической техники</p>
-                      <p сlass="fs-6-5-suut">Правовое регулирование государственных и муниципальных закупок</p>
-                      <p сlass="fs-6-5-suut">Правовое регулирование деятельности государственных и муниципальных
-                        учреждений</p>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                      <p сlass="fs-6-5-suut">Проектная деятельность в юридической сфере</p>
-                      <p сlass="fs-6-5-suut">Актуальные проблемы гражданского, арбитражного и административного
-                        судопроизводства</p>
+                      <p сlass="fs-6-5-suut">Мировая экономика и международные экономические отношения</p>
                       <p сlass="fs-6-5-suut">
-                        Правовое регулирование деятельности органов исполнительной власти
+                      Теория государственного управления
+                      </p>
+                      <p сlass="fs-6-5-suut">
+                      Основы таможенного дела
                       </p>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                       <p сlass="fs-6-5-suut">
-                        Правовое регулирование деятельности органов судебной власти
+                      Основы внешнеэкономической деятельности
                       </p>
-                      <p сlass="fs-6-5-suut">Антимонопольное право</p>
+                      <p сlass="fs-6-5-suut">
+                      Товароведение и экспертиза в таможенном деле (продовольственные и непродовольственные товары)
+                      </p>
+                      <p сlass="fs-6-5-suut">
+                      Профессионально-ориентированный иностранный язык
+                      </p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">
+                      Таможенная статистика
+                      </p>
+                      <p сlass="fs-6-5-suut">
+                      Товарная номенклатура внешнеэкономической деятельности
+                      </p>
+                      <p сlass="fs-6-5-suut">
+                      Таможенно-тарифное регулирование внешнеторговой деятельности
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-
-
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
+                  type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreeOP" aria-expanded="false"
+                  aria-controls="collapseThreeOP">
+                  3-й курс
+                </button>
+              </h2>
+              <div id="collapseThreeOP" class="accordion-collapse collapse" data-bs-parent="#accordionBlockOP">
+                <div class="accordion-body">
+                  <div class="row mx-auto px-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">Таможенное право</p>
+                      <p сlass="fs-6-5-suut">Таможенная статистика</p>
+                      <p сlass="fs-6-5-suut">
+                      Таможенные операции
+                      </p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">Таможенные платежи</p>
+                      <p сlass="fs-6-5-suut">
+                      Правовые основы государственной службы в таможенных органах
+                      </p>
+                      <p сlass="fs-6-5-suut">
+                      Таможенные процедуры
+                      </p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">Организация таможенного контроля товаров и транспортных средств</p>
+                      <p сlass="fs-6-5-suut">Запреты и ограничения внешнеторговой деятельности</p>
+                      <p сlass="fs-6-5-suut">Ценообразование во внешней торговле</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
+                  type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourOP" aria-expanded="false"
+                  aria-controls="collapseFourOP">
+                  4-й курс
+                </button>
+              </h2>
+              <div id="collapseFourOP" class="accordion-collapse collapse" data-bs-parent="#accordionBlockOP">
+                <div class="accordion-body">
+                  <div class="row mx-auto px-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">
+                      Логистика
+                      </p>
+                      <p сlass="fs-6-5-suut">Декларирование товаров и транспортных средств</p>
+                      <p сlass="fs-6-5-suut">Организация таможенного контроля товаров и транспортных средств</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">
+                      Валютное регулирование и валютный контроль
+                      </p>
+                      <p сlass="fs-6-5-suut">Международное таможенное сотрудничество</p>
+                      <p сlass="fs-6-5-suut">Психология управления в таможенных органах</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">Таможенный менеджмент</p>
+                      <p сlass="fs-6-5-suut">
+                      Аудит внешнеэкономической деятельности
+                      </p>
+                      <p сlass="fs-6-5-suut">
+                      Управление таможенными органами
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
+                  type="button" data-bs-toggle="collapse" data-bs-target="#collapseFiveOP" aria-expanded="false"
+                  aria-controls="collapseFiveOP">
+                  5-й курс
+                </button>
+              </h2>
+              <div id="collapseFiveOP" class="accordion-collapse collapse" data-bs-parent="#accordionBlockOP">
+                <div class="accordion-body">
+                  <div class="row mx-auto px-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">
+                      Институты административного права, регулирующие деятельность таможенных органов
+                      </p>
+                      <p сlass="fs-6-5-suut">
+                      Контракты и внешнеторговая документация
+                      </p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">
+                      Основы квалификации преступлений в сфере таможенного дела
+                      </p>
+                      
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <p сlass="fs-6-5-suut">Система управления рисками в таможенном деле</p>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -694,25 +858,25 @@
       </div>
     </div>
     <div class="container">
-    <div class="wrapper background-color-gray mt-3 mx-1 p-2 p-md-4 h-100 d-flex align-items-center">
+      <div class="wrapper background-color-gray mx-1 p-2 p-md-4 h-100 d-flex align-items-center">
         <div class="row">
-          <div class="col-3 text-center my-auto p-0 p-md-2">
-            <img src="./img/sinelnikova.webp" data-bs-toggle="modal" data-target="#videoModal"
-              data-bs-target="#videoModal" data-theVideo="https://www.youtube.com/embed/EFeMqnP7Etw?si=vHjMehHVuc07uZAb"
-              class="" role="button" style="border-radius: 50%; width: 70%" alt="" />
+          <div class="col-3 p-0 p-md-2 text-center my-auto">
+            <img src="./img/alshova_play.webp" data-bs-toggle="modal" data-target="#videoModal" data-bs-target="#videoModal"
+              data-theVideo="https://www.youtube.com/embed/SxVaR2ojX9Y?si=W_UPGV_qEUPxa8Id" class="" role="button"
+              style="border-radius: 50%; width: 70%" alt="" />
           </div>
           <div class="col-9 my-auto p-0 p-md-2">
             <p class="fs-6-5-suut m-0 p-0">
-              <b>Синельникова Арина</b>, студентка 1 курса
+              <b>Альшова Василина</b>, студентка 3 курса
             </p>
             <p class="fs-6-5-suut m-0">
-              <q class="fst-italic">Обучаясь в ЮУТУ я получаю фундаментальные знания в области юриспруденции развивая аналитические и юридические навыки. ЮУТУ предоставляет широкие возможности для прохождения практики</q>
+              <q class="fst-italic">Радует комлпексный подход к обучению, который включает в себя, как теоретические так и практические навыки. Мы получаем возможность учиться не только из книг, но и проявлять свои возможности на стажировках и практиках</q>
             </p>
           </div>
         </div>
       </div>
 
-     
+      
     </div>
   </section>
 
@@ -729,60 +893,39 @@
           <div class="col-12 col-md-7 col-lg-8">
             <div class="d-flex wrapper-inner background-color-white px-2 px-lg-2 px-xl-3 py-2 py-xl-3 mb-2">
               <div class="col-4 my-auto">
-                <img src="./img/efimenko.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
+                <img src="./img/sumina.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
               </div>
               <div class="col-8 my-auto p-2">
-                <h5>Ефименко Евгения Николаевна</h5>
+                <h5>Сумина Наталья Витальевна</h5>
                 <p class="fs-8-suut">
-                  И.о. заведующего кафедрой «Юриспруденция», кандидат юридических наук. Общий стаж работы 15 лет.
-                  Дисциплины: Проектная деятельность в юридической сфере, Правовое регулирование деятельности
-                  государственных и муниципальных органов, Правовое регулирование деятельности органов местного
-                  самоуправления.
+                доцент кафедры «Экономика и управление»,  с 1995 г. по 2015 г. работала начальником отдела таможенного контроля после выпуска товаров в Федеральной Таможенной службе Уральского таможенного управления «Челябинская таможня»
+
                 </p>
               </div>
             </div>
 
             <div class="d-flex wrapper-inner background-color-white px-2 px-lg-2 px-xl-3 py-2 py-xl-3 mb-2">
               <div class="col-4 my-auto">
-                <img src="./img/novikova.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
+                <img src="./img/senchihina.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
               </div>
               <div class="col-8 my-auto p-2">
-                <h5>Новикова Юлия Сергеевна</h5>
+                <h5>Сенчихина Ирина Андреевна</h5>
                 <p class="fs-8-suut">
-                  Доцент кафедры «Юриспруденция», кандидат юридических наук, доцент. Общий стаж работы 23 года.
-                  Дисциплины: Актуальные проблемы юридической техники, Актуальные проблемы деятельности органов власти
-                  (научно-исследовательский семинар), Сравнительное правоведение, Правовое регулирование деятельности
-                  органов законодательной власти, Парламентское право, Миграционное право.
+                доцент кафедры «Экономика и управление» главный государственный таможенный инспектор отдела телекоммуникаций, связи и системотехнического обеспечения средств вычислительной техники информационно- технической службы в Федеральной Таможенной службе Уральского таможенного управления «Челябинская таможня», советник государственной гражданской службы Российской Федерации 3 класса
                 </p>
               </div>
             </div>
-
             <div class="d-flex wrapper-inner background-color-white px-2 px-lg-2 px-xl-3 py-2 py-xl-3 mb-2">
               <div class="col-4 my-auto">
-                <img src="./img/bulavinzeva.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
+                <img src="./img/paseshnik.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
               </div>
               <div class="col-8 my-auto p-2">
-                <h5>Булавинцева Наталья Андреевна</h5>
+                <h5>Пасешник Наталья Петровна</h5>
                 <p class="fs-8-suut">
-                  Судья Арбитражного суда Челябинской области. Общий стаж работы 34 года. Дисциплины: Актуальные
-                  проблемы гражданского, арбитражного и административного судопроизводства.
+                к.э.н., доцент кафедры «Экономика и управление», 
+                Дисциплины: Таможенный менеджмент, Логистика, Основы таможенного дела
                 </p>
               </div>
-
-            </div>
-            <div class="d-flex wrapper-inner background-color-white px-2 px-lg-2 px-xl-3 py-2 py-xl-3 mb-2">
-              <div class="col-4 my-auto">
-                <img src="./img/novokshonov.webp" class="p-2" style="border-radius: 50%" width="100%" alt="" />
-              </div>
-              <div class="col-8 my-auto p-2">
-                <h5>Новокшонов Константин Анатольевич</h5>
-                <p class="fs-8-suut">
-                  Доцент кафедры «Юриспруденция», кандидат юридических наук. Общий стаж работы 27 лет. Дисциплины:
-                  Противодействие коррупции в органах власти, государственных и муниципальных организациях,
-                  Антимонопольное право, Конкурентное право.
-                </p>
-              </div>
-
             </div>
           </div>
         </div>
@@ -855,66 +998,39 @@
 
         <div class="row mt-3">
           <div class="accordion" id="accordionBlockFAQ">
-            <div class="accordion-item">
+          <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
                   type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneFAQ" aria-expanded="false"
                   aria-controls="collapseOneFAQ">
-                  Каковы основные навыки, которые приобретает студент во время обучения в магистратуре по юридической
-                  специальности?
+                  Чем интересна работа в таможне? 
                 </button>
               </h2>
               <div id="collapseOneFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
                 <div class="accordion-body">
-                  <div class="row mx-auto px-4">
-                    Студенты, обучающиеся на магистратуре, приобретают широкий спектр навыков: глубокие знания права,
-                    этика и профессиональная ответственность,, навыки исследования, аналитические навыки и др.
-                  </div>
+                  <div class="row mx-auto px-4">Основная задача таможни – обеспечить экономическую безопасность страны, препятствуя незаконному ввозу-вывозу различных грузов. Но круг обязанностей гораздо шире, ведь именно таможенники выявляют опасные грузы – наркотики, оружие, не прошедшие сертификацию медикаменты и прочее.</div>
                 </div>
               </div>
             </div>
+
+
+
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
                   type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoFAQ" aria-expanded="false"
                   aria-controls="collapseTwoFAQ">
-                  Какие возможности для дальнейшего обучения предоставляет диплом магистра по юридической специальности?
+                  Как проходит практика?
                 </button>
               </h2>
               <div id="collapseTwoFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
                 <div class="accordion-body">
-                  <div class="row mx-auto px-4">
-                    Выпускники магистратуры могут претендовать на поступление в аспирантуру или докторантуру по
-                    юридическим наукам. Продолжение обучения в аспирантуре позволяет углубить знания, провести научные
-                    исследования, публикации статьи, получить степень кандидата наук и дальше работать в научной сфере
-                    или преподавании.</br>
-                    Выпускников магистратуры по юридической специальности могут заинтересовать
-                    дополнительные профессиональные курсы углубленного обучения по специализированным юридическим
-                    областям (например, налоговое, корпоративное право, международное право и др.). 
-                  </br>
-                    Студенты с дипломом магистра могут претендовать на руководящие должности в юридических организациях, правительственных
-                    органах, муниципалитетах, правоохранительных структурах и других государственных учреждениях.
-                  </div>
+                  <div class="row mx-auto px-4">В Федеральной таможенной службе и предприятиях, которые занимаются внешнеэкономической деятельностью.</div>
                 </div>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
-                  type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreeFAQ" aria-expanded="false"
-                  aria-controls="collapseThreeFAQ">
-                  Какие виды практик и стажировок доступны студентам магистратуры по юридическому направлению?
-                </button>
-              </h2>
-              <div id="collapseThreeFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionBlockFAQ">
-                <div class="accordion-body">
-                  <div class="row mx-auto px-4">
-                    Во время обучения студенты проходят три вида практик: учебная (ознакомительная), производственная (научно-исследовательская работа) и преддипломная практика. Студенты могут проходить практику в органах власти, в государственных и муниципальных организациях.
-                  </div>
-                </div>
-              </div>
-            </div>
-
+           
+          
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed fs-6-5-suut fw-bold text-transform-uppercase p-4"
@@ -978,7 +1094,7 @@
             </div>
             <div class="p-4">
               <p class="m-0 fw-bold fs-1-suut">
-                103 200<span class="fw-bold fs-5">р/год</span>
+                110 000<span class="fw-bold fs-5">р/год</span>
               </p>
               <p class="m-0 fw-bold fs-3 text-dark-suut fs-5">
                 очное обучение
@@ -986,7 +1102,7 @@
             </div>
             <div class="p-4">
               <p class="m-0 fw-bold fs-1-suut">
-                53 000<span class="fw-bold fs-5">р/год</span>
+                55 000<span class="fw-bold fs-5">р/год</span>
               </p>
               <p class="m-0 fw-bold fs-3 text-dark-suut fs-5">
                 заочное обучение
@@ -1010,7 +1126,7 @@
               <p class="fs-6-5-suut text-dark-suut">
                 Платите только проценты по кредиту в течение всего обучения
                 и 9 месяцев после выпуска. Основную часть сможете выплачивать
-                уже во время работы по новой специальности.
+                уже во время работы по новой специальности
               </p>
             </div>
           </div>
@@ -1028,7 +1144,7 @@
             <p class="fs-3 fw-bold p-0 m-0">Остались вопросы?</p>
             <p class="fs-6-5-suut p-0 m-0">
               Эксперты приемной комиссии подробно ответят на все вопросы про
-              поступление и обучение.
+              поступление и обучение
             </p>
           </div>
 
@@ -1040,17 +1156,18 @@
                 Наши специалисты скоро с вами свяжутся
               </p>
             </div>
+
             <?php
-                    include("../includes/form-bottom.inc.php");
-                ?> 
+            include ("../includes/form-bottom.inc.php");
+            ?>
           </div>
         </div>
       </div>
     </div>
   </section>
   <?php
-    include("../includes/footer.inc.php");
-  ?> 
+  include ("../includes/footer.inc.php");
+  ?>
   <script src="./js/main.js"></script>
   <script src="./js/bootstrap.bundle.min.js.map"></script>
   <script src="./js/bootstrap.bundle.min.js"></script>

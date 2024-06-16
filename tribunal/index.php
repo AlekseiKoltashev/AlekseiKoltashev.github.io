@@ -1,21 +1,8 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      http-equiv="Cache-Control"
-      content="no-cache, no-store, must-revalidate"
-    />
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/media-style.css" />
-    <script
-      src="https://code.jquery.com/jquery-3.7.1.min.js"
-      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-      crossorigin="anonymous"
-    ></script>
-    <title>Абитуриенту ЮУТУ</title>
+  <?php include_once("../includes/meta.inc.php") ?>
+    <title>Абитуриенту ЮУТУ - Судебная и прокурорская деятельность (специалитет)</title>
   </head>
 
   <body>
@@ -56,105 +43,9 @@
       </div>
     </div>
 
-    <header>
-      <nav class="navbar navbar-expand-lg bg-white">
-        <div class="container">
-          <a class="navbar-brand" href="https://inueco.ru">
-            <img
-              src="./img/logo.webp"
-              alt="Logo"
-              class="d-inline-block align-text-top"
-            />
-          </a>
-          <div
-            class="d-flex d-lg-none contact-block-wrapper align-items-center"
-          >
-            <ul class="list-inline contact-block text-dark-suut">
-              <li class="fs-7-suut list-inline-item contact-block-item">
-                <a
-                  class="icon-link align-middle"
-                  target="_blank"
-                  href="https://vk.com/inuecochel"
-                >
-                  <img src="./img/vk.png" style="max-height: 30px" alt="" />
-                </a>
-              </li>
+    <!-- HEADER -->
+    <?php include_once("../includes/header-body.inc.php");?>
 
-              <li
-                class="fs-7-suut list-inline-item contact-block-item text-medium-suut text-transform-uppercase"
-              >
-                <a
-                  href="tel:+73512144111"
-                  class="nav-link fs-7-suut contact-block-item text-dark-suut text-medium-suut text-transform-uppercase"
-                  >+7 (351) 214-41-11</a
-                >
-              </li>
-            </ul>
-          </div>
-          <button
-            class="navbar-toggler border-0"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon border-0"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-center me-3"
-            id="navbarNav"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item border-bottom-animation">
-                <a
-                  class="nav-link fs-7-suut text-dark-suut text-medium-suut text-transform-uppercase"
-                  href="https://www.inueco.ru/abiturientu/speczialnosti_i_napravleniya_podgotovki/"
-                  target="_blank"
-                  >Абитуриенту</a
-                >
-              </li>
-              <li class="nav-item border-bottom-animation">
-                <a
-                  class="nav-link fs-7-suut text-dark-suut text-medium-suut text-transform-uppercase"
-                  href="/"
-                  target="_blank"
-                  >Направления подготовки</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div
-            class="d-none d-lg-flex contact-block-wrapper align-items-center"
-          >
-            <ul class="list-inline contact-block text-dark-suut">
-              <li
-                class="fs-7-suut list-inline-item contact-block-item align-middle"
-              >
-                <a
-                  class="icon-link align-middle"
-                  target="_blank"
-                  href="https://vk.com/inuecochel"
-                >
-                  <img src="./img/vk.png" style="max-height: 30px" alt="" />
-                </a>
-              </li>
-              <!-- <li class="fs-7-suut list-inline-item contact-block-item">TG</li> -->
-              <li
-                class="fs-7-suut list-inline-item contact-block-item text-medium-suut text-transform-uppercase"
-              >
-                <a
-                  href="tel:+73512144111"
-                  class="nav-link fs-7-suut contact-block-item text-dark-suut text-medium-suut text-transform-uppercase"
-                  >+7 (351) 214-41-11</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
     <section>
       <div class="container">
         <div
@@ -464,44 +355,10 @@
                     Наши специалисты скоро с вами свяжутся
                   </p>
                 </div>
-                <form
-                  action="https://api-abtr.science174.ru/feedback"
-                  method="post"
-                  id="topFormFeedback"
-                  class="d-flex row"
-                >
-                  <input
-                    type="text"
-                    class="fs-6-5-suut form-control my-2 from-control-input-suut"
-                    name="username"
-                    id="nameControl"
-                    placeholder="Имя"
-                  />
-                  <input
-                    type="tel"
-                    class="fs-6-5-suut form-control my-2 from-control-input-suut"
-                    name="phone"
-                    id="phoneControl"
-                    placeholder="Телефон"
-                  />
-                  <input
-                    type="email"
-                    class="fs-6-5-suut form-control my-2 from-control-input-suut"
-                    name="email"
-                    id="emailControl"
-                    placeholder="Электронная почта"
-                  />
-                  <input
-                    type="hidden"
-                    name="specialization"
-                    value="40.05.04. Судебная и прокурорская деятельность (специалитет), судебная деятельность"
-                  />
-                  <button
-                    class="btn btn-primary-suut fs-6-5-suut text-transform-uppercase"
-                  >
-                    Отправить заявку
-                  </button>
-                </form>
+               <?php $SPEC_NAME="Судебная и прокурорская деятельность, специалитет, судебная деятельность"; ?>
+                <?php
+                    include("../includes/form-top.inc.php");
+                ?> 
               </div>
             </div>
           </div>
@@ -588,99 +445,7 @@
     </section>
 
     <!-- ЧТОБЫ УЧИТЬСЯ БЫЛО ПРИЯТНЕЕ -->
-    <section>
-      <div class="container mt-5">
-        <div
-          class="mx-1 wrapper background-color-gray px-3 px-lg-4 px-xl-5 py-4 py-xl-5"
-        >
-          <div class="row">
-            <p class="fs-1-suut fw-bold text-transform-uppercase">
-              Чтобы учиться было приятнее
-            </p>
-          </div>
-          <div class="row mt-3">
-            <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
-              <div class="card card-suut h-100" style="width: 100%">
-                <img src="./img/stolov.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title" id="notComfortableStudentsCaffe">
-                    Уютное студенческое кафе
-                  </h5>
-                  <p class="card-text text-dark-suut">
-                    Где вкусная и доступная еда!
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
-              <div class="card card-suut h-100" style="width: 100%">
-                <img
-                  src="./img/cafe.jpg"
-                  class="card-img-top"
-                  id="notCoffeShop"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title" id="notCoffeShopText">Кофешоп</h5>
-                  <p class="card-text text-dark-suut">В каждом из корпусов!</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
-              <div class="card card-suut h-100" style="width: 100%">
-                <img src="./img/jalinga.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Студия записи Jalinga</h5>
-                  <p class="card-text text-dark-suut">
-                    Для эффектных и интерактивных презентаций!
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
-              <div class="card card-suut h-100" style="width: 100%">
-                <img
-                  src="./img/tSxKVfmH9n8.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Тренажерный зал</h5>
-                  <p class="card-text text-dark-suut">Для всех студентов!</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
-              <div class="card card-suut h-100" style="width: 100%">
-                <img src="./img/lingphone.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Индивидуальное рабочее место</h5>
-                  <p class="card-text text-dark-suut">
-                    Для каждого студента мощное железо и специализированное ПО!
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4 mb-4 px-3 px-lg-5">
-              <div class="card card-suut h-100" style="width: 100%">
-                <img src="./img/cowork.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Зона коворкинга</h5>
-                  <p class="card-text text-dark-suut">
-                    Для командной работы, общения или отдыха!
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+  <?php include_once("../includes/section-for-funny-edu-common.inc.php") ?>
 
     <!-- ПРАКТИКА СТУДЕНТОВ -->
     <section>
@@ -706,17 +471,7 @@
                 <img src="./img/regioin_sud.webp" style="width: 100%" alt="Районные суды" />
               </div>
             </div>
-            <!-- <div class="col-6 col-md-3 mb-4">
-              <div
-                class="wrapper-inner background-color-gray p-4 h-100 d-flex d-flex align-items-center"
-              >
-                <img
-                  src="./img/advocat.png"
-                  style="width: 100%"
-                  alt="Коллегия адвокатов Академечиская"
-                />
-              </div>
-            </div> -->
+           
             <div class="col-6 col-md-3 mb-4">
               <div
                 class="wrapper-inner background-color-gray p-4 h-100 d-flex d-flex align-items-center"
@@ -787,6 +542,9 @@
                       Юрист с опытом работы от 80 тысяч рублей
                     </p>
                   </div>
+                  <div>
+                  <p class="fs-8-suut text-dark-suut">Средняя зарплата в Челябинске по данным HeadHunter</p>
+                </div>
                 </div>
               </div>
               <div class="row mb-2">
@@ -895,106 +653,22 @@
               <div class="row mb-2">
                 <div class="col-12">
                   <h5 class="text-dark-suut">Владение технологиями</h5>
-                  <div
-                    class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height"
-                  >
-                    <img
-                      src="./img/figma.png"
-                      class="align-middle"
-                      width="25px"
-                      alt=""
-                    />
-                    <p class="d-inline my-0 fs-7-suut align-middle">Figma</p>
-                  </div>
-                  <div
-                    class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height"
-                  >
-                    <img
-                      src="./img/myquiz.svg"
-                      class="align-middle"
-                      width="80px"
-                      alt=""
-                    />
-                    <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
-                  </div>
-                  <div
-                    class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height"
-                  >
-                    <img
-                      src="./img/gigacha.png"
-                      class="align-middle"
-                      width="20px"
-                      alt=""
-                    />
-                    <p class="d-inline my-0 fs-7-suut align-middle">GigaChat</p>
-                  </div>
-                  <div
-                    class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height"
-                  >
-                    <img
-                      src="./img/getlocus.svg"
-                      class="align-middle"
-                      width="90px"
-                      alt=""
-                    />
-                    <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
-                  </div>
-                  <div
-                    class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height"
-                  >
-                    <img
-                      src="./img/cupcut.png"
-                      class="align-middle"
-                      width="90px"
-                      alt=""
-                    />
-                    <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
-                  </div>
-                  <div
-                    class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height"
-                  >
-                    <img
-                      src="./img/Jalinga_logo_color.png"
-                      class="align-middle"
-                      width="90px"
-                      alt=""
-                    />
-                    <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
-                  </div>
-                  <div
-                    class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height"
-                  >
-                    <img
-                      src="./img/moodle_logo_TM.svg"
-                      class="align-middle"
-                      width="90px"
-                      alt=""
-                    />
-                    <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
-                  </div>
-                  <div
-                    class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height"
-                  >
-                    <img
-                      src="./img/garant.svg"
-                      class="align-middle"
-                      width="90px"
-                      style="max-height: 100%"
-                      alt=""
-                    />
-                    <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
-                  </div>
-                  <div
-                    class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height"
-                  >
-                    <img
-                      src="./img/kosultant.png"
-                      class="align-middle"
-                      width="90px"
-                      alt=""
-                    />
-                    <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
-                  </div>
+                  <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
+                  <img src="./img/gigacha.png" class="align-middle" width="20px" alt="" />
+                  <p class="d-inline my-0 fs-7-suut align-middle">GigaChat</p>
+                </div>
+                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
+                  <img src="./img/yaforms.svg" class="align-middle" width="90px" alt="" />
+                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
+                </div>
+                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
+                  <img src="./img/Jalinga_logo_color.png" class="align-middle" width="90px" alt="" />
+                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
+                </div>
+                <div class="mt-2 d-inline-block border-suut-12 background-color-gray-dark p-2 min-height">
+                  <img src="./img/kosultant.png" class="align-middle" width="90px" alt="" />
+                  <!-- <p class="d-inline  my-0   fs-6-5-suut align-middle">Figma</p> -->
+                </div>
                 </div>
               </div>
             </div>
@@ -1211,17 +885,7 @@
                     Нотариус, нотариальный эксперт, помощник нотариуса
                   </p>
                 </div>
-                <div class="mx-1 mt-2 d-flex align-items-center">
-                  <img
-                    src="./img/check-resume.png"
-                    class="align-middle"
-                    width="25px"
-                    alt=""
-                  />
-                  <p class="d-inline-block my-0 ms-2 fs-6-5-suut">
-                    Преподаватель юридических дисциплин
-                  </p>
-                </div>
+                
               </div>
             </div>
           </div>
@@ -1244,7 +908,7 @@
             <div class="col-12">
               <a
                 class="m-0 fs-7-suut fw-bold text-decoration-underline text-underline-offset text-transform-uppercase text-dark-suut"
-                href="https://www.inueco.ru/sveden/files/002356.pdf"
+                href="https://www.inueco.ru/sveden/files/002604.pdf"
                 target="_blank"
                 >Скачать учебный план</a
               >
@@ -1480,65 +1144,23 @@
         </div>
       </div>
       <div class="container">
-        <div
-          class="wrapper background-color-gray mx-1 p-2 p-md-4 h-100 d-flex align-items-center"
-        >
-          <div class="row">
-            <div class="col-3 p-0 p-md-2 text-center my-auto">
-              <img
-                src="./img/СиневаPlay.JPG"
-                data-bs-toggle="modal"
-                data-target="#videoModal"
-                data-bs-target="#videoModal"
-                data-theVideo="https://www.youtube.com/embed/hDItRMraexw?si=L4a4pbo3jY-wceQJ"
-                class=""
-                role="button"
-                style="border-radius: 50%; width: 70%"
-                alt=""
-              />
-            </div>
-            <div class="col-9 my-auto p-0 p-md-2">
-              <p class="fs-6-5-suut m-0 p-0">
-                <b>Не предоставлены</b>, студентка 3 курса
-              </p>
-              <p class="fs-6-5-suut m-0">
-                <q class="fst-italic"
-                  >Не предоставлены</q
-                >
-              </p>
-            </div>
+        <div class="wrapper background-color-gray mt-3 mx-1 p-2 p-md-4 h-100 d-flex align-items-center">
+        <div class="row">
+          <div class="col-3 text-center my-auto p-0 p-md-2">
+            <img src="./img/sinelnikova.webp" data-bs-toggle="modal" data-target="#videoModal"
+              data-bs-target="#videoModal" data-theVideo="https://www.youtube.com/embed/EFeMqnP7Etw?si=vHjMehHVuc07uZAb"
+              class="" role="button" style="border-radius: 50%; width: 70%" alt="" />
+          </div>
+          <div class="col-9 my-auto p-0 p-md-2">
+            <p class="fs-6-5-suut m-0 p-0">
+              <b>Синельникова Арина</b>, студентка 1 курса
+            </p>
+            <p class="fs-6-5-suut m-0">
+              <q class="fst-italic">Обучаясь в ЮУТУ я получаю фундаментальные знания в области юриспруденции развивая аналитические и юридические навыки. ЮУТУ предоставляет широкие возможности для прохождения практики</q>
+            </p>
           </div>
         </div>
-
-        <div
-          class="wrapper background-color-gray mt-3 mx-1 p-2 p-md-4 h-100 d-flex align-items-center"
-        >
-          <div class="row">
-            <div class="col-3 text-center my-auto p-0 p-md-2">
-              <img
-                src="./img/сердитыхPlay.JPG"
-                data-bs-toggle="modal"
-                data-target="#videoModal"
-                data-bs-target="#videoModal"
-                data-theVideo="https://www.youtube.com/embed/REJhfi_InsQ?si=4WQqTwWPytEZ80pS"
-                class=""
-                role="button"
-                style="border-radius: 50%; width: 70%"
-                alt=""
-              />
-            </div>
-            <div class="col-9 my-auto p-0 p-md-2">
-              <p class="fs-6-5-suut m-0 p-0">
-                <b>Не предоставлены</b>, студент 3 курса
-              </p>
-              <p class="fs-6-5-suut m-0">
-                <q class="fst-italic"
-                  >Не предоставлены</q
-                >
-              </p>
-            </div>
-          </div>
-        </div>
+      </div>
       </div>
     </section>
 
@@ -1581,7 +1203,7 @@
               >
                 <div class="col-4 my-auto">
                   <img
-                    src="./img/KYUV.jpg"
+                    src="./img/bulavinzeva.webp"
                     class="p-2"
                     style="border-radius: 50%"
                     width="100%"
@@ -1963,50 +1585,17 @@
                   Наши специалисты скоро с вами свяжутся
                 </p>
               </div>
-              <form
-                action="https://api-abtr.science174.ru/feedback"
-                method="post"
-                class="d-flex row"
-                id="bottomFormFeedBack"
-              >
-                <input
-                  type="text"
-                  class="fs-6-5-suut form-control my-2 from-control-input-suut"
-                  name="username"
-                  id="nameControl"
-                  placeholder="Имя"
-                />
-                <input
-                  type="tel"
-                  class="fs-6-5-suut form-control my-2 from-control-input-suut"
-                  name="phone"
-                  id="phoneControl"
-                  placeholder="Телефон"
-                />
-                <input
-                  type="email"
-                  class="fs-6-5-suut form-control my-2 from-control-input-suut"
-                  name="email"
-                  id="emailControl"
-                  placeholder="Электронная почта"
-                />
-                <input
-                  type="hidden"
-                  name="specialization"
-                  value="40.05.04. Судебная и прокурорская деятельность (специалитет), судебная деятельность"
-                />
-                <button
-                  class="btn btn-primary-suut fs-6-5-suut text-transform-uppercase"
-                >
-                  Отправить заявку
-                </button>
-              </form>
+              <?php
+                    include("../includes/form-bottom.inc.php");
+                ?> 
             </div>
           </div>
         </div>
       </div>
     </section>
-
+    <?php
+    include("../includes/footer.inc.php");
+  ?> 
     <script src="./js/main.js"></script>
     <script src="./js/bootstrap.bundle.min.js.map"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
